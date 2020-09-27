@@ -25,7 +25,7 @@ The "Canon in D" is a famous piece by the German Baroque composer Johann Pachelb
 
 ### Le Chevalier de Montmirail \& Enae Volare (Les Visiteurs)
 
-Piano arrangement for a theme from the French movie "Les Visiteurs" (1993) that featured in several epic scenes.
+Piano arrangement for a theme from the French movie "Les Visiteurs" (1993) that is featured in several epic scenes.
 
 [![Canon in D for four hands piano](Piano/LesVisiteurs/Thumbnail.png)](https://musescore.com/dominiquemakowski/les-visiteurs)
 
