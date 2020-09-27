@@ -14,6 +14,18 @@ My arrangements and compositions.
 
 ### Work In Progress
 
-#### Canon in D (Pachelbel)
+#### Canon in D - Two Hands (Pachelbel)
 
 - [**View and Download the score**](Piano/CanonD/CanonD_DominiqueMakowski.pdf)
+
+#### The Throne Room (Star Wars)
+
+- [**View and Download the score**](Piano/TheTroneRoom/TheTroneRoom_DominiqueMakowski.pdf)
+
+#### The Lighting Of The Beacons (Lord of the Rings)
+
+- [**View and Download the score**](Piano/LightingOfTheBeacons/LightingOfTheBeacons_DominiqueMakowski.pdf)
+
+#### Le Chevalier de Montmirail \& Enae Volare (Les Visiteurs)
+
+- [**View and Download the score**](Piano/LesVisiteurs/LesVisiteurs_DominiqueMakowski.pdf)
