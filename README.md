@@ -2,7 +2,6 @@
 
 My arrangements and compositions.
 
-
 ## Piano
 
 ### Greensleeves
@@ -14,20 +13,27 @@ My arrangements and compositions.
 - [**Listen on YouTube**](https://www.youtube.com/watch?v=c1goTidB1Es)
 - [**View and Download the score on Musescore**](https://musescore.com/dominiquemakowski/greensleeves)
 
+
+#### Canon in D for Four Hands (Pachelbel)
+
+The "Canon in D" is a famous piece by the German Baroque composer Johann Pachelbel (1653 - 1706).
+
+[![Canon in D for four hands piano](Piano/CanonD/Thumbnail.png)](https://musescore.com/dominiquemakowski/canon-in-d)
+
+- [**Listen on Musescore**](https://musescore.com/dominiquemakowski/canon-in-d)
+- [**View and Download the score on Musescore**](https://musescore.com/dominiquemakowski/canon-in-d)
+
 ### Work In Progress
 
-#### Canon in D - Two Hands (Pachelbel)
-
-- [**View and Download the score**](Piano/CanonD/CanonD_DominiqueMakowski.pdf)
 
 #### The Throne Room (Star Wars)
 
-- [**View and Download the score**](Piano/TheThroneRoom/TheThroneRoom_DominiqueMakowski.pdf)
+- [**View and Download the score on Musescore**](Piano/TheThroneRoom/TheThroneRoom_DominiqueMakowski.pdf)
 
 #### The Lighting Of The Beacons (Lord of the Rings)
 
-- [**View and Download the score**](Piano/LightingOfTheBeacons/LightingOfTheBeacons_DominiqueMakowski.pdf)
+- [**View and Download the score on Musescore**](Piano/LightingOfTheBeacons/LightingOfTheBeacons_DominiqueMakowski.pdf)
 
 #### Le Chevalier de Montmirail \& Enae Volare (Les Visiteurs)
 
-- [**View and Download the score**](Piano/LesVisiteurs/LesVisiteurs_DominiqueMakowski.pdf)
+- [**View and Download the score on Musescore**](Piano/LesVisiteurs/LesVisiteurs_DominiqueMakowski.pdf)
