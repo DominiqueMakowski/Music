@@ -14,7 +14,7 @@ My arrangements and compositions.
 - [**View and Download the score on Musescore**](https://musescore.com/dominiquemakowski/greensleeves)
 
 
-#### Canon in D for Four Hands (Pachelbel)
+### Canon in D for Four Hands (Pachelbel)
 
 The "Canon in D" is a famous piece by the German Baroque composer Johann Pachelbel (1653 - 1706).
 
@@ -23,8 +23,18 @@ The "Canon in D" is a famous piece by the German Baroque composer Johann Pachelb
 - [**Listen on Musescore**](https://musescore.com/dominiquemakowski/canon-in-d)
 - [**View and Download the score on Musescore**](https://musescore.com/dominiquemakowski/canon-in-d)
 
-### Work In Progress
+### Le Chevalier de Montmirail \& Enae Volare (Les Visiteurs)
 
+Piano arrangement for a theme from the French movie "Les Visiteurs" (1993) that featured in several epic scenes.
+
+[![Canon in D for four hands piano](Piano/LesVisiteurs/Thumbnail.png)](https://musescore.com/dominiquemakowski/les-visiteurs)
+
+- [**Listen on Musescore**](https://musescore.com/dominiquemakowski/les-visiteurs)
+- [**View and Download the score on Musescore**](Piano/LesVisiteurs/LesVisiteurs_DominiqueMakowski.pdf)
+
+
+
+### Work In Progress
 
 #### The Throne Room (Star Wars)
 
@@ -34,6 +44,6 @@ The "Canon in D" is a famous piece by the German Baroque composer Johann Pachelb
 
 - [**View and Download the score on Musescore**](Piano/LightingOfTheBeacons/LightingOfTheBeacons_DominiqueMakowski.pdf)
 
-#### Le Chevalier de Montmirail \& Enae Volare (Les Visiteurs)
+#### Enae Volare (Era)
 
-- [**View and Download the score on Musescore**](Piano/LesVisiteurs/LesVisiteurs_DominiqueMakowski.pdf)
+- To do
