@@ -20,7 +20,7 @@ My arrangements and compositions.
 
 #### The Throne Room (Star Wars)
 
-- [**View and Download the score**](Piano/TheTroneRoom/TheTroneRoom_DominiqueMakowski.pdf)
+- [**View and Download the score**](Piano/TheThroneRoom/TheThroneRoom_DominiqueMakowski.pdf)
 
 #### The Lighting Of The Beacons (Lord of the Rings)
 
