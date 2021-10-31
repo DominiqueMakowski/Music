@@ -2,6 +2,8 @@
 
 My arrangements and compositions.
 
+See my [**musescore profile**](https://musescore.com/dominiquemakowski).
+
 ## Piano
 
 ### Greensleeves
