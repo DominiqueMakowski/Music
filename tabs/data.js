@@ -2,6 +2,11 @@ const DATA = [
     {
         artist: "3 Doors Down",
         title: "Kryptonite",
+        tags: ["rock"],
+        tabs: `
+VERSE: Bm - G - A 
+CHORUS: Bm - G - A / Bm - Em- F#5
+`,
         lyrics: `
 Well, I took a walk around the world to ease my troubled mind
 I left my body lying somewhere in the sands of time
@@ -27,15 +32,14 @@ I picked you up and put you back on solid ground
 
 <b>CHORUS x2</b>
 `,
-        tabs: `
-VERSE: Bm - G - A 
-CHORUS: Bm - G - A / Bm - Em- F#5
-`,
-        tags: ["rock"],
     },
     {
         artist: "4 Non Blondes",
         title: "What's Up",
+        tags: ["easy", "popular"],
+        tabs: `
+E - F#m - A - E
+`,
         lyrics: `
 25 years and my life is still
 Tryin' to get up that great big hill of hope
@@ -76,10 +80,6 @@ Bridge
 Tryin' to get up that great big hill of hope
 For a destination, mmm
 `,
-        tabs: `
-E - F#m - A - E
-`,
-        tags: ["easy", "popular"],
     },
 ]
 

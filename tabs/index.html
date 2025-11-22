@@ -183,6 +183,32 @@
                 filtersDiv.innerHTML = html
             }
 
+            // Sync current filters/search to the URL (uses `filter` and `search` params)
+            function updateUrlFilters(replace = true) {
+                try {
+                    const params = new URLSearchParams(window.location.search)
+
+                    if (activeTags.length > 0) {
+                        params.set("filter", activeTags.join(","))
+                    } else {
+                        params.delete("filter")
+                    }
+
+                    if (searchQuery) {
+                        params.set("search", searchQuery)
+                    } else {
+                        params.delete("search")
+                    }
+
+                    const qs = params.toString()
+                    const newUrl = window.location.pathname + (qs ? "?" + qs : "")
+                    if (replace) history.replaceState({}, "", newUrl)
+                    else history.pushState({}, "", newUrl)
+                } catch (e) {
+                    // ignore
+                }
+            }
+
             function removeFilter(type, value) {
                 if (type === "tag") {
                     activeTags = activeTags.filter((t) => t !== value)
@@ -192,6 +218,7 @@
                 }
                 updateFiltersDisplay()
                 applyFilters()
+                updateUrlFilters()
             }
 
             function toggleTagFilter(tag) {
@@ -202,6 +229,7 @@
                 }
                 updateFiltersDisplay()
                 applyFilters()
+                updateUrlFilters()
             }
 
             function applyFilters() {
@@ -267,6 +295,7 @@
                 searchQuery = searchInput.value.trim()
                 updateFiltersDisplay()
                 applyFilters()
+                updateUrlFilters()
             })
 
             function getChordColor(root) {
@@ -291,7 +320,46 @@
                 })
             }
 
-            function showSong(song) {
+            function buildIdForSong(song) {
+                return `${song.artist} + ${song.title}`
+            }
+
+            function findSongFromId(rawId) {
+                if (!rawId) return null
+                const id = rawId.trim()
+
+                // Try splitting by explicit separator ' + '
+                if (id.includes(" + ")) {
+                    const parts = id.split(" + ")
+                    if (parts.length >= 2) {
+                        const artist = parts[0].trim().toLowerCase()
+                        const title = parts.slice(1).join(" + ").trim().toLowerCase()
+                        return window.DATA.find((s) => s.artist.toLowerCase() === artist && s.title.toLowerCase() === title) || null
+                    }
+                }
+
+                // Try splitting by ' - '
+                if (id.includes(" - ")) {
+                    const parts = id.split(" - ")
+                    if (parts.length >= 2) {
+                        const artist = parts[0].trim().toLowerCase()
+                        const title = parts.slice(1).join(" - ").trim().toLowerCase()
+                        return window.DATA.find((s) => s.artist.toLowerCase() === artist && s.title.toLowerCase() === title) || null
+                    }
+                }
+
+                // Fallback: try to match by normalizing whitespace and comparing concatenated artist+title
+                const normalize = (str) => str.replace(/\s+/g, " ").trim().toLowerCase()
+                const target = normalize(id)
+                for (const s of window.DATA) {
+                    if (normalize(`${s.artist} ${s.title}`) === target) return s
+                    if (normalize(`${s.artist} - ${s.title}`) === target) return s
+                    if (normalize(`${s.artist} + ${s.title}`) === target) return s
+                }
+                return null
+            }
+
+            function showSong(song, pushHistory = true) {
                 tocDiv.style.display = "none"
                 songDiv.style.display = "block"
                 backBtn.style.display = "inline"
@@ -299,6 +367,23 @@
                 // Move the page title into the top menu bar instead of the lyrics area
                 centerBarH1.textContent = `${song.artist} - ${song.title}`
                 lyricsDiv.innerHTML = song.lyrics.trim()
+
+                // Update the URL so song pages are directly accessible via ?id=artist+song
+                try {
+                    const idVal = buildIdForSong(song)
+                    const params = new URLSearchParams(window.location.search)
+                    // preserve current filters/search in params
+                    params.set("id", idVal)
+                    const qs = params.toString()
+                    const newUrl = window.location.pathname + (qs ? "?" + qs : "")
+                    if (pushHistory) {
+                        history.pushState({ id: idVal }, "", newUrl)
+                    } else {
+                        history.replaceState({ id: idVal }, "", newUrl)
+                    }
+                } catch (e) {
+                    // ignore history errors on some environments
+                }
 
                 // Adjust layout
                 setTimeout(adjustTallView, 50)
@@ -316,7 +401,61 @@
                 sortBy(currentSort)
                 // Restore default top-bar title on the main landing page
                 centerBarH1.textContent = "Dom's tabs"
+                try {
+                    // Remove id from URL but preserve filter/search params
+                    const params = new URLSearchParams(window.location.search)
+                    params.delete("id")
+                    const qs = params.toString()
+                    const newUrl = window.location.pathname + (qs ? "?" + qs : "")
+                    history.pushState({}, "", newUrl)
+                } catch (e) {
+                    // ignore
+                }
             }
+            // Handle browser navigation (back/forward)
+            window.addEventListener("popstate", (ev) => {
+                const params = new URLSearchParams(window.location.search)
+                // Update active filters/search from URL when navigating
+                const filterParam = params.get("filter")
+                const searchParam = params.get("search")
+                activeTags = filterParam ? filterParam.split(",").filter(Boolean) : []
+                searchQuery = searchParam || ""
+                searchInput.value = searchQuery
+                updateFiltersDisplay()
+                applyFilters()
+
+                const id = params.get("id")
+                if (id) {
+                    const song = findSongFromId(id)
+                    if (song) {
+                        // showSong but don't push state again
+                        showSong(song, false)
+                        return
+                    }
+                }
+                showToc()
+            })
+
+            // On load, initialize filters/search from URL and open id if present
+            ;(function initFromUrl() {
+                const params = new URLSearchParams(window.location.search)
+                const filterParam = params.get("filter")
+                const searchParam = params.get("search")
+                activeTags = filterParam ? filterParam.split(",").filter(Boolean) : []
+                searchQuery = searchParam || ""
+                searchInput.value = searchQuery
+                updateFiltersDisplay()
+                applyFilters()
+
+                const id = params.get("id")
+                if (id) {
+                    const song = findSongFromId(id)
+                    if (song) {
+                        // show but replace history (so initial load is not added twice)
+                        showSong(song, false)
+                    }
+                }
+            })()
         </script>
     </body>
 </html>
