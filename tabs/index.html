@@ -50,6 +50,7 @@
             const songDiv = document.getElementById("song")
             const tabsDiv = document.getElementById("tabs")
             const lyricsDiv = document.getElementById("lyrics")
+            const centerBarH1 = document.querySelector("#center-bar h1")
             const searchInput = document.getElementById("search")
             const themeToggle = document.getElementById("theme-toggle")
             const backBtn = document.getElementById("back-btn")
@@ -293,7 +294,9 @@
                 songDiv.style.display = "block"
                 backBtn.style.display = "inline"
                 tabsDiv.innerHTML = colorizeChords(song.tabs.trim())
-                lyricsDiv.innerHTML = `<h1>${song.artist} - ${song.title}</h1>\n${song.lyrics.trim()}`
+                // Move the page title into the top menu bar instead of the lyrics area
+                centerBarH1.textContent = `${song.artist} - ${song.title}`
+                lyricsDiv.innerHTML = song.lyrics.trim()
 
                 // Adjust layout
                 setTimeout(adjustTallView, 50)
@@ -309,6 +312,8 @@
                 updateFiltersDisplay()
                 sortedData = [...window.DATA]
                 sortBy(currentSort)
+                // Restore default top-bar title on the main landing page
+                centerBarH1.textContent = "Dom's tabs"
             }
         </script>
     </body>
