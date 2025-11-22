@@ -173,3 +173,9 @@ button:hover {
     padding-right: 10px;
     background: var(--bg-secondary);
 }
+
+/* Prev/Next buttons spacing */
+#left-bar button,
+#right-bar button {
+    margin: 0 6px;
+}
