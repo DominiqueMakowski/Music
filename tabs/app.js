@@ -313,11 +313,15 @@ function getChordColor(root) {
 }
 
 function colorizeChords(text) {
-    const chordRegex = /\b([A-G][#b]?\d*[m]?)\b/g
-    return text.replace(chordRegex, (match, chord) => {
+    // Use a regex that doesn't rely on word-boundary (\b) because
+    // the sharp symbol (`#`) is a non-word character and breaks \b.
+    // Capture an optional prefix (start or non-word), then the chord,
+    // and ensure the chord is followed by a non-word or end-of-string.
+    const chordRegex = /(^|[^A-Za-z0-9_])([A-G][#b]?\d*[m]?)(?=[^A-Za-z0-9_]|$)/g
+    return text.replace(chordRegex, (match, prefix, chord) => {
         const root = chord[0].toUpperCase()
         const color = getChordColor(root)
-        return `<span style="color: ${color}">${chord}</span>`
+        return `${prefix}<span style="color: ${color}">${chord}</span>`
     })
 }
 
