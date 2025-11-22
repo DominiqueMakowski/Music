@@ -25,6 +25,7 @@
                 <table id="toc-table">
                     <thead>
                         <tr>
+                            <th class="toc-number-header">#</th>
                             <th id="sort-artist">Artist <span id="arrow-artist"></span></th>
                             <th id="sort-title">Song <span id="arrow-title"></span></th>
                             <th>Tags</th>
@@ -223,7 +224,8 @@
 
             function populateTable() {
                 tocBody.innerHTML = ""
-                sortedData.forEach((song) => {
+                sortedData.forEach((song, idx) => {
+                    const number = idx + 1
                     const tagsHTML = song.tags
                         ? song.tags
                               .map(
@@ -235,7 +237,7 @@
                               .join("")
                         : ""
                     const row = document.createElement("tr")
-                    row.innerHTML = `<td><strong>${song.artist}</strong></td><td>${song.title}</td><td>${tagsHTML}</td>`
+                    row.innerHTML = `<td class="toc-number">${number}</td><td><strong>${song.artist}</strong></td><td>${song.title}</td><td>${tagsHTML}</td>`
                     row.onclick = () => showSong(song)
                     tocBody.appendChild(row)
                 })
