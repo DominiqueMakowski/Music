@@ -120,9 +120,8 @@ window.addEventListener("resize", adjustTallView)
 function syncTopBarSpacing() {
     try {
         const topH = Math.ceil(topBar.getBoundingClientRect().height)
-        const content = document.getElementById("content-area")
-        if (content) content.style.paddingTop = topH + "px"
-        if (tabsDiv) tabsDiv.style.top = topH + "px"
+        // Set CSS variable so layout (content padding and sticky tab top) updates via CSS
+        document.documentElement.style.setProperty("--top-bar-height", topH + "px")
     } catch (e) {
         // ignore
     }

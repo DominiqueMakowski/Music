@@ -303,6 +303,367 @@ bittersweet this would taste?</i>
 <b>CHORUS x2</b>
 `,
     },
+    {
+        artist: "Aerosmith",
+        title: "I Don't Want to Miss a Thing",
+        tags: ["slow"],
+        tabs: `
+VERSE: D - A - Bm - G - D - Em - A (D - G - A)
+CHORUS: D - A - Em - G - A
+`,
+        lyrics: `
+I could stay awake just to hear you breathing
+Watch you smile while you are sleeping
+While you're far away and dreaming
+I could spend my life in this sweet surrender
+I could stay lost in this moment forever
+Every moment spent with you is a moment I treasure
+
+<b>Don't want to close my eyes
+I don't want to fall asleep
+'Cause I'd miss you baby
+And I don't want to miss a thing
+'Cause even when I dream of you
+The sweetest dream will never do
+I'd still miss you baby
+And I don't want to miss a thing</b>
+
+Lying close to you, feeling your heart beating
+And I'm wondering what you're dreaming
+Wondering if it's me you're seeing
+Then I kiss your eyes
+And thank God we're together
+And I just want to stay with you in this moment forever
+Forever and ever
+
+<b>CHORUS</b>
+
+I don't want to miss one smile
+And I don't want to miss one kiss
+And I just want to be with you
+Right here with you, just like this
+And I just want to hold you close
+I feel your heart so close to mine
+And just stay here in this moment
+For all the rest of time
+Yeah, yeah, yeah, yeah, yeah
+`,
+    },
+    {
+        artist: "A-HA",
+        title: "Take On Me",
+        tags: ["harmonies"],
+        tabs: `
+VERSE : (Bm - E - A - D) x 3  - Bm - E - F#m - D
+CHORUS: A - E - F#m - D
+`,
+        lyrics: `
+Talking away
+I don't know what I'm to say
+I'll say it anyway
+Today's another day to find you
+Shying away
+I'll be coming for your love, OK?
+
+<b>Take on me (take on me),
+Take me on (take on me)
+I'll be gone
+In a day or two</b>
+
+So needless to say
+I'm odds and ends
+But I'm really stumbling away
+Slowly learning that life is OK.
+Say after me,
+"It's no better to be safe than sorry."
+
+<b>CHORUS</b>
+
+Oh, things that you say, yeah—
+Is it life or just to play my worries away?
+You're all the things I've got to remember
+You're shying away
+We'll be coming for you anyway
+
+<b>CHORUS x2</b>
+`,
+    },
+    {
+        artist: "Alanis Morissette",
+        title: "Ironic",
+        tags: [],
+        tabs: `
+VERSE : D - G - D - Em
+CHORUS: D - G - D - Em (F - C - D)
+`,
+        lyrics: `
+An old man turned ninety-eight
+He won the lottery and died the next day
+It's a black fly in your Chardonnay
+It's a death row pardon two minutes too late
+And isn't it ironic... don't you think
+
+<b>It's like rain on your wedding day
+It's a free ride when you've already paid
+It's the good advice that you just didn't take
+Who would've thought... it figures</b>
+
+Mr. Play It Safe was afraid to fly
+He packed his suitcase and kissed his kids goodbye
+He waited his whole damn life to take that flight
+And as the plane crashed down he thought
+"Well isn't this nice..."
+And isn't it ironic... don't you think
+
+<b>CHORUS</b>
+
+A traffic jam when you're already late
+A no-smoking sign on your cigarette break
+It's like ten thousand spoons when all you need is a knife
+It's meeting the girl of my dreams
+And then meeting his beautiful husband
+And isn't it ironic...don't you think
+A little too ironic...and, yeah, I really do think…
+
+<b>CHORUS x2</b>
+`,
+    },
+    {
+        artist: "Alanis Morissette",
+        title: "You Oughta Know",
+        tags: [],
+        tabs: `
+VERSE: Am - D
+PRECHORUS: Am - C - D
+CHORUS: A - G - C - D
+`,
+        lyrics: `
+I want you to know, that I am happy for you
+I wish nothing but the best for you both
+
+An older version of me
+Is she perverted like me?
+Would she go down on you in a theater?
+Does she speak eloquently
+And would she have your baby?
+I'm sure she'd make a really excellent mother
+
+<i>'Cause the love that you gave that we made
+Wasn't able to make it enough for you
+To be open wide, no
+And every time you speak her name
+Does she know how you told me
+You'd hold me until you died
+'Til you died, but you're still alive</i>
+
+<b>And I'm here, to remind you
+Of the mess you left when you went away
+It's not fair, to deny me
+Of the cross I bear that you gave to me
+You, you, you oughta know</b>
+
+You seem very well, things look peaceful
+I'm not quite as well, I thought you should know
+
+Did you forget about me, Mr. Duplicity?
+I hate to bug you in the middle of dinner
+It was a slap in the face
+How quickly I was replaced
+And are you thinking of me when you fuck her?
+
+<i>PRECHORUS</i>
+<b>CHORUS x2</b>
+`,
+    },
+    {
+        artist: "Alice Cooper",
+        title: "Poison",
+        tags: [],
+        tabs: `
+VERSE : Dm - Bb - F - C / G - D# - Bb - D
+CHORUS : Gm - D# - Bb - F / Cm - G# - D# - Bb / Am - F - C - G / (Dm - Bb - F - C) x 5
+`,
+        lyrics: `
+Your cruel device
+Your blood like ice
+One look could kill
+My pain, your thrill
+
+<b>I wanna love you, but I better not touch (don't touch)
+I wanna hold you, but my senses tell me to stop
+I wanna kiss you, but I want it too much (too much)
+I wanna taste you, but your lips are venomous poison
+You're poison runnin through my veins
+You're poison, I don't wanna break these chains.</b>
+
+Your mouth, so hot
+Your web, I'm caught
+Your skin, so wet
+Black lace on sweat
+
+<b>I hear you callin and it's needles and pins (and pins)
+I wanna hurt you just to hear you screaming my name
+Don't wanna touch you, but you're under my skin (deep in)
+I wanna kiss you, but your lips are venomous poison
+You're poison runnin through my veins
+You're poison, I don't wanna break these chains
+Poison</b>
+
+One look (one look), could kill (could kill),
+My pain, your thrill.
+
+<b>CHORUS x2</b>
+`,
+    },
+    {
+        artist: "Alizée",
+        title: "Lolita",
+        tags: ["french"],
+        tabs: `
+Am - F - Dm - G
+`,
+        lyrics: `
+Moi je m'appelle Lolita
+Lo ou bien Lola, du pareil au même
+Moi je m'appelle Lolita
+Quand je rêve aux loups, c'est Lola qui saigne
+Quand fourche ma langue j'ai là
+Un fou rire aussi fou qu'un phénomène
+Je m'appelle Lolita
+Lo de vie, Lo aux amours diluviennes (G#)
+
+<b>C'est pas ma faute
+Et quand je donne ma langue aux chats je vois les autres
+Tout prêts à se jeter sur moi, c'est pas ma faute à moi
+Si j'entends tout autour de moi
+L.O.L.I.T.A, moi Lolita
+Moi je m'appelle Lolita
+Collégienne aux bas, bleus de méthylène
+Moi je m'appelle Lolita
+Coléreuse et pas, mi-coton, mi-laine
+Motus et bouche qui ne dis pas
+À maman que je suis un phénomène
+Je m'appelle Lolita
+Lo de vie, Lo aux amours diluviennes (G#)</b>
+
+<b>CHORUS</b>
+
+Lo-Li-Ta x8
+
+<b>CHORUS</b>
+`,
+    },
+    {
+        artist: "Amy Macdonald",
+        title: "This is the Life",
+        tags: [],
+        tabs: `
+Dm - Bb - F - Am
+`,
+        lyrics: `
+Oh the wind whistles down
+The cold dark street tonight
+And the people they were dancing
+To the music vibe
+
+And the boys chase the girls, with curls in their hair
+While the shocked too many sit way over there
+And the songs get louder each one better than before
+
+<b>And you singing the song thinking this is the life
+And you wake up in the morning and your head feels twice the size
+Where you gonna go, where you gonna go, where you gonna sleep tonight?
+x2</b>
+
+So you're heading down the road in your taxi for 4
+And you're waiting outside jimmy's front door
+But nobody's in and nobody's home till 4
+
+So you're sitting there with nothing to do
+Talking about Robert Ragger and his 1 leg crew
+And where you gonna go, where you gonna sleep tonight?
+
+<b>CHORUS</b>
+`,
+    },
+    {
+        artist: "Asaf Avidan",
+        title: "One Day",
+        tags: [],
+        tabs: `
+Em - G - D - C
+`,
+        lyrics: `
+No more tears, my heart is dry 
+I don't laugh and I don't cry 
+I don't think about you all the time 
+But when I do - I wonder why 
+
+You have to go out of my door 
+And leave just like you did before 
+I know I said that I was sure 
+But rich men can't imagine poor
+
+<b>One day baby, we'll be old 
+Oh baby, we'll be old 
+And think of all the stories that we could have told</b>
+
+CHORUS
+Little me and little you 
+Kept doing all the things they do 
+They never really think it through 
+Like I can never think you're true 
+
+Here I go again - the blame 
+The guilt, the pain, the hurt, the shame 
+The founding fathers of our plane 
+That's stuck in heavy clouds of rain 
+
+<b>CHORUS x2</b>
+`,
+    },
+    {
+        artist: "Avicii",
+        title: "Wake me up",
+        tags: ["popular"],
+        tabs: `
+Am  - F - C - G
+`,
+        lyrics: `
+Feeling my way through the darkness
+Guided by a beating heart
+I can't tell where the journey will end
+But I know where to start
+
+They tell me I'm too young to understand
+They say I'm caught up in a dream
+Well life will pass me by if I don't open up my eyes
+Well that's fine by me
+
+<b>So wake me up when it's all over
+When I'm wiser and I'm older
+All this time I was finding myself
+And I didn't know I was lost
+x2</b>
+
+I tried carrying the weight of the world
+But I only have two hands
+Hope I get the chance to travel the world
+But I don't have any plans
+
+Wish that I could stay forever this young
+Not afraid to close my eyes
+Life's a game made for everyone
+And love is the prize
+
+<b>CHORUS x2</b>
+
+Didn't know I was lost
+I didn't know I was lost
+I didn't know I was lost
+I didn't know (didn't know, didn't know)
+`,
+    },
 ]
 
 window.DATA = DATA
