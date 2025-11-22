@@ -13,6 +13,7 @@ const prevBtn = document.getElementById("prev-btn")
 const nextBtn = document.getElementById("next-btn")
 const searchInput = document.getElementById("search")
 const themeToggle = document.getElementById("theme-toggle")
+const randomBtn = document.getElementById("random-btn")
 const backBtn = document.getElementById("back-btn")
 const topBar = document.getElementById("top-bar")
 let currentSong = null
@@ -133,6 +134,24 @@ nextBtn.addEventListener("click", (e) => {
     const newIdx = idx === -1 || idx >= sortedData.length - 1 ? 0 : idx + 1
     showSong(sortedData[newIdx])
 })
+
+// Random button: jump to a random song from current filtered selection
+if (randomBtn) {
+    randomBtn.addEventListener("click", (e) => {
+        e.stopPropagation()
+        if (sortedData.length === 0) return
+        if (sortedData.length === 1) {
+            showSong(sortedData[0])
+            return
+        }
+        const currentIdx = currentSong ? sortedData.findIndex((s) => s.artist === currentSong.artist && s.title === currentSong.title) : -1
+        let rand
+        do {
+            rand = Math.floor(Math.random() * sortedData.length)
+        } while (rand === currentIdx && sortedData.length > 1)
+        showSong(sortedData[rand])
+    })
+}
 
 let currentSort = "artist"
 let sortOrder = 1 // 1 asc, -1 desc
@@ -324,10 +343,12 @@ function updateNavButtons() {
     // Show buttons and enable/disable appropriately (wrap behavior)
     prevBtn.style.display = "inline-block"
     nextBtn.style.display = "inline-block"
-    // If there's only one item, disable both; otherwise enable (wrapping will handle edges)
+    if (randomBtn) randomBtn.style.display = "inline-block"
+    // If there's only one item, disable navs and random; otherwise enable (wrapping will handle edges)
     const single = sortedData.length <= 1
     prevBtn.disabled = single
     nextBtn.disabled = single
+    if (randomBtn) randomBtn.disabled = single
 }
 
 function findSongFromId(rawId) {

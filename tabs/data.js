@@ -134,7 +134,6 @@ go 'Cos I love you so</i>
         tabs: `
 VERSE: C# - B - F# / C# - G# / C# - F# - F#m / C# - G# - F# - G#
 CHORUS: C#m -  B - F#m
-
 `,
         lyrics: `
 <b>She leads a lonely life
@@ -169,6 +168,91 @@ She's going to get you
 
 <b>CHORUS (soft)
 CHORUS (loud)</b>
+`,
+    },
+    {
+        artist: "Adele",
+        title: "Hello",
+        tags: ["slow"],
+        tabs: `
+VERSE : F#m - A - E - D
+CHORUS: F#m - D - A - E
+`,
+        lyrics: `
+Hello, it's me
+I was wondering if after all these years you'd like to meet
+To go over everything
+They say that time's supposed to heal ya
+But I ain't done much healing
+
+Hello, can you hear me?
+I'm in California dreaming about who we used to be
+When we were younger and free
+I've forgotten how it felt before the world fell at our feet
+
+There's such a difference between us
+And a million miles
+
+<b>Hello from the other side
+I must have called a thousand times
+To tell you I'm sorry for everything that I've done
+But when I call you never seem to be home
+Hello from the outside
+At least I can say that I've tried
+To tell you I'm sorry for breaking your heart
+But it don't matter. It clearly doesn't tear you apart anymore</b>
+
+Hello, how are you?
+It's so typical of me to talk about myself. I'm sorry
+I hope that you're well
+Did you ever make it out of that town where nothing ever happened?
+
+And it's no secret that the both of us
+Are running out of time
+
+<b>CHORUS</b>
+`,
+    },
+    {
+        artist: "Adele",
+        title: "Rolling in the Deep",
+        tags: [],
+        tabs: `
+VERSE : Am -- (Em - G) x2
+PRECHORUS : F - G - Em - F (E7)
+CHORUS : Am - G - F - G
+`,
+        lyrics: `
+There's a fire starting in my heart
+Reaching a fever pitch, it's bringing me out the dark
+Finally I can see you crystal clear
+Go 'head and sell me out and I'll lay your shit bare
+See how I leave with every piece of you
+Don't underestimate the things that I will do
+There's a fire starting in my heart
+Reaching a fever pitch
+And it's bringing me out the dark
+
+<i>The scars of your love remind me of us
+They keep me thinking that we almost had it all
+The scars of your love, they leave me breathless
+I can't help feeling</i>
+
+<b>We could have had it all
+(You're gonna wish you never had met me)
+Rolling in the deep
+(Tears are gonna fall, rolling in the deep)
+You had my heart inside of your hand
+(You're gonna wish you never had met me)
+And you played it, to the beat
+(Tears are gonna fall, rolling in the deep)</b>
+
+Baby, I have no story to be told
+But I've heard one on you
+And I'm gonna make your head burn
+Think of me in the depths of your despair
+Make a home down there
+As mine sure won't be shared
 `,
     },
 ]

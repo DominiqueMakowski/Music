@@ -99,8 +99,13 @@ h1 {
     padding: 15px;
     font-weight: bold;
     font-size: 18px;
-    border-bottom: 1px solid var(--border);
+    margin: 0 6px;
     z-index: 5;
+
+    /* Make theme-toggle stand out slightly smaller */
+    #left-bar #theme-toggle {
+        font-size: 1em;
+    }
     color: var(--text);
     white-space: pre-wrap;
 }
