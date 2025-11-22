@@ -8,22 +8,26 @@
     </head>
     <body>
         <div id="top-bar">
-            <div style="float: left">
+            <div id="left-bar">
                 <button id="back-btn" style="display: none">Back</button>
             </div>
-            <div style="float: right">
+            <div id="center-bar">
+                <h1>Dom's tabs</h1>
+            </div>
+            <div id="right-bar">
                 <button id="theme-toggle">🌙</button>
             </div>
         </div>
         <main id="content-area">
             <div id="toc">
-                <h1>Dom's tabs</h1>
                 <input id="search" placeholder="Search songs..." />
+                <div id="active-filters"></div>
                 <table id="toc-table">
                     <thead>
                         <tr>
                             <th id="sort-artist">Artist <span id="arrow-artist"></span></th>
                             <th id="sort-title">Song <span id="arrow-title"></span></th>
+                            <th>Tags</th>
                         </tr>
                     </thead>
                     <tbody id="toc-body"></tbody>
@@ -153,12 +157,84 @@
             let currentSort = "artist"
             let sortOrder = 1 // 1 asc, -1 desc
             let sortedData = [...window.DATA]
+            let activeTags = []
+            let searchQuery = ""
+
+            function getTagColor(tag) {
+                let hash = 0
+                for (let i = 0; i < tag.length; i++) {
+                    hash = tag.charCodeAt(i) + ((hash << 5) - hash)
+                }
+                const hue = Math.abs(hash) % 360
+                return `hsl(${hue}, 70%, 50%)`
+            }
+
+            function updateFiltersDisplay() {
+                const filtersDiv = document.getElementById("active-filters")
+                let html = ""
+                activeTags.forEach((tag) => {
+                    html += `<span onclick="removeFilter('tag', '${tag}')" style="background-color: ${getTagColor(tag)}">${tag} ×</span>`
+                })
+                if (searchQuery) {
+                    html += `<span onclick="removeFilter('search')" style="background-color: #888">Search: ${searchQuery} ×</span>`
+                }
+                filtersDiv.innerHTML = html
+            }
+
+            function removeFilter(type, value) {
+                if (type === "tag") {
+                    activeTags = activeTags.filter((t) => t !== value)
+                } else if (type === "search") {
+                    searchQuery = ""
+                    searchInput.value = ""
+                }
+                updateFiltersDisplay()
+                applyFilters()
+            }
+
+            function toggleTagFilter(tag) {
+                if (activeTags.includes(tag)) {
+                    activeTags = activeTags.filter((t) => t !== tag)
+                } else {
+                    activeTags.push(tag)
+                }
+                updateFiltersDisplay()
+                applyFilters()
+            }
+
+            function applyFilters() {
+                let data = [...window.DATA]
+                if (activeTags.length > 0) {
+                    data = data.filter((song) => song.tags && activeTags.some((tag) => song.tags.includes(tag)))
+                }
+                if (searchQuery) {
+                    const query = searchQuery.toLowerCase()
+                    data = data.filter(
+                        (song) =>
+                            song.artist.toLowerCase().includes(query) ||
+                            song.title.toLowerCase().includes(query) ||
+                            song.lyrics.toLowerCase().includes(query)
+                    )
+                }
+                sortedData = data
+                sortBy(currentSort)
+            }
 
             function populateTable() {
                 tocBody.innerHTML = ""
                 sortedData.forEach((song) => {
+                    const tagsHTML = song.tags
+                        ? song.tags
+                              .map(
+                                  (tag) =>
+                                      `<span onclick="event.stopPropagation(); toggleTagFilter('${tag}')" style="background-color: ${getTagColor(
+                                          tag
+                                      )}; color: white; padding: 2px 4px; margin: 1px; border-radius: 3px; display: inline-block; font-size: 12px; cursor: pointer;">${tag}</span>`
+                              )
+                              .join("")
+                        : ""
                     const row = document.createElement("tr")
-                    row.innerHTML = `<td>${song.artist}</td><td>${song.title}</td>`
+                    row.innerHTML = `<td><strong>${song.artist}</strong></td><td>${song.title}</td><td>${tagsHTML}</td>`
                     row.onclick = () => showSong(song)
                     tocBody.appendChild(row)
                 })
@@ -185,19 +261,38 @@
 
             // Search functionality
             searchInput.addEventListener("input", () => {
-                const query = searchInput.value.toLowerCase()
-                const rows = tocBody.querySelectorAll("tr")
-                rows.forEach((row) => {
-                    const text = row.textContent.toLowerCase()
-                    row.style.display = text.includes(query) ? "" : "none"
-                })
+                searchQuery = searchInput.value.trim()
+                updateFiltersDisplay()
+                applyFilters()
             })
+
+            function getChordColor(root) {
+                const colors = {
+                    A: "hsl(120, 70%, 60%)", // medium green
+                    B: "hsl(240, 70%, 60%)", // medium blue
+                    C: "hsl(300, 70%, 60%)", // medium magenta
+                    D: "hsl(0, 70%, 60%)", // medium red
+                    E: "hsl(30, 70%, 60%)", // medium orange
+                    F: "hsl(60, 70%, 60%)", // medium yellow
+                    G: "hsl(180, 70%, 60%)", // medium cyan
+                }
+                return colors[root] || "inherit"
+            }
+
+            function colorizeChords(text) {
+                const chordRegex = /\b([A-G][#b]?\d*[m]?)\b/g
+                return text.replace(chordRegex, (match, chord) => {
+                    const root = chord[0].toUpperCase()
+                    const color = getChordColor(root)
+                    return `<span style="color: ${color}">${chord}</span>`
+                })
+            }
 
             function showSong(song) {
                 tocDiv.style.display = "none"
                 songDiv.style.display = "block"
                 backBtn.style.display = "inline"
-                tabsDiv.textContent = song.tabs.trim()
+                tabsDiv.innerHTML = colorizeChords(song.tabs.trim())
                 lyricsDiv.innerHTML = `<h1>${song.artist} - ${song.title}</h1>\n${song.lyrics.trim()}`
 
                 // Adjust layout
@@ -209,7 +304,11 @@
                 tocDiv.style.display = "block"
                 backBtn.style.display = "none"
                 searchInput.value = ""
-                populateTable()
+                activeTags = []
+                searchQuery = ""
+                updateFiltersDisplay()
+                sortedData = [...window.DATA]
+                sortBy(currentSort)
             }
         </script>
     </body>

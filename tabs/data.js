@@ -31,6 +31,7 @@ I picked you up and put you back on solid ground
 VERSE: Bm - G - A 
 CHORUS: Bm - G - A / Bm - Em- F#5
 `,
+        tags: ["rock"],
     },
     {
         artist: "4 Non Blondes",
@@ -78,6 +79,7 @@ For a destination, mmm
         tabs: `
 E - F#m - A - E
 `,
+        tags: ["easy", "popular"],
     },
 ]
 

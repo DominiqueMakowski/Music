@@ -42,6 +42,20 @@ h1 {
     border: 1px solid var(--border);
     border-radius: 5px;
 }
+#active-filters {
+    margin: 10px 0;
+    min-height: 20px;
+}
+#active-filters span {
+    display: inline-block;
+    background-color: #666;
+    color: white;
+    padding: 4px 8px;
+    margin: 2px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+}
 #toc-table {
     width: 100%;
     border-collapse: collapse;
@@ -50,8 +64,13 @@ h1 {
 #toc-table td {
     padding: 15px;
     border-bottom: 1px solid var(--border);
+    border-right: 1px solid #555;
     cursor: pointer;
     transition: background-color 0.3s;
+}
+#toc-table th:last-child,
+#toc-table td:last-child {
+    border-right: none;
 }
 #toc-table th {
     background: var(--bg-secondary);
@@ -79,6 +98,7 @@ h1 {
     background: var(--bg-secondary);
     padding: 15px;
     font-weight: bold;
+    font-size: 18px;
     border-bottom: 1px solid var(--border);
     z-index: 5;
     color: var(--text);
@@ -129,4 +149,12 @@ button:hover {
     padding: 10px;
     z-index: 11;
     box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#center-bar h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: white;
 }
