@@ -1,0 +1,10 @@
+- fix wide/tall mode.
+  - The wide mode should maximize text size so that the max. text width (of the lyrics or the tabs) = max screen width. Wide mode is meant to be used on small screens as it maximizes text size.
+  - The tall mode (default) should make sure the whole lyrics fit vertically on the same page (no need to scroll up or down).
+  - In the tall mode, if there is enough space, try to split the lyrics in columns. The goal is to maximize text size while fitting everything on the screen.
+- Consider zoom buttons  that would put stuff side by side if enough space (I.e., in different columns)
+- Make sure it works from phone
+- Add tag section with filterable tags like : easy, french, ukulele, Japan 2022 etc.
+- Add colored lyrics + colored chords
+- if you click on the chords, it shows the guitar + ukulele schema
+- Make it so that song pages are accessible via a url var "artist + song" 

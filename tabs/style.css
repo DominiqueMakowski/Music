@@ -1,0 +1,135 @@
+:root {
+    --bg: #121212;
+    --text: #ffffff;
+    --bg-secondary: #1e1e1e;
+    --border: #333;
+    --hover: #333;
+    --input-bg: #1e1e1e;
+    --input-text: #ffffff;
+}
+body.light-theme {
+    --bg: #ffffff;
+    --text: #000000;
+    --bg-secondary: #f0f0f0;
+    --border: #ccc;
+    --hover: #e0e0e0;
+    --input-bg: #ffffff;
+    --input-text: #000000;
+}
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg);
+    color: var(--text);
+    transition: background-color 0.3s, color 0.3s;
+    padding-top: 0;
+}
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 20px 0;
+    color: var(--text);
+}
+#search {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    background: var(--input-bg);
+    color: var(--input-text);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+}
+#toc-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#toc-table th,
+#toc-table td {
+    padding: 15px;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#toc-table th {
+    background: var(--bg-secondary);
+    font-weight: bold;
+}
+#toc-table tr:hover {
+    background-color: var(--hover);
+}
+#content-area {
+    margin: 0;
+    padding-top: 45px;
+}
+#song {
+    width: 100%;
+    min-height: calc(100vh - 45px);
+    overflow-y: auto;
+    background-color: var(--bg);
+}
+#tabs {
+    position: sticky;
+    top: 0;
+    background: var(--bg-secondary);
+    padding: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid var(--border);
+    z-index: 5;
+    color: var(--text);
+    white-space: pre-wrap;
+}
+#lyrics {
+    padding: 15px;
+    white-space: pre-wrap;
+    width: 100%;
+    line-height: 1.6;
+}
+#lyrics h1 {
+    text-align: left;
+    margin: 0 0 16px;
+    padding: 0;
+    background: transparent;
+    border: none;
+    color: var(--text);
+    font-weight: bold;
+}
+button {
+    padding: 8px 12px;
+    background-color: var(--bg-secondary);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: var(--hover);
+}
+#top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #333;
+    padding: 10px;
+    z-index: 11;
+    box-sizing: border-box;
+}
+.wide-view #lyrics,
+.wide-view #tabs,
+.wide-view h1,
+.wide-view h2 {
+    font-size: 1.8em;
+}
+.tall-view #lyrics,
+.tall-view #tabs,
+.tall-view h1,
+.tall-view h2 {
+    font-size: 0.7em;
+}
+.tall-view #song {
+    height: auto;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Music Tabs</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="top-bar">
+            <div style="float: left">
+                <button id="back-btn" style="display: none">Back</button>
+            </div>
+            <div style="float: right">
+                <button id="theme-toggle">🌙</button>
+                <button id="view-toggle">↕️</button>
+            </div>
+        </div>
+        <main id="content-area">
+            <div id="toc">
+                <h1>Dom's tabs</h1>
+                <input id="search" placeholder="Search songs..." />
+                <table id="toc-table">
+                    <thead>
+                        <tr>
+                            <th id="sort-artist">Artist <span id="arrow-artist"></span></th>
+                            <th id="sort-title">Song <span id="arrow-title"></span></th>
+                        </tr>
+                    </thead>
+                    <tbody id="toc-body"></tbody>
+                </table>
+            </div>
+            <div id="song" style="display: none">
+                <div id="tabs"></div>
+                <div id="lyrics"></div>
+            </div>
+        </main>
+
+        <script src="data.js"></script>
+        <script>
+            const tocDiv = document.getElementById("toc")
+            const tocBody = document.getElementById("toc-body")
+            const sortArtist = document.getElementById("sort-artist")
+            const sortTitle = document.getElementById("sort-title")
+            const arrowArtist = document.getElementById("arrow-artist")
+            const arrowTitle = document.getElementById("arrow-title")
+            const songDiv = document.getElementById("song")
+            const tabsDiv = document.getElementById("tabs")
+            const lyricsDiv = document.getElementById("lyrics")
+            const searchInput = document.getElementById("search")
+            const themeToggle = document.getElementById("theme-toggle")
+            const viewToggle = document.getElementById("view-toggle")
+            const backBtn = document.getElementById("back-btn")
+            const topBar = document.getElementById("top-bar")
+
+            let isWide = false
+
+            // Theme toggle
+            themeToggle.addEventListener("click", () => {
+                document.body.classList.toggle("light-theme")
+                themeToggle.textContent = document.body.classList.contains("light-theme") ? "☀️" : "🌙"
+            })
+
+            // View toggle
+            viewToggle.addEventListener("click", () => {
+                isWide = !isWide
+                if (isWide) {
+                    document.body.classList.add("wide-view")
+                    document.body.classList.remove("tall-view")
+                    viewToggle.textContent = "↔️"
+                } else {
+                    document.body.classList.add("tall-view")
+                    document.body.classList.remove("wide-view")
+                    viewToggle.textContent = "↕️"
+                }
+            })
+
+            // Back button
+            backBtn.addEventListener("click", showToc)
+
+            let currentSort = "artist"
+            let sortOrder = 1 // 1 asc, -1 desc
+            let sortedData = [...window.DATA]
+
+            function populateTable() {
+                tocBody.innerHTML = ""
+                sortedData.forEach((song) => {
+                    const row = document.createElement("tr")
+                    row.innerHTML = `<td>${song.artist}</td><td>${song.title}</td>`
+                    row.onclick = () => showSong(song)
+                    tocBody.appendChild(row)
+                })
+            }
+
+            function sortBy(field) {
+                if (currentSort === field) {
+                    sortOrder = -sortOrder
+                } else {
+                    currentSort = field
+                    sortOrder = 1
+                }
+                sortedData.sort((a, b) => sortOrder * a[field].localeCompare(b[field]))
+                populateTable()
+                arrowArtist.textContent = currentSort === "artist" ? (sortOrder === 1 ? "▲" : "▼") : ""
+                arrowTitle.textContent = currentSort === "title" ? (sortOrder === 1 ? "▲" : "▼") : ""
+            }
+
+            sortArtist.addEventListener("click", () => sortBy("artist"))
+            sortTitle.addEventListener("click", () => sortBy("title"))
+
+            // Initialize table
+            sortBy("artist")
+
+            // Search functionality
+            searchInput.addEventListener("input", () => {
+                const query = searchInput.value.toLowerCase()
+                const rows = tocBody.querySelectorAll("tr")
+                rows.forEach((row) => {
+                    const text = row.textContent.toLowerCase()
+                    row.style.display = text.includes(query) ? "" : "none"
+                })
+            })
+
+            function showSong(song) {
+                tocDiv.style.display = "none"
+                songDiv.style.display = "block"
+                backBtn.style.display = "inline"
+                tabsDiv.textContent = song.tabs.trim()
+                lyricsDiv.innerHTML = `<h1>${song.artist} - ${song.title}</h1>\n${song.lyrics.trim()}`
+            }
+
+            function showToc() {
+                songDiv.style.display = "none"
+                tocDiv.style.display = "block"
+                backBtn.style.display = "none"
+                searchInput.value = ""
+                populateTable()
+            }
+        </script>
+    </body>
+</html>
