@@ -452,7 +452,13 @@ function showToc() {
     searchQuery = ""
     updateFiltersDisplay()
     sortedData = [...window.DATA]
-    sortBy(currentSort)
+    // Reset to default: alphabetical by artist (ascending)
+    currentSort = "artist"
+    sortOrder = 1
+    sortedData.sort((a, b) => sortOrder * a[currentSort].localeCompare(b[currentSort]))
+    populateTable()
+    arrowArtist.textContent = "▲"
+    arrowTitle.textContent = ""
     // Restore default top-bar title on the main landing page
     centerBarH1.textContent = "Dom's tabs"
     try {
