@@ -13,7 +13,6 @@
             </div>
             <div style="float: right">
                 <button id="theme-toggle">🌙</button>
-                <button id="view-toggle">↕️</button>
             </div>
         </div>
         <main id="content-area">
@@ -49,11 +48,8 @@
             const lyricsDiv = document.getElementById("lyrics")
             const searchInput = document.getElementById("search")
             const themeToggle = document.getElementById("theme-toggle")
-            const viewToggle = document.getElementById("view-toggle")
             const backBtn = document.getElementById("back-btn")
             const topBar = document.getElementById("top-bar")
-
-            let isWide = false
 
             // Theme toggle
             themeToggle.addEventListener("click", () => {
@@ -61,19 +57,95 @@
                 themeToggle.textContent = document.body.classList.contains("light-theme") ? "☀️" : "🌙"
             })
 
-            // View toggle
-            viewToggle.addEventListener("click", () => {
-                isWide = !isWide
-                if (isWide) {
-                    document.body.classList.add("wide-view")
-                    document.body.classList.remove("tall-view")
-                    viewToggle.textContent = "↔️"
-                } else {
-                    document.body.classList.add("tall-view")
-                    document.body.classList.remove("wide-view")
-                    viewToggle.textContent = "↕️"
+            // Adjust view to fit content on screen
+            function adjustTallView() {
+                if (songDiv.style.display === "none") return
+
+                const lyricsEl = lyricsDiv
+                const tabsHeight = tabsDiv.getBoundingClientRect().height
+                const availableHeight = window.innerHeight - 45 - tabsHeight - 30 // 30px for padding
+
+                // Get text lines
+                const h1 = lyricsEl.querySelector("h1")
+                const h1Text = h1 ? h1.textContent : ""
+                const textContent = lyricsEl.textContent.replace(h1Text, "").trim()
+                const lines = textContent.split("\n").filter((line) => line.trim().length > 0)
+
+                // Reset to default
+                lyricsEl.style.fontSize = ""
+                lyricsEl.style.columnCount = ""
+
+                // Get actual content width (excluding padding)
+                const style = getComputedStyle(lyricsEl)
+                const paddingLeft = parseFloat(style.paddingLeft)
+                const paddingRight = parseFloat(style.paddingRight)
+                const contentWidth = lyricsEl.clientWidth - paddingLeft - paddingRight
+
+                // Try different column counts (1 to 4)
+                let bestFontSize = 0
+                let bestColumns = 1
+
+                for (let cols = 1; cols <= 4; cols++) {
+                    lyricsEl.style.columnCount = cols
+
+                    // Calculate available width per column (with safety margin)
+                    const columnRule = 1 // 1px column rule
+                    const totalGap = (cols - 1) * 30 // 30px gap between columns
+                    const totalRuleWidth = (cols - 1) * columnRule
+                    const columnWidth = (contentWidth - totalGap - totalRuleWidth) / cols - 5 // 5px safety margin
+
+                    // Binary search for optimal font size
+                    let minSize = 8
+                    let maxSize = 200
+                    let fontSize = minSize
+
+                    // Create a temporary span to measure text width
+                    const measureSpan = document.createElement("span")
+                    measureSpan.style.visibility = "hidden"
+                    measureSpan.style.position = "absolute"
+                    measureSpan.style.whiteSpace = "nowrap"
+                    measureSpan.style.fontFamily = getComputedStyle(lyricsEl).fontFamily
+                    document.body.appendChild(measureSpan)
+
+                    while (maxSize - minSize > 1) {
+                        fontSize = Math.floor((minSize + maxSize) / 2)
+                        lyricsEl.style.fontSize = fontSize + "px"
+                        if (h1) h1.style.fontSize = fontSize * 1.2 + "px"
+
+                        // Measure if ALL lines fit in column width
+                        measureSpan.style.fontSize = fontSize + "px"
+                        let maxLineWidth = 0
+                        for (const line of lines) {
+                            measureSpan.textContent = line
+                            maxLineWidth = Math.max(maxLineWidth, measureSpan.offsetWidth)
+                        }
+
+                        // Check if content fits: no wrapping and within height
+                        const fitsWidth = maxLineWidth <= columnWidth
+                        const fitsHeight = lyricsEl.scrollHeight <= availableHeight
+                        const fits = fitsWidth && fitsHeight
+
+                        if (fits) {
+                            minSize = fontSize
+                        } else {
+                            maxSize = fontSize
+                        }
+                    }
+
+                    document.body.removeChild(measureSpan)
+
+                    if (minSize > bestFontSize) {
+                        bestFontSize = minSize
+                        bestColumns = cols
+                    }
                 }
-            })
+
+                lyricsEl.style.columnCount = bestColumns
+                lyricsEl.style.fontSize = bestFontSize + "px"
+                if (h1) h1.style.fontSize = bestFontSize * 1.2 + "px"
+            }
+
+            window.addEventListener("resize", adjustTallView)
 
             // Back button
             backBtn.addEventListener("click", showToc)
@@ -127,6 +199,9 @@
                 backBtn.style.display = "inline"
                 tabsDiv.textContent = song.tabs.trim()
                 lyricsDiv.innerHTML = `<h1>${song.artist} - ${song.title}</h1>\n${song.lyrics.trim()}`
+
+                // Adjust layout
+                setTimeout(adjustTallView, 50)
             }
 
             function showToc() {
