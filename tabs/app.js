@@ -30,7 +30,9 @@ function adjustTallView() {
 
     const lyricsEl = lyricsDiv
     const tabsHeight = tabsDiv.getBoundingClientRect().height
-    const availableHeight = window.innerHeight - 45 - tabsHeight - 30 // 30px for padding
+    // Use actual top-bar height instead of hard-coded 45px so mobile layouts don't get cropped
+    const topBarHeight = topBar.getBoundingClientRect().height || 45
+    const availableHeight = window.innerHeight - topBarHeight - tabsHeight - 30 // 30px for padding
 
     // Get text lines
     const h1 = lyricsEl.querySelector("h1")
@@ -113,6 +115,22 @@ function adjustTallView() {
 }
 
 window.addEventListener("resize", adjustTallView)
+
+// Ensure content is pushed below the top-bar and tabs stick below it
+function syncTopBarSpacing() {
+    try {
+        const topH = Math.ceil(topBar.getBoundingClientRect().height)
+        const content = document.getElementById("content-area")
+        if (content) content.style.paddingTop = topH + "px"
+        if (tabsDiv) tabsDiv.style.top = topH + "px"
+    } catch (e) {
+        // ignore
+    }
+}
+
+window.addEventListener("resize", syncTopBarSpacing)
+// call once now to initialize
+syncTopBarSpacing()
 
 // Back button
 backBtn.addEventListener("click", showToc)
@@ -418,7 +436,10 @@ function showSong(song, pushHistory = true) {
     }
 
     // Adjust layout
-    setTimeout(adjustTallView, 50)
+    setTimeout(() => {
+        syncTopBarSpacing()
+        adjustTallView()
+    }, 50)
     // Update navigation buttons availability
     updateNavButtons()
 }
@@ -447,6 +468,8 @@ function showToc() {
     }
     currentSong = null
     updateNavButtons()
+    // sync spacing in case top bar height changed (title reset)
+    setTimeout(syncTopBarSpacing, 20)
 }
 
 // Handle browser navigation (back/forward)

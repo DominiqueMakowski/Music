@@ -301,8 +301,6 @@ Who would have known how
 bittersweet this would taste?</i>
 
 <b>CHORUS x2</b>
-
-
 `,
     },
 ]
