@@ -2981,10 +2981,10 @@ Secret comme les nuits de lune de l'Orient</b>
 Am - C - G - Am - G - Am
 `,
         lyrics: `
-Jolene, Jolene, Jolene, Jolene
+<b>Jolene, Jolene, Jolene, Jolene
 I'm begging of you please don't take my man
 Jolene, Jolene, Jolene, Jolene
-Please don't take him just because you can
+Please don't take him just because you can</b>
 
 Your beauty is beyond compare
 With flaming locks of auburn hair
@@ -2995,14 +2995,19 @@ Your voice is soft like summer rain
 And I cannot compete with you
 Jolene
 
-<b>He talks about you in his sleep
+<b>CHORUS</b>
+
+He talks about you in his sleep
 And there's nothing I can do to keep
 From crying when he calls your name
 Jolene
+
 And I can easily understand
 How you could easily take my man
 But you don't know what he means to me
-Jolene</b>
+Jolene
+
+<b>CHORUS</b>
 
 You could have your choice of men
 But I could never love again
@@ -3957,7 +3962,7 @@ For what it's worth, it was worth all the while
     {
         artist: "Green Day",
         title: "Holiday",
-        tags: ["2000s", "punk", "rock"],
+        tags: ["2000s"],
         tabs: `
 Em - C - G - D (B)
 
