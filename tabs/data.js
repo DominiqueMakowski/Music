@@ -4989,7 +4989,7 @@ Hallelujah, Hallelujah</b>
     {
         artist: "Jefferson Airplane",
         title: "Somebody to Love",
-        tags: ["60s", "rock", "psychedelic", "max"],
+        tags: ["60s", "rock", "max"],
         tabs: `
 VERSE : Am - D - G
 CHORUS : C - G - Am - D // C - D - A
@@ -5030,7 +5030,7 @@ They treat you like a guest
     {
         artist: "Jefferson Airplane",
         title: "White Rabbit",
-        tags: ["not validated", "60s", "rock", "psychedelic"],
+        tags: ["not validated", "60s", "rock"],
         tabs: `
 VERSE : F# - G x2  // A - C - D - A
 BRIDGE: E - A x2 // F# - F#
@@ -5070,7 +5070,7 @@ Feed your head</b>
     {
         artist: "Jesus Christ Superstar",
         title: "Gethsemane",
-        tags: ["not validated", "musical", "soundtrack", "70s"],
+        tags: ["not validated", "soundtrack", "70s"],
         tabs: `
 VERSE: Am - Dm - G - C - E - Am - F - Am (B - E // E - Am)
 CHORUS: Am - G - F - E 
@@ -5175,11 +5175,11 @@ Et l'on n'a même pas pensé
     {
         artist: "John Denver",
         title: "Country Roads",
-        tags: ["not validated", "country", "folk", "70s"],
+        tags: ["banger", "country", "70s"],
         tabs: `
-VERSE: A - F#m - E - D 
-CHORUS: A  - E - [F#m - D // D - A]
-BRIDGE: F#m - E - A - D - A - E - F#m - G - D - A - E - E7
+Verse: A - F#m - E - D 
+Chorus: A  - E - [F#m - D // D - A]
+Bridge: F#m - E - A - D - A - E - F#m - G - D - A - E - E7
 `,
         lyrics: `
 Almost heaven, West Virginia, Blue Ridge Mountains, Shenandoah River.
@@ -5204,10 +5204,10 @@ And driving down the road I get a feeling that I should have been home yesterday
     {
         artist: "Johnny Cash",
         title: "Hurt",
-        tags: ["not validated", "country", "acoustic", "cover"],
+        tags: ["country"],
         tabs: `
-VERSE: Am - C - D (G)
-CHORUS: Am - F - C - G  (G - Am)
+Verse: Am - C - D (G)
+Chorus: Am - F - C - G  (G - Am)
 `,
         lyrics: `
 I hurt myself today 
@@ -5239,16 +5239,16 @@ I am still right here
 
 <b>CHORUS</b>
 
-If I could start again 
+<b>If I could start again 
 A million miles away 
 I would keep myself 
-I would find a way
+I would find a way</b>
 `,
     },
     {
         artist: "Johnny Cash",
         title: "You are my Sunshine",
-        tags: ["not validated", "country", "folk"],
+        tags: ["not validated", "country", "love"],
         tabs: `
 A - D - A - D - A - E  - A
 `,
