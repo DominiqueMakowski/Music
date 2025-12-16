@@ -36,7 +36,7 @@ I picked you up and put you back on solid ground
     {
         artist: "4 Non Blondes",
         title: "What's Up",
-        tags: ["easy", "popular"],
+        tags: ["easy"],
         tabs: `
 E - F#m - A - E
 `,
@@ -625,7 +625,7 @@ That's stuck in heavy clouds of rain
     {
         artist: "Avicii",
         title: "Wake me up",
-        tags: ["popular", "party"],
+        tags: ["pop", "party"],
         tabs: `
 Am - F - C - G
 `,
@@ -1019,7 +1019,7 @@ Et encore
     {
         artist: "Backstreet Boys",
         title: "I Want it That Way",
-        tags: ["popular", "90s"],
+        tags: ["banger", "90s"],
         tabs: `
 Verse: (F#m - D - A)x3 - F#m - E - A 
 Chorus: (D - D - E - F#m)x2 - D - D -  E - A - F#m - E - A
@@ -1380,7 +1380,7 @@ I wish I could but it's too late
     {
         artist: "Blink 182",
         title: "All the Small Things",
-        tags: ["2000s", "franky", "max"],
+        tags: ["2000s", "franky"],
         tabs: `
 Intro: C - F(up) - G - F
 Verse: C - G - F - G
@@ -1424,7 +1424,7 @@ My little windmill</b>
     {
         artist: "Blink 182",
         title: "Dammit",
-        tags: ["2000s"],
+        tags: ["2000s", "max"],
         tabs: `
 Riff:
 -----0--2----0--2-------0--2------2--0
@@ -1937,7 +1937,7 @@ I can feel his approach like a fire in my blood
     {
         artist: "Britney Spears",
         title: "Baby One More Time",
-        tags: ["90s", "popular", "franky", "max"],
+        tags: ["90s", "pop", "banger", "franky"],
         tabs: `
 Bm - F# - D - E - F#
 `,
@@ -2220,8 +2220,8 @@ I missed you so, so bad</i>
         title: "Everytime We Touch",
         tags: [],
         tabs: `
-VERSE:  (Em - G  - D - Em) x2 // C - G - D - Em
-CHORUS:  (C- D - Em) x2 -- C - G  - D - Em - G - D
+Verse: (Em - G  - D - Em) x2 // C - G - D - Em
+Chorus: (C- D - Em) x2 -- C - G  - D - Em - G - D
 `,
         lyrics: `
 I still hear your voice when you sleep next to me
@@ -2595,7 +2595,7 @@ Are you someone I'll forever miss
     {
         artist: "David Guetta ft. Akon",
         title: "Sexy Bitch",
-        tags: ["2000s", "dance", "pop"],
+        tags: ["not validated", "2000s", "dance", "pop"],
         tabs: `
 Bm - D - G - D
 `,
@@ -2629,7 +2629,7 @@ Repeat
     {
         artist: "Deep Blue Something",
         title: "Breakfast at Tiffany’s",
-        tags: ["90s", "rock", "pop"],
+        tags: ["not validated", "90s", "rock", "pop"],
         tabs: `
 Verse: D - G - A
 Chorus: D - A - G
@@ -2670,7 +2670,7 @@ Verse 1A
     {
         artist: "Def Leppard",
         title: "Bringin’ on the Heartbreak",
-        tags: ["80s", "rock", "ballad"],
+        tags: ["not validated", "80s", "rock", "ballad"],
         tabs: `
 VERSE: Am - F - Am - G - F - Dm - Em
 PRECHORUS : C - G - D - B - [C - G]x4
@@ -2720,7 +2720,7 @@ CHORUS</b>
     {
         artist: "Def Leppard",
         title: "Two Steps Behind",
-        tags: ["90s", "rock", "acoustic"],
+        tags: ["not validated", "90s", "rock", "acoustic"],
         tabs: `
 VERSE : (A - D - G - D) x 2 / A -  D - (E - D / G - D)
 PRECHORUS : F#m - D - G - E
@@ -2758,7 +2758,7 @@ Like the fire that's burning up inside me
     {
         artist: "DHT",
         title: "Listen to Your Heart",
-        tags: ["2000s", "dance", "cover"],
+        tags: ["not validated", "2000s", "dance", "cover"],
         tabs: `
 VERSE:  (Am - F - G - Am) x 3 - Am - F - Dm
 CHORUS: (Am - F - C - G) x2 - C - G - F - C - Am - F - G
@@ -2801,7 +2801,7 @@ when love was wilder than the wind.</i>
     {
         artist: "Disney (Frozen)",
         title: "Let it Go",
-        tags: ["soundtrack", "disney", "2010s"],
+        tags: ["not validated", "soundtrack", "disney", "2010s"],
         tabs: `
 Em - C - D - Am [Em - D - A]
 D - C - D - C
@@ -2868,7 +2868,7 @@ The cold never bothered me anyway!</b>
     {
         artist: "Disney (The Jungle Book)",
         title: "Être un homme comme vous",
-        tags: ["soundtrack", "disney", "french"],
+        tags: ["not validated", "soundtrack", "disney", "french"],
         tabs: `
 VERSE : Am - E7 (Am)
 CHORUS:  G - C - A7 - D7 - G7 - C
@@ -2914,7 +2914,7 @@ c'est vrai je crois peux devenir comme moi (Baloo)</b>
     {
         artist: "Disney (Mulan)",
         title: "Comme un homme",
-        tags: ["soundtrack", "disney", "french"],
+        tags: ["not validated", "soundtrack", "disney", "french"],
         tabs: `
 VERSE: Em - D - G - Am - D
 CHORUS: C - D - G - C - [C - D - Em]
@@ -3025,7 +3025,7 @@ Jolene
     {
         artist: "Dropkick Murphys",
         title: "Rose Tattoo",
-        tags: ["2010s", "punk", "rock", "celtic"],
+        tags: ["not validated", "2010s", "punk", "rock", "celtic"],
         tabs: `
 Verse: Am - C - G - (Am / Dm)
 Prechorus: C - G - Dm - Am
@@ -3095,7 +3095,7 @@ Our memory will live on
     {
         artist: "Eagle-Eye Cherry",
         title: "Save Tonight",
-        tags: ["90s", "rock", "pop"],
+        tags: ["not validated", "90s", "rock", "pop"],
         tabs: `
 Am - F - C - G
 `,
@@ -3139,7 +3139,7 @@ Tomorrow I'll be gone x4
     {
         artist: "Eddie Vedder",
         title: "No Ceiling",
-        tags: ["soundtrack", "folk", "acoustic"],
+        tags: ["not validated", "soundtrack", "folk", "acoustic"],
         tabs: `
 Verse: F#m - B - E - A
 Chorus: C#m - E - B - F#m
@@ -3181,7 +3181,7 @@ No Ceiling [B]
     {
         artist: "Ed Sheeran",
         title: "Galway Girl",
-        tags: ["2010s", "pop", "irish"],
+        tags: ["not validated", "2010s", "pop", "irish"],
         tabs: `
 Verse: Em - G - D - C
 Chorus: C - G - D - C / C - G - D - Em x2 
@@ -3245,7 +3245,7 @@ With my pretty little Galway Girl x4</b>
     {
         artist: "Ed Sheeran",
         title: "Shape of You",
-        tags: ["2010s", "pop"],
+        tags: ["not validated", "2010s", "pop"],
         tabs: `
 Am - Dm - F - G
 `,
@@ -3301,7 +3301,7 @@ Tell the driver make the radio play, and I'm singing like
     {
         artist: "Elton John",
         title: "Your Song",
-        tags: ["70s", "ballad", "piano"],
+        tags: ["not validated", "70s", "ballad", "piano"],
         tabs: `
 VERSE 1: D - G - A - F#m - Bm - Bm/A - Bm/Ab  - G 
 VERSE 2 : D - A - F# - Bm - D - Em7 - G - (A / D)
@@ -3344,7 +3344,7 @@ How wonderful life is while you're in the world [D]
     {
         artist: "Elvis Presley",
         title: "Can’t Help Falling in Love",
-        tags: ["60s", "ballad", "rock and roll"],
+        tags: ["not validated", "60s", "ballad", "rock and roll"],
         tabs: `
 Verse: C - Em - Am // F - C - G // F - G - Am - F - C - G - C
 Chorus: Em - B7 x3 // Em - A7 - Dm - G
@@ -3378,7 +3378,7 @@ For I can't help falling in love with you
     {
         artist: "Elvis Presley",
         title: "Hound Dog",
-        tags: ["50s", "rock and roll"],
+        tags: ["not validated", "50s", "rock and roll"],
         tabs: `
 C - F - C - G - F - C
 `,
@@ -3403,7 +3403,7 @@ VERSE
     {
         artist: "Etienne Daho",
         title: "Comme un boomerang",
-        tags: ["french", "pop", "80s"],
+        tags: ["not validated", "french", "pop", "80s"],
         tabs: `
 Am - C - D - F - Am - E7 - Am
 `,
@@ -3468,7 +3468,7 @@ C'est à toi que je le devrais
     {
         artist: "Eurythmics",
         title: "Sweet Dreams (Are Made of This)",
-        tags: ["80s", "new wave", "synth-pop"],
+        tags: ["not validated", "80s", "new wave", "synth-pop"],
         tabs: `
 Verse: Cm - Ab - G
 Bridge 1: Cm - F
@@ -3501,7 +3501,7 @@ Keep your head up, movin' on</i>
     {
         artist: "Evanescence",
         title: "Bring Me to Life",
-        tags: ["2000s", "rock", "nu metal"],
+        tags: ["not validated", "2000s", "rock", "nu metal"],
         tabs: `
 Verse: Em - C - Am - D
 Chorus: Em - G - D - Am 
@@ -3561,7 +3561,7 @@ Bring me to life</b>
     {
         artist: "Evanescence",
         title: "Going Under",
-        tags: ["2000s", "rock", "metal"],
+        tags: ["not validated", "2000s", "rock", "metal"],
         tabs: `
 Verse: Bm
 Prechorus: G - A - Em 
@@ -3607,7 +3607,7 @@ going under</i>
     {
         artist: "Traditional",
         title: "Auld Lang Syne",
-        tags: ["folk", "traditional", "holiday"],
+        tags: ["not validated", "folk", "traditional", "holiday"],
         tabs: `
 F - C - F - Bb 
 F - C - A -> Dm - C - F
@@ -3627,7 +3627,7 @@ For auld lang syne</b>
     {
         artist: "Traditional",
         title: "Bella Ciao",
-        tags: ["italian", "folk", "traditional"],
+        tags: ["not validated", "italian", "folk", "traditional"],
         tabs: `
 Am - Am - Am - Dm - Am - E - Am
 `,
@@ -3672,7 +3672,7 @@ Morto per la liberta.</b>
     {
         artist: "Traditional",
         title: "Bij Bolszewika!",
-        tags: ["polish", "folk", "historical"],
+        tags: ["not validated", "polish", "folk", "historical"],
         tabs: `
 Am - E - Am / Dm - Am - E - Am
 `,
@@ -3721,7 +3721,7 @@ bo to jest twój największy dzisiaj wróg.</b>
     {
         artist: "Fool's Garden",
         title: "Lemon Tree",
-        tags: ["90s", "pop"],
+        tags: ["not validated", "90s", "pop"],
         tabs: `
 VERSE: Am - Em x3 - Dm - Em x2 - Am - Em - Am
 CHORUS: C - G - Am - Em - F - G - C - G
@@ -3782,7 +3782,7 @@ Is just a yellow lemon tree</b>
     {
         artist: "Gala",
         title: "Freed From Desire",
-        tags: ["90s", "dance", "pop"],
+        tags: ["not validated", "90s", "dance", "pop"],
         tabs: `
 Dm - F - Bb - C
 `,
@@ -3819,7 +3819,7 @@ Verse 1 (Dm only)
     {
         artist: "George Harrison",
         title: "Got My Mind Set On You",
-        tags: ["80s", "rock", "pop"],
+        tags: ["not validated", "80s", "rock", "pop"],
         tabs: `
 Verse:  C#m - G# - C#m -- E - B - E
 Chorus: E - A - B
@@ -3854,7 +3854,8 @@ I got my mind set on you
         tags: ["2000s", "japan 2022", "max"],
         tabs: `
 Verse:  E - B - C#m - G# - A - E - B
-Chorus: (A - B - E)x3 - C#m
+Chorus: (A - B - E)x3 - C#m - C // A - B - E
+Bridge: E - B - C#m - B x2
 `,
         lyrics: `
 Do you have the time
@@ -4116,6 +4117,1794 @@ You can't go forcing something if it's just not right
 
 <b>CHORUS 
 When I come around x4</b>
+`,
+    },
+    {
+        artist: "Guns ‘N’ Roses",
+        title: "Don’t Cry",
+        tags: ["not validated", "rock", "ballad"],
+        tabs: `
+VERSE: Am - Dm - G - C
+CHORUS: F - G - Am (x2) F - G - C - Am - G // F - G - Am 
+ENDING: F - G (E)  
+`,
+        lyrics: `
+Talk to me softly
+There's something in your eyes
+Don't hang your head in sorrow
+And please don't cry
+I know how you feel inside I've
+I've been there before
+Somethin's changin' inside you
+And don't you know
+
+<b>Don't you cry tonight
+I still love you, baby
+Don't you cry tonight
+Don't you cry tonight
+There's a heaven above you, baby
+And don't you cry tonight</b>
+
+Give me a whisper
+And give me a sigh
+Give me a kiss before you
+Tell me goodbye
+Don't you take it so hard now
+And please don't take it so bad
+I'll still be thinkin' of you
+And the times we had, baby
+
+<b>CHORUS</b>
+
+<i>And please remember
+That I never lied
+Oh and please remember
+How I felt inside now, honey
+You gotta make it your own way
+But you'll be alright now, sugar
+You'll feel better tomorrow
+Come the morning light now, baby</i>
+
+<b>And don't you cry tonight
+And don't you cry tonight
+And don't you cry tonight
+There's a heaven above you, baby
+
+And don't you cry
+Don't you ever cry, cry, cry
+Don't you cry tonight
+Baby, maybe someday
+Don't you cry
+Don't you ever cry, cry cry
+Don't you cry
+Tonight (C)</b>
+`,
+    },
+    {
+        artist: "Guns ‘N’ Roses",
+        title: "I Used to Love Her",
+        tags: ["not validated", "rock"],
+        tabs: `
+VERSE: D - A - G - A
+CHORUS: G - A - G - A - D 
+`,
+        lyrics: `
+<b>I used to love her 
+but I had to kill her
+I used to love her, oh yeah 
+but I had to kill her
+I had to put her 
+six feet under
+And I can still hear her complain</b>
+
+<b>I used to love her, oh yeah 
+but I had to kill her
+I used to love her, ooh yeah 
+but I had to kill her
+I knew I'll miss her 
+so I had to keep her
+She's buried right in my back yard</b>
+
+<b>I used to love her
+but I had to kill her
+I used to love her, ooh yeah 
+but I had to kill her
+She bitched so much
+she drove me nuts
+And now I'm happier this way</b>
+
+<b>I used to love her 
+but I had to kill her
+I used to love her, oh yeah 
+but I had to kill her
+I had to put her 
+six feet under
+And I can still hear her complain</b>
+`,
+    },
+    {
+        artist: "Guns ‘N’ Roses",
+        title: "Nice Boys",
+        tags: ["not validated", "rock"],
+        tabs: `
+VERSE: B - A - E // D - E (up)
+CHORUS: B - A
+`,
+        lyrics: `
+She hit town like a rose in bloom
+Smellin' sweet, said sweet perfume
+The color faded and the petals died
+Down in the city, no one cried
+In the streets, the garbage lies
+Protected by a million flies
+The roaches so big you know that they got bones
+They moved in and made a tenement home
+
+<b>I said nice boys don't play rock and roll
+Nice boys don't play rock and roll
+I'm not a nice boy</b>
+
+Sweet sixteen she was fresh and clean
+Wanted so bad to be part of the scene
+She met the man and she did the smack
+Paid the price layin' flat on her back
+Wanted so bad just to please the boys
+They ended up just being a toy
+Played so hard burned her life away
+Lies were told no promises made
+
+<b>You know nice boys don't play rock and roll
+Nice boys don't play rock and roll
+I'm not a nice boy and I never was</b>
+
+Young and fresh when she hit town
+Hot for kicks just to get around
+But now she lays in a filthy room
+She kills the pain with a flick and a spoon
+And in the streets the garbage lies
+Protected by a million flies
+You know the roaches so big
+You know that they got bones
+Moved in and made a tenement home
+
+<b>Nice boys don't play rock and roll x20</b>
+`,
+    },
+    {
+        artist: "Guns ‘N’ Roses",
+        title: "One in a Million",
+        tags: ["not validated", "rock"],
+        tabs: `
+INTRO: E -> E (12th) - D - D/C# x2 // C
+VERSE: A - C - G - F
+CHORUS: C - G - D - A // E - D - A
+`,
+        lyrics: `
+Guess I needed some time to get away
+I needed some peace of mind
+Some peace of mind that'll stay
+So I thumbed it down to sixth in L.A.
+Maybe a Greyhound could be my way
+Police and niggers, that's right
+Get outta my way
+Don't need to buy none of your
+Gold chains today
+Now don't need no bracelets
+Clamped in front of my back
+Just need my ticket, 'til then
+Won't you cut me some slack
+
+<b>You're one in a million
+Yeah that's what you are
+You're one in a million babe
+You're a shooting star
+Maybe some day we'll see you
+Before you make us cry
+You know we tried to reach you
+But you were much to high
+Much too high
+Much too high
+Much too high</b>
+
+Immigrants and faggots
+They make no sense to me
+They come to our country
+And think they'll do as they please
+Like start some mini-Iran
+Or spread some fucking disease
+And they talk so many goddamn ways
+It's all Greek to me
+Well some say I'm lazy
+And others say that's just me
+Some say I'm crazy
+I guess I'll always be
+But it's been such a long time
+Since I knew right from wrong
+It's all the means to and end and
+I keep it moving along
+Hey, hey, hey, yeah
+
+<b>CHORUS</b>
+
+Radicals and racists
+Don't point your finger at me
+I'm a small town white boy
+Just tryin' to make ends meet
+Don't need your religion
+Don't watch that much TV
+Just makin' my livin' baby
+Well that's enough for me
+
+<b>CHORUS</b>
+`,
+    },
+    {
+        artist: "Guns ‘N’ Roses",
+        title: "Patience",
+        tags: ["not validated", "rock", "acoustic"],
+        tabs: `
+VERSE: C - G - A - D
+CHORUS: C - G - C - Em - C - G - D
+BRIDGE: D - G
+`,
+        lyrics: `
+Shed a tear 'cause I'm missin' you
+I'm still alright to smile
+Girl, I think about you every day now
+Was a time when I wasn't sure
+But you set my mind at ease
+There is no doubt you're in my heart now
+
+<b>Said "woman take it slow, and it'll work itself out fine"
+All we need is just a little patience
+Said "sugar make it slow and we'll come together fine"
+All we need is just a little patience (Patience)</b>
+
+I sit here on the stairs
+'Cause I'd rather be alone
+If I can't have you right now, I'll wait dear
+Sometimes I get so tense but I can't speed up the time
+But you know love there's one more thing to consider
+
+<b>Said "woman take it slow and things will be just fine"
+You and I'll just use a little patience
+Said "sugar take the time 'cause the lights are shining bright"
+You and I've got what it takes to make it
+We won't fake it, I'll never break it
+'Cause I can't take it</b>
+
+<i>Just a little patience… yeah yeah…</i>
+
+I've been walking the streets at night
+Just trying to get it right
+It's hard to see with so many around
+You know I don't like being stuck in the crowd
+And the streets don't change but maybe the names
+I ain't got time for the game 'cause I need you 
+Yeah, yeah, yeah but I need you 
+Oh, I need you x2 (F)
+Ooh this time 
+`,
+    },
+    {
+        artist: "Guns ‘N’ Roses",
+        title: "Sweet Child O’ Mine",
+        tags: ["not validated", "rock", "80s"],
+        tabs: `
+VERSE: D - C - G - D 
+CHORUS: A - C - D
+OUTRO: Em - G - A - C - D
+`,
+        lyrics: `
+She's got a smile that it seems to me
+Reminds me of childhood memories
+Where everything was as fresh as the bright blue sky
+Now and then when I see her face
+She takes me away to that special place
+And if I stare too long, I'd probably break down and cry
+
+<b>Whoa, oh, oh
+Sweet child o' mine
+Whoa, oh, oh, oh
+Sweet love of mine</b>
+
+She's got eyes of the bluest skies
+As if they thought of rain
+I'd hate to look into those eyes and see an ounce of pain
+Her hair reminds me of a warm safe place
+Where as a child I'd hide
+And pray for the thunder and the rain to quietly pass me by
+
+<b>CHORUS x2</b>
+
+Where do we go?
+Where do we go now?
+`,
+    },
+    {
+        artist: "Guns ‘N’ Roses",
+        title: "Rocket Queen",
+        tags: ["not validated", "rock"],
+        tabs: `
+VERSE: F#m - A - E - F# // B - C# - E
+CHORUS: F#m - E - A - B - E - F#
+BRIDGE: E - B - C#m // E - A - B
+`,
+        lyrics: `
+If I say I don't need anyone
+I can say these things to you
+'Cause I can turn on anyone, just like I've turned on you
+I've got a tongue like a razor
+A sweet switchblade knife
+And I can do you favors but then you'll do whatever I like
+
+<b>Here I am
+And you're a rocket queen
+I might be a little young but honey I ain't naive
+Here I am and you're a rocket queen, oh yeah
+I might be too much
+But honey you're a bit obscene</b>
+
+I've seen everything imaginable
+Pass before these eyes
+I've had everything that's tangible
+Honey you'd be surprised
+I'm a sexual innuendo
+In this burned out paradise
+If you turn me on to anything
+You better turn me on tonight
+
+<b>CHORUS x2</b>
+
+I see you standin'
+Standin' on your own
+It's such a lonely place for you
+For you to be
+If you need a shoulder
+Or if you need a friend
+I'll be here standing
+Until the bitter end
+No one needs the sorrow
+No one needs the pain
+I hate to see you
+Walking out there
+Out in the rain
+So don't chastise me
+Or think I, I mean you harm
+Of those that take you leave you strung out
+Much too far Baby yeah
+Oh oh oh oh
+No no no no no no no
+Oh oh no no no baby
+Oh oh no no no baby yeah
+Don't ever leave me
+Say you'll always be there
+All I ever wanted
+Was for you
+To know that I care
+`,
+    },
+    {
+        artist: "Guns ‘N’ Roses",
+        title: "You’re Crazy",
+        tags: ["not validated", "rock"],
+        tabs: `
+VERSE: A - D - A - E
+CHORUS: D // E -> D / G -> A
+BRIDGE: A 
+`,
+        lyrics: `
+I've been lookin' for a trace
+Lookin' for a heart
+Lookin' for a lover in a world
+That's much too dark
+
+You don't want my love
+You want satisfaction oh yeah
+You don't need my love
+You got to find yourself another
+Piece of the action, yeah
+
+<i>Said where you going
+What you going to do
+I've been looking everywhere
+I've been looking for you</i>
+
+<b>Because you're crazy hey hey
+You're fucking crazy oh my
+You know you're crazy oh child
+I said you're crazy ay, ay, yeah</b>
+
+Say, boy, where you coming from
+Where would you get that point of view
+When I was younger said I knew someone like you and they said
+
+<b>CHORUS</b>
+`,
+    },
+    {
+        artist: "Grease",
+        title: "The One that I Want",
+        tags: ["not validated", "soundtrack", "musical"],
+        tabs: `
+VERSE : Dm - Dm -  Bb - F - A - Dm / (F - C - Dm - Bb)x2
+CHORUS: (F- Bb - F - C - Bb)x3 - C 
+`,
+        lyrics: `
+I got chills, they're multiplying
+And I'm losing control
+'Cause the power, you're supplying
+It's electrifying!
+
+<i>You better shape up, 'cause I need a girl
+And my heart is set on you
+You better shape up, you better understand
+To my heart I must be true
+Nothing left, nothing left for me to do</i>
+
+<b>You're the one that I want
+you are the one for
+Oo,Oo,Oo honey
+x3
+the one I need, Oh yes indeed</b>
+
+If you're filled with affection
+You're too shy to convey
+Meditate my direction
+Feel your way
+
+<i>I better shape up, 'cause you need a man
+who can keep you satisfied
+I better shape up, if I'm gonna prove
+that my faith is justified
+Are you sure? Yes I'm sure down deep inside</i>
+
+<b>CHORUS</b>
+`,
+    },
+    {
+        artist: "Hoobastank",
+        title: "The Reason",
+        tags: ["not validated", "2000s", "rock"],
+        tabs: `
+VERSE: G - Em x2 C - Am - D 
+CHORUS: G - Em - C - D - G (F - G)
+`,
+        lyrics: `
+I'm not a perfect person
+There's many things I wish I didn't do
+But I continue learning
+I never meant to do those things to you
+And so, I have to say before I go
+That I just want you to know
+
+<b>I've found a reason for me
+To change who I used to be
+A reason to start over new
+And the reason is you</b>
+
+I'm sorry that I hurt you
+It's something I must live with everyday
+And all the pain I put you through
+I wish that I could take it all away
+And be the one who catches all your tears
+That's why I need you to hear
+I've found a reason for me
+To change who I used to be
+A reason to start over new
+And the reason is you x4
+
+I'm not a perfect person
+I never meant to do those things to you
+And so I have to say before I go
+
+<b>CHORUS</b>
+`,
+    },
+    {
+        artist: "Irene Care (Flashdance)",
+        title: "What A Feeling",
+        tags: ["not validated", "80s", "soundtrack"],
+        tabs: `
+VERSE : A - E - Bm - F#m - D - A - G - E
+CHORUS : (F#m - E - D - E) x2 --  A - Bm - A - D - E
+`,
+        lyrics: `
+First when there's nothing
+But a slow glowing dream
+That your fear seems to hide
+Deep inside your mind
+
+All alone I have cried
+Silent tears full of pride
+In a world made of steel
+Made of stone
+
+Well, I hear the music
+Close my eyes, feel the rhythm
+Wrap around
+Take a hold of my heart
+
+<b>What a feeling
+Bein's believin'
+I can have it all
+Now I'm dancing for my life
+Take your passion
+And make it happen
+Pictures come alive
+You can dance right through your life</b>
+
+Now I hear the music
+Close my eyes, I am rhythm
+In a flash
+It takes hold of my heart
+
+<b>What a feeling 
+(I am music now)
+Bein's believin'
+(I am rhythm now)
+Pictures come alive
+You can dance right through your life
+
+What a feeling
+(I can really have it all)
+What a feeling
+(Pictures come alive when I call)
+I can have it all
+(I can really have it all)
+Have it all
+(Call, call, call, call)
+I can have it all</b>
+`,
+    },
+    {
+        artist: "Indochine",
+        title: "3 nuits par semaine",
+        tags: ["not validated", "french", "80s"],
+        tabs: `
+VERSE: Dm - F - Am - G 
+PRECHORUS: Am - F - C
+CHORUS: Ab - Eb - Bb - F
+`,
+        lyrics: `
+C'est dans la nuit de Rebecca 
+que la légende partira 
+et aujourd'hui pour une troisième fois 
+elle décidait de sa première fois 
+
+C'est avec lui qu'elle le voulait 
+qu'elle désirait à ce qu'il l'aimait
+et puis avec cet homme qui rit 
+celui pour qui elle a choisi 
+
+Dans la chambre au pied du fleuve 
+la ville endormie les laisse seuls 
+et sous la chaleur et sans un bruit 
+ils rattraperont toute la nuit "la nuit"
+
+<b>Mais 3 nuits par semaine 
+c'est sa peau contre ma peau 
+et je suis avec elle 
+et 3 nuits par semaine mais bon dieu, qu'elle est belle 
+mais 3 nuits par semaine 
+c'est son corps contre mon corps 
+c'est nos corps qui s'enchaînent 
+mais 3 nuits par semaine mais bon dieu qu'elle est belle</b>
+
+A bout de souffle comme une sirène 
+elle voit son corps qui se réveille 
+elle arrachait tous ses vêtements 
+par quelques gestes élégants 
+
+Il posa ses mains sur elle a rougi 
+il a tout voulu et on l'a puni 
+elle caressa en douceur 
+comme pour oublier sa douleur 
+
+Et il l'a prise dans ses bras 
+car elle avait un peu froid 
+à cet instant et à chaque fois 
+elle voudra le revoir au moins 3 nuits, 3 nuits, 3 nuits
+
+<b>CHORUS</b>
+
+C'est dans la nuit de Rebecca 
+que la légende partira 
+à cet instant et à chaque fois 
+elle voudra le revoir au moins 3 nuits 
+à cet instant et à chaque fois 
+ils se donnèrent rendez-vous 3 nuits "3 nuits"
+
+<b>CHORUS</b>
+`,
+    },
+    {
+        artist: "Indochine",
+        title: "J’ai demandé à la lune",
+        tags: ["not validated", "french", "2000s"],
+        tabs: `
+D–7-7-9-9-4-4-4-4
+A–-7-7-7-7-4-4-4-4
+VERSE: A - E (up) - F#m x2 // Bm - F#m - C#m - E
+BRIDGE: Dm - Am x2 // C - G x2
+`,
+        lyrics: `
+<b>j'ai demandé à la lune
+Et le soleil ne le sait pas
+Je lui ai montré mes brûlures
+Et la lune s'est moquée de moi</b>
+
+Et comme le ciel n'avait pas fière allure
+Et que je ne guérissais pas
+Je me suis dit "quelle infortune"
+Et la lune s'est moquée de moi
+
+<b>J'ai demandé à la lune
+Si tu voulais encore de moi
+Elle m'a dit "j'ai pas l'habitude"
+"De m'occuper des cas comme ça"</b>
+
+Et toi et moi
+On était tellement sûrs
+Et on se disait quelquefois
+Que c'était juste une aventure
+Et que ça ne durerait pas
+Intro
+
+Je n'ai pas grand chose à te dire
+Et pas grand chose pour te faire rire
+Car j'imagine toujours le pire
+Et le meilleur me fait souffrir
+
+<b>J'ai demandé à la lune
+Si tu voulais encore de moi
+Elle m'a dit "j'ai pas l'habitude"
+"De m'occuper des cas comme ça"</b>
+
+Et toi et moi
+On était tellement sûrs
+Et on se disait quelquefois
+Que c'était juste une aventure
+Et que ça ne durerait pas
+`,
+    },
+    {
+        artist: "Indochine",
+        title: "L’aventurier",
+        tags: ["not validated", "french", "80s"],
+        tabs: `
+VERSE: G#m - E (up) - B - C#
+BRIDGE: Dm - Am - C - G
+`,
+        lyrics: `
+Égaré dans la vallée infernale
+Le héros s'appelle Bob Morane
+À la recherche de l'Ombre Jaune
+Le bandit s'appelle mister Kali Jones
+Avec l'ami Bill Ballantine
+Sauvé de justesse des crocodiles
+Stop au trafic des Caraïbes
+Escale dans l'opération Nadawieb
+
+Le cœur tendre dans le lit de Miss Clark
+Prisonnière du Sultan de Jarawak
+En pleine terreur à Manicouagan
+Isolé dans la jungle birmane
+Emprisonnant les flibustiers
+L'ennemi y est démasqué
+On a volé le collier de Civa
+Le Maharadjah en répondra
+
+<b>Et soudain surgit face au vent
+Le vrai héros de tous les temps
+Bob Morane contre tout chacal
+L'aventurier contre tout guerrier
+Bob Morane contre tout chacal
+L'aventurier contre tout guerrier</b>
+
+(half-step up - start from Am)
+Dérivant à bord du Sampang
+L'aventure au parfum d'Ylalang
+Son surnom, Samouraï du Soleil
+En démantelant le gang de l'Archipel
+L'otage des guerriers du Doc Xhatan
+Il s'en sortira toujours à temps
+Tel L'aventurier solitaire
+Bob Morane est le roi de la terre
+
+<b>Chorus</b>
+`,
+    },
+    {
+        artist: "Israel Kamakawiwoʻole",
+        title: "Over The Rainbow",
+        tags: ["not validated", "acoustic", "ukulele"],
+        tabs: `
+CHORUS : G - Bm - C - G // C - G - D - Em - C
+VERSE: G - Bm - Em - C
+`,
+        lyrics: `
+<b>Somewhere over the rainbow
+Way up high
+And the dreams that you dream of
+Once in a lullaby, oh
+
+Somewhere over the rainbow
+Bluebirds fly
+And the dreams that you dream of
+Dreams really do come true-ooh-ooh</b>
+
+Someday I'll wish upon a star
+Wake up where the clouds are far behind me
+Where trouble melts like lemon drops
+High above the chimney tops that's where
+You'll find me, oh
+Somewhere over the rainbow
+Bluebirds fly
+And the dream that you dare to
+Oh why, oh why can't I? I
+
+<b>VERSE
+
+CHORUS</b>
+`,
+    },
+    {
+        artist: "Jack White",
+        title: "Love Interruption",
+        tags: ["not validated", "rock", "acoustic"],
+        tabs: `
+VERSE : E - G - A - E
+CHORUS : E  - G - D - A
+`,
+        lyrics: `
+I want love to: roll me over slowly,
+Stick a knife inside me, and twist it all around.
+I want love to: grab my fingers gently,
+Slam them in a doorway, Put my face into the ground.
+I want love to: murder my own mother,
+Take her off to somewhere, like hell, or up above.
+And I want love to: change my friends to enemies,
+Change my friends to enemies, and show me how it's all my fault.
+
+<b>And I won't let love disrupt, corrupt or interrupt me
+I won't let love disrupt, corrupt or interrupt me
+Yeah I won't let love disrupt, corrupt or interrupt me, anymore.</b>
+
+I want love to: walk right up and bite me,
+Grab a hold of me and fight me, leave me dying on the ground.
+I want love to: split my mouth wide open,
+And cover up my ears and never let me hear a sound
+I want love to: forget that you offended me,
+Or how you have defended me when everybody tore me down
+Yeah and I want love to: change my friends to enemies,
+Change my friends to enemies, and show me how it's all my fault.
+
+<b>Yeah I won't let love disrupt, corrupt or interrupt me
+I won't let love disrupt, corrupt or interrupt me
+Yeah I won't let love disrupt, corrupt or interrupt me, anymore.</b>
+`,
+    },
+    {
+        artist: "Jason Mraz",
+        title: "I’m Yours",
+        tags: ["not validated", "pop", "acoustic"],
+        tabs: `
+A - E - F#m - D
+`,
+        lyrics: `
+Well, you done done me and you bet I felt it
+I tried to be chill, but you're so hot that I melted
+I fell right through the cracks
+Now I'm trying to get back
+
+Before the cool done run out
+I'll be giving it my bestest
+And nothing's gonna stop me but divine intervention.
+I reckon, it's again my turn
+To win some or learn some.
+
+<b>But I won't hesitate
+No more, no more.
+It cannot wait,
+I'm yours</b>
+
+Well, open up your mind and see like me,
+Open up your plans and damn you're free.
+Look into your heart and you'll find love, love, love, love.
+Listen to the music of the moment, people dance and sing, we're just one big family
+And it's our God-forsaken right to be loved, loved, loved, loved, loved [B7]
+
+<b>So I won't hesitate
+No more, no more.
+It cannot wait,
+I'm sure
+There's no need to complicate.
+Our time is short.
+This is our fate,
+I'm yours</b>
+
+I've been spending way too long checking my tongue in the mirror
+And bending over backwards just to try to see it clearer
+But my breath fogged up the glass
+And so I drew a new face and I laughed.
+
+I guess what I'll be saying is there ain't no better reason
+To rid yourself of vanities and just go with the seasons.
+It's what we aim to do.
+Our name is our virtue.
+
+<b>But I won't hesitate
+No more, no more.
+It cannot wait,
+I'm yours
+But I won't hesitate
+No more, no more
+It cannot wait,
+I'm yours</b>
+`,
+    },
+    {
+        artist: "Jeff Buckley",
+        title: "Hallelujah",
+        tags: ["not validated", "ballad", "slow"],
+        tabs: `
+C - Am x2 - F - G - C - G // C - F - G - Am - F - G - Em - Am 
+F - Am x2 C- G - C
+`,
+        lyrics: `
+I heard there was a secret chord
+That David played and it pleased the Lord
+But you don't really care for music, do you?
+Well it goes like this the fourth, the fifth
+The minor fall and the major lift
+The baffled king composing 
+Hallelujah
+
+<b>Hallelujah, Hallelujah
+Hallelujah, Hallelujah</b>
+
+Your faith was strong but you needed proof
+You saw her bathing on the roof
+Her beauty and the moonlight overthrew you
+She tied you to her kitchen chair
+She broke your throne and she cut your hair
+And from your lips, she drew the Hallelujah
+
+<b>Hallelujah, Hallelujah
+Hallelujah, Hallelujah</b>
+
+Maybe there's a God above
+But, all I've ever learned from love
+Was how to shoot somebody who outdrew you?
+And it's not a cry, that you hear at night
+It's not somebody, who's seen the light
+It's a cold and it's a broken 
+Hallelujah
+
+<b>Hallelujah, Hallelujah
+Hallelujah, Hallelujah</b>
+`,
+    },
+    {
+        artist: "Jefferson Airplane",
+        title: "Somebody to Love",
+        tags: ["60s", "rock", "psychedelic", "max"],
+        tabs: `
+VERSE : Am - D - G
+CHORUS : C - G - Am - D // C - D - A
+`,
+        lyrics: `
+When the truth is found
+To be lies
+And all the joy
+Within you dies
+
+<b>Don't you want somebody to love?
+Don't you need somebody to love?
+Wouldn't you love somebody to love?
+You better find somebody to love</b>
+
+When the garden flowers
+Baby, are dead, yes
+And your mind, your mind
+Is so full of red
+
+<b>CHORUS</b>
+
+Your eyes, I say your eyes
+May look like his
+Yeah, but in your head, baby
+I'm afraid you don't know where it is
+
+<b>CHORUS</b>
+
+Tears are running
+They're all running down your dress
+And your friends, baby
+They treat you like a guest
+
+<b>CHORUS</b>
+`,
+    },
+    {
+        artist: "Jefferson Airplane",
+        title: "White Rabbit",
+        tags: ["not validated", "60s", "rock", "psychedelic"],
+        tabs: `
+VERSE : F# - G x2  // A - C - D - A
+BRIDGE: E - A x2 // F# - F#
+OUTRO: E - A x2
+`,
+        lyrics: `
+One pill makes you larger
+And one pill makes you small
+And the ones that mother gives you
+Don't do anything at all
+Go ask Alice
+When she's ten feet tall
+
+And if you go chasing rabbits
+And you know you're going to fall
+Tell 'em a hookah-smoking caterpillar
+Has given you the call
+Call Alice
+When she was just small
+
+<i>When the men on the chessboard
+Get up and tell you where to go
+And you've just had some kind of mushroom
+And your mind is moving low
+Go ask Alice
+I think she'll know</i>
+
+When logic and proportion
+Have fallen sloppy dead
+And the White Knight is talking backwards
+And the Red Queen's off with her head
+Remember what the dormouse said
+<b>Feed your head
+Feed your head</b>
+`,
+    },
+    {
+        artist: "Jesus Christ Superstar",
+        title: "Gethsemane",
+        tags: ["not validated", "musical", "soundtrack", "70s"],
+        tabs: `
+VERSE: Am - Dm - G - C - E - Am - F - Am (B - E // E - Am)
+CHORUS: Am - G - F - E 
+BRIDGE 1 and 2: Am - D // Bm - E 
+CHORUS2 : Bm - A - G - F# 
+VERSE2 : Bm - Em - A - D - F# - Bm - G - Bm (C# - F# // F# - Bm)
+`,
+        lyrics: `
+I only want to say
+If there is a way
+Take this cup away from me
+For I don't want to taste its poison
+Feel it burn me
+I have changed
+I'm not as sure, as when we started
+Then, I was inspired
+Now, I'm sad and tired
+Listen, surely I've exceeded expectations
+Tried for three years, seems like thirty
+Could you ask as much from any other man?
+
+But if I die
+See the saga through and do the things you ask of me,
+Let them hate me, hit me, hurt me, nail me to their tree
+<b>I'd want to know, I'd want to know, my God
+I'd want to know, I'd want to know, my God
+Want to see, I'd want to see, my God
+Want to see, I'd want to see, my God</b>
+
+Why I should die
+Would I be more noticed than I ever was before?
+Would the things I've said and done matter any more?
+<b>I'd want to know, I'd want to know, my God
+I'd want to know, I'd want to know, my God
+Want to see, I'd want to see, my God
+Want to see, I'd want to see, my God</b>
+
+<i>If I die what will be my reward?
+If I die what will be my reward?
+Have to know, I'd have to know, my Lord
+I'd have to know, I'd have to know, my Lord</i>
+
+Why should I die? Oh why should I die?
+Can you show me now that I would not be killed in vain?
+Show me just a little of your omnipresent brain
+Show me there's a reason for your wanting me to die
+You're far to keen and where and how, but not so hot on why
+Alright, I'll die!
+Just watch me die!
+See how I die!
+Just watch me die!
+
+Then I was inspired
+Now, I'm sad and tired
+After all, I've tried for three years, seems like ninety
+Why then am I scared to finish what I started
+What you started, I didn't start it
+God, thy will is hard
+But you hold every card
+I will drink your cup of poison
+Nail me to your cross and break me
+Bleed me, beat me
+Kill me
+Take me, now!
+Before I change my mind
+`,
+    },
+    {
+        artist: "Joe Dassin",
+        title: "Les Champs-Élysées",
+        tags: ["not validated", "french", "60s"],
+        tabs: `
+VERSE: C - E7 - Am - C7 - F - C (D7 - G7 // F - G7 - C)
+CHORUS: C - E7 - Am - C7 // F - C - D7 - G // C - E7 - Am - C7 // F - C - F - G - C
+`,
+        lyrics: `
+Je m'baladais sur l'avenue
+Le coeur ouvert à l'inconnu
+J'avais envie de dire bonjour à n'importe qui
+N'importe qui et ce fut toi
+Je t'ai dit n'importe quoi
+Il suffisait de te parler
+Pour t'apprivoiser
+
+<b>Aux champs-elysées x2
+Au soleil, sous la pluie, à midi ou à minuit
+Il y a tout ce que vous voulez
+Aux champs-elysées</b>
+
+Tu m'as dit "j'ai rendez-vous
+Dans un sous-sol avec des fous
+Qui vivent la guitare à la main
+Du soir au matin"
+Alors je t'ai accompagnée
+On a chanté, on a dansé
+Et l'on n'a même pas pensé
+À s'embrasser
+
+<b>CHORUS x 3</b>
+`,
+    },
+    {
+        artist: "John Denver",
+        title: "Country Roads",
+        tags: ["not validated", "country", "folk", "70s"],
+        tabs: `
+VERSE: A - F#m - E - D 
+CHORUS: A  - E - [F#m - D // D - A]
+BRIDGE: F#m - E - A - D - A - E - F#m - G - D - A - E - E7
+`,
+        lyrics: `
+Almost heaven, West Virginia, Blue Ridge Mountains, Shenandoah River.
+Life is old there, older than the trees, younger than the mountains, blowing like a breeze.
+
+<b>Country roads, take me home to the place I belong.
+West Virginia, mountain mamma, take me home, country roads.</b>
+
+All my memories gather round her, 
+miner's lady, stranger to blue water.
+Dark and dusty, painted on the sky, 
+misty taste of moonshine, teardrop in my eye.
+
+<b>CHORUS</b>
+
+<i>I hear her voice in the morning hour, she calls me, the radio reminds me of my home far away.
+And driving down the road I get a feeling that I should have been home yesterday, yesterday.</i>
+
+<b>CHORUS</b>
+`,
+    },
+    {
+        artist: "Johnny Cash",
+        title: "Hurt",
+        tags: ["not validated", "country", "acoustic", "cover"],
+        tabs: `
+VERSE: Am - C - D (G)
+CHORUS: Am - F - C - G  (G - Am)
+`,
+        lyrics: `
+I hurt myself today 
+To see if I still feel 
+I focus on the pain 
+The only thing that's real 
+The needle tears a hole
+The old familiar sting 
+Try to kill it all away 
+But I remember everything 
+
+<b>What have I become 
+My sweetest friend 
+Everyone I know goes away 
+In the end 
+And you could have it all 
+My empire of dirt 
+I will let you down 
+I will make you hurt</b>
+
+I wear this crown of thorns 
+Upon my liar's chair 
+Full of broken thoughts 
+I cannot repair 
+Beneath the stains of time 
+The feelings disappear 
+You are someone else 
+I am still right here 
+
+<b>CHORUS</b>
+
+If I could start again 
+A million miles away 
+I would keep myself 
+I would find a way
+`,
+    },
+    {
+        artist: "Johnny Cash",
+        title: "You are my Sunshine",
+        tags: ["not validated", "country", "folk"],
+        tabs: `
+A - D - A - D - A - E  - A
+`,
+        lyrics: `
+The other night dear, as I lay sleeping
+I dreamed I held you in my arms
+But when I awoke, dear, I was mistaken
+So I hung my head and I cried.
+
+<b>You are my sunshine, my only sunshine
+You make me happy when skies are gray
+You'll never know dear, how much I love you
+Please don't take my sunshine away</b>
+
+I'll always love you and make you happy,
+If you will only say the same.
+But if you leave me and love another,
+You'll regret it all some day
+
+<b>CHORUS</b>
+
+You told me once, dear, you really loved me
+And no one else could come between.
+But now you've left me and love another
+You have shattered all of my dreams
+
+<b>You were my sunshine, my only sunshine
+You made me happy when skies were gray
+You'll never know dear, how much I loved you
+Now my sunshine’s gone away (x2)</b>
+`,
+    },
+    {
+        artist: "Johnny Cash",
+        title: "Ring of Fire",
+        tags: ["not validated", "country", "60s"],
+        tabs: `
+VERSE: G - G - C - G - C x3 // G - G - D7 - G - D7
+CHORUS: D - C - G x2 G - C - G - D7 - G
+`,
+        lyrics: `
+Love is a burning thing
+And it makes a fiery ring
+Bound by wild desire
+I fell into a ring of fire
+
+<b>I fell into a burning ring of fire
+I went down, down, down
+And the flames went higher
+And it burns, burns, burns
+The ring of fire, the ring of fire</b>
+
+The taste of love is sweet
+When hearts like ours meet
+I fell for you like a child
+Oh, but the fire went wild
+
+<b>CHORUS</b>
+`,
+    },
+    {
+        artist: "Johnny Nash",
+        title: "I Can See Clearly Now",
+        tags: ["not validated", "reggae", "70s", "pop"],
+        tabs: `
+VERSE: D - G - D (A)
+CHORUS: C - G - D
+BRIDGE: F - C - F - A7 - C#m - G
+`,
+        lyrics: `
+I can see clearly now the rain is gone
+I can see all obstacles in my way
+Gone are the dark clouds that had me blind
+
+<b>It's gonna be a bright, bright, 
+sunshiny day
+It's gonna be a bright, bright, 
+sunshiny day</b>
+
+Oh, yes I can make it now the pain is gone
+All of the bad feelings have disappeared
+Here is that rainbow I've been praying for
+
+<b>CHORUS</b>
+
+<i>Look all around, there's nothing but blue skies
+Look straight ahead, there's nothing but blue skies</i>
+
+<b>VERSE 1
+CHORUS x2</b>
+`,
+    },
+    {
+        artist: "Katy Perry",
+        title: "I Kissed a Girl",
+        tags: ["not validated", "pop", "2000s"],
+        tabs: `
+Am - C - Dm -  F - F/E
+`,
+        lyrics: `
+This was never the way I planned
+Not my intention
+I got so brave, drink in hand
+Lost my discretion
+It's not what I'm used to
+Just wanna try you on
+I'm curious for you
+Caught my attention
+
+<b>I kissed a girl and I liked it
+The taste of her cherry chap stick
+I kissed a girl just to try it
+Hope my boyfriend don't mind it
+It felt so wrong
+It felt so right
+Don't mean I'm in love tonight
+I kissed a girl and I liked it
+I liked it</b>
+
+No, I don't even know your name
+It doesn't matter
+You're my experimental game
+Just human nature
+It's not what, good girls do
+Not how they should behave
+My head gets so confused
+Hard to obey
+
+<b>Chorus</b>
+
+<i>Us girls we are so magical
+Soft skin, red lips, so kissable
+Hard to resist so touchable
+Too good to deny it</i>
+(Am                  Dm            E)
+<i>Ain't no big deal, it's innocent</i>
+
+<b>Chorus</b>
+`,
+    },
+    {
+        artist: "Kavinsky",
+        title: "Nightcall",
+        tags: ["not validated", "electro", "soundtrack", "2010s"],
+        tabs: `
+VERSE : Bm - A - G - E
+CHORUS: G -  A - F#m - G
+`,
+        lyrics: `
+I'm giving you a night call to tell you how I feel
+I want to drive you through the night, down the hills
+I'm gonna tell you something you don't want to hear
+I'm gonna show you where it's dark, but have no fear
+
+<b>There's something inside you
+It's hard to explain
+They're talking about you girl
+But you're still the same</b>
+`,
+    },
+    {
+        artist: "Kiss",
+        title: "Forever",
+        tags: ["not validated", "rock", "ballad", "80s"],
+        tabs: `
+VERSE : D - C - G - D - Em - D - C
+PRECHORUS: Am - G - C - D // G - D - C - D
+CHORUS: G - D // Em - C - Am - D // G - D // G - Am - G - C - D - C
+BRDIGE: Am - G - C - D
+`,
+        lyrics: `
+I gotta tell you what I'm feelin' inside
+I could lie to myself, but it's true
+There's no denying when I look in your eyes
+Girl I'm out of my head over you
+
+<i>I lived my life believin' all love is blind
+But everything about you is tellin' me this time</i>
+
+<b>It's forever
+This time I know and there's no doubt in my mind
+Forever
+Until my life is through, girl I'll be lovin' you forever</b>
+
+I hear the echo of a promise I made
+When you're strong you can stand on your own
+But those words grow distant as I look at your face
+No, I don't wanna go it alone
+<i>I never thought I'd lay my heart on the line
+But everything about you is tellin' me this time</i>
+
+<b>It's forever...
+
+Chorus</b>
+
+<i>I see my future when I look in your eyes
+It took your love to make my heart come alive
+Well, I lived my life believin' all love is blind
+But everything about you is tellin' me this time</i>
+
+<b>Chorus x2</b>
+`,
+    },
+    {
+        artist: "Kyo",
+        title: "Une dernière danse",
+        tags: ["not validated", "french", "rock", "2000s"],
+        tabs: `
+Em - C - G - D
+`,
+        lyrics: `
+J'ai longtemps parcouru son corps
+Effleuré cent fois son visage
+J'ai trouvé de l'or
+Et même quelques étoiles
+En essuyant ses larmes
+J'ai appris par coeur
+La pureté de ses formes
+Parfois, je les dessine encore
+Elle fait partie de moi
+
+<b>Je veux juste une dernière danse
+Avant l'ombre et l'indifférence
+Un vertige puis le silence
+Je veux juste une dernière danse</b>
+
+Je l'ai connue trop tôt
+Mais c'est pas d'ma faute
+La flèche a traversé ma peau
+C'est une douleur qui se garde
+Qui fait plus de bien que de mal
+Mais je connais l'histoire
+Il est déjà trop tard
+Dans son regard
+On peut apercevoir
+Qu'elle se prépare
+Au long voyage
+
+<b>CHORUS</b>
+
+<i>Je peux mourir demain
+Ca n'change rien
+J'ai reçu de ses mains
+Le bonheur ancré dans mon âme
+C 'est même trop pour un seul homme
+Je l'ai vue partir, sans rien dire
+Il fallait seulement qu'elle respire
+Merci d'avoir enchanté ma vie</i>
+
+<b>Avant l'ombre et l'indifférence
+Un vertige puis le silence
+Je veux juste une dernière danse</b>
+
+<b>Mix verse 1 & Chorus</b>
+`,
+    },
+    {
+        artist: "Lady Gaga",
+        title: "Born This Way",
+        tags: ["not validated", "pop", "dance", "2010s"],
+        tabs: `
+A - G - D - A
+`,
+        lyrics: `
+My mama told me when I was young,
+"We are all born superstars"
+She rolled my hair and put my lipstick on 
+in the glass of her boudoir
+"There's nothing wrong with loving who you are", 
+she said, "'Cause He made you perfect, babe
+So hold your head up, girl, and you'll go far"
+Listen to me when I say
+
+<b>I'm beautiful in my way 
+'cause God makes no mistakes
+I'm on the right track, baby, 
+I was born this way
+Don't hide yourself in regret, 
+just love yourself, and you're set
+I'm on the right track, baby, 
+I was born this way</b> 
+
+Ooh, there ain't no other way, baby, I was born this way
+Baby, I was born this way (born this way)
+Ooh, there ain't no other way, baby, I was born this way
+Right track, baby, I was born this way
+Don't be a drag, just be a queen
+Don't be a drag, just be a queen
+Don't be a drag, just be a queen
+Don't be (don't be, don't be)
+
+<i>Give yourself prudence and love your friends
+Subway kid, rejoice your truth
+In the religion of the insecure, I must 
+be myself, respect my youth
+A different lover is not a sin, believe capital H-I-M (hey, hey, hey)
+I love my life, I love this record, and
+Mi amore vole fe, yah</i>
+
+<b>CHORUS</b>
+`,
+    },
+    {
+        artist: "Lady Gaga",
+        title: "Just Dance",
+        tags: ["not validated", "pop", "dance", "2000s"],
+        tabs: `
+(Intro: 1 octave up)
+C#m - E - B - F#m
+Bridge: A - (C# – B - C# x4)
+`,
+        lyrics: `
+I've had a little bit too much, much 
+All of the people start to rush, start to rush by
+A dizzy twister dance, can't find my drink or man
+Where are my keys? I lost my phone, phone
+
+What's goin' on on the floor?
+I love this record, baby, but I can't see straight anymore
+Keep it cool, what's the name of this club?
+I can't remember but it's alright, a-alright
+
+<b>Just dance, gonna be okay
+Just dance, spin that record, babe
+Just dance, gonna be okay, d-d-d-dance
+Dance, dance, just, j-j-just dance</b>
+
+Wish I could shut my playboy mouth
+How'd I turn my shirt inside out? (Inside out, right)
+Control your poison, babe, roses have thorns, they say
+And we're all gettin' hosed tonight
+
+<i>Prechorus</i>
+<b>CHORUS x2</b>
+`,
+    },
+    {
+        artist: "Lana Del Rey",
+        title: "Blue Jeans",
+        tags: ["not validated", "pop", "indie", "2010s"],
+        tabs: `
+d|-------|-0--4-|-2----|-------|
+a|-----2-|------|----0-|-4--0--|
+E|--0----|------|------|-------|
+Em - D - A - A
+`,
+        lyrics: `
+Blue jeans, white shirt
+Walked into the room you know you made my eyes burn
+It was like, James Dean, for sure
+You're so fresh to death and sick as ca-cancer
+You were sorta punk rock, I grew up on hip hop
+But you fit me better than my favourite sweater, and I know
+That love is mean, and love hurts
+But I still remember that day we met in December, oh baby!
+
+<b>I will love you 'til the end of time
+I would wait a million years
+Promise you'll remember that you're mine
+Baby can you see through the tears
+Love you more
+Than those bitches before
+Say you'll remember, oh baby, say you'll remember, oh baby ooh
+I will love you 'til the end of time</b>
+
+Big dreams, gangster
+Said you had to leave to start your life over
+I was like, “No please, stay here,
+We don't need no money we can make it all work,”
+But he headed out on Sunday, said he'd come on Monday
+I stayed up waitin', anticipatin', and pacin'
+But he was chasing paper
+"Caught up in the game" ‒ that was the last I heard
+
+<b>CHORUS</b>
+
+<i>You went out every night
+And baby that's alright
+I told you that no matter what you did I'd be by your side
+Cause Imma ride or die
+Whether you fail or fly
+Well shit at least you tried.
+But when you walked out that door, a piece of me died
+I told you I wanted more, but that's not what I had in mind
+I just want it like before
+We were dancing all night
+Then they took you away, stole you out of my life
+You just need to remember....</i>
+
+<b>CHORUS</b>
+`,
+    },
+    {
+        artist: "Lenny Kravitz",
+        title: "Fly Away",
+        tags: ["not validated", "rock", "90s"],
+        tabs: `
+A (- B) - C - G - D
+`,
+        lyrics: `
+I wish that I could fly
+Into the sky, So very high
+Just like a dragonfly
+
+I'd fly above the trees
+Over the seas; in all degrees
+To anywhere I please
+
+<b>Oh I want to get away
+I want to fly away
+Yeah yeah yeah
+Oh I want to get away
+I want to fly away
+Yeah yeah yeah</b>
+
+Let's go and see the stars
+The milky way, or even mars
+Where it could just be ours
+
+Let's fade into the sun
+Let your spirit fly; Where we are one
+Just for a little fun
+
+<b>CHORUS x2</b>
+`,
+    },
+    {
+        artist: "Linkin Park",
+        title: "Given Up",
+        tags: ["not validated", "rock", "nu metal", "2000s"],
+        tabs: `
+Riff : Em - Fm (Bb - Fm - Em)
+Verse: Em - (G) - D - Em
+Chorus: Em - G - D - A
+`,
+        lyrics: `
+Wake in a sweat again
+Another day's been laid to waste
+In my disgrace
+Stuck in my head again
+Feels like I'll never leave this place
+There's no escape
+
+<i>[G - B]
+I'm my own worst enemy</i>
+
+<b>I've given up
+I'm sick of feeling
+Is there nothing you can say?
+Take this all away
+I'm suffocating!
+Tell me what the fuck is wrong with me! (B)</b>
+
+I don't know what to take
+Thought I was focused, but I'm scared
+I'm not prepared
+I hyperventilate
+Looking for help somehow, somewhere
+And no one cares
+
+<i>[G - B]
+I'm my own worst enemy</i>
+
+<b>CHORUS</b>
+
+(Put me out of my misery x 4)
+
+<b>CHORUS</b>
+`,
+    },
+    {
+        artist: "Linkin Park",
+        title: "In the End",
+        tags: ["not validated", "rock", "nu metal", "2000s"],
+        tabs: `
+VERSE : Em - D - C - D
+CHORDS : Em - G - D - C
+`,
+        lyrics: `
+(It starts with)
+One thing I don't know why
+It doesn’t even matter how hard you try
+Keep that in mind, I designed this rhyme
+To explain in due time
+All I know
+Time is a valuable thing
+Watch it fly by as the pendulum swings
+Watch it count down to the end of the day
+The clock ticks life away
+It’s so unreal
+Didn’t look out below
+Watch the time go right out the window
+Trying to hold on but didn’t even know
+I wasted it all just to watch you go
+I kept everything inside and even though I tried, it all fell apart
+What it meant to me will eventually be a memory of a time when..
+
+<b>I tried so hard
+And got so far
+But in the end
+It doesn't even matter
+I had to fall
+To lose it all
+But in the end
+It doesn't even matter</b>
+
+One thing, I don’t know why
+It doesn’t even matter how hard you try
+Keep that in mind, I designed this rhyme
+To remind myself how
+I tried so hard
+In spite of the way you were mocking me
+Acting like I was part of your property
+Remembering all the times you fought with me
+I’m surprised it got so (far)
+Things aren’t the way they were before
+You wouldn’t even recognize me anymore
+Not that you knew me back then
+But it all comes back to me
+In the end
+You kept everything inside and even though I tried, it all fell apart
+What it meant to me will eventually be a memory of a time when...
+
+<b>CHORUS</b>
+
+<i>I've put my trust in you
+Pushed as far as I can go
+For all this
+There’s only one thing you should know
+I've put my trust in you
+Pushed as far as I can go
+For all this
+There’s only one thing you should know</i>
+
+<b>CHORUS</b>
+`,
+    },
+    {
+        artist: "Linkin Park",
+        title: "Numb",
+        tags: ["not validated", "rock", "nu metal", "2000s"],
+        tabs: `
+VERSE: Dm- Bb - F - C x2 // Bb - C - Dm - F - Bb - C
+CHORUS: Dm- Bb  - F - C
+BRIDGE: Bb - C – Dm-Em-F-G – Bb - C - A
+`,
+        lyrics: `
+I'm tired of being what you want me to be
+Feeling so faithless, lost under the surface
+I don't know what you're expecting of me
+Put under the pressure of walking in your shoes
+(Caught in the undertow, just caught in the undertow)
+Every step that I take is another mistake to you
+(Caught in the undertow, just caught in the undertow)
+
+<b>I've become so numb, I can't feel you there
+Become so tired, so much more aware
+By becoming this all I want to do
+Is be more like me and be less like you</b>
+
+Can't you see that you're smothering me?
+Holding too tightly, afraid to lose control
+'Cause everything that you thought I would be
+Has fallen apart right in front of you
+(Caught in the undertow, just caught in the undertow)
+Every step that I take is another mistake to you
+(Caught in the undertow, just caught in the undertow)
+Dm - F - C
+And every second I waste is more than I can take!
+
+<b>CHORUS</b>
+
+<i>And I know I may end up failing too
+But I know you were just like me with someone disappointed in you</i>
+
+<b>CHORUS</b>
+`,
+    },
+    {
+        artist: "Lorde",
+        title: "Royals",
+        tags: ["not validated", "pop", "2010s"],
+        tabs: `
+D - C - G
+`,
+        lyrics: `
+I've never seen a diamond in the flesh
+I cut my teeth on wedding rings in the movies
+And I'm not proud of my address,
+In a torn-up town, no postcode envy
+
+<i>But every song's like gold teeth, grey goose, trippin' in the bathroom
+Blood stains, ball gowns, trashin' the hotel room,
+We don't care, we're driving Cadillacs in our dreams.
+But everybody's like Cristal, Maybach, diamonds on your timepiece.
+Jet planes, islands, tigers on a gold leash.
+We don't care, we aren't caught up in your love affair.</i>
+
+<b>And we'll never be royals (royals)
+It don't run in our blood,
+That kind of luxe just ain't for us.
+We crave a different kind of buzz
+Let me be your ruler (ruler),
+You can call me King Bee
+And baby I'll rule, I'll rule, I'll rule, I'll rule
+Let me live that fantasy</b>
+
+My friends and I—we've cracked the code.
+We count our dollars on the train to the party.
+And everyone who knows us knows that we're fine with this,
+We didn't come from money.
+
+<i>BRIDGE</i>
+<b>CHORUS</b>
+`,
+    },
+    {
+        artist: "Lordi",
+        title: "Hard Rock Hallelujah",
+        tags: ["not validated", "rock", "metal"],
+        tabs: `
+Verse: Am - F - G - D - (F - G - C)
+Prechorus: F - Am - G - F (E)
+Chorus: Am - G - F - C - Dm - Bb - F - G 
+Bridge: Am - C - D - (F - G // E)
+Am Hard C rock D hallelujah F - G - C
+`,
+        lyrics: `
+The saints are crippled on this sinner's night
+Lost are the lambs with no guiding light
+The walls come down like thunder, the rock's about to roll
+It's the arockalypse, now bare your soul
+
+<i>All we need is lightning with power and might
+Striking down the prophets of false
+As the moon is rising, give us the sign
+Now let us rise up in awe</i>
+
+<b>Rock 'n' roll angels, bring thine hard rock hallelujah
+Demons and angels all in one have arrived
+Rock 'n' roll angels, bring thine hard rock hallelujah
+In God's creation's supernatural high
+The true believers, thou shalt be saved
+Brothers and sisters, keep strong in the faith
+On the day of rockening, it's who dares, wins
+You will see the jokers soon'll be the new kings</b>
+
+<i>Prechorus</i>
+<b>Chorus</b>
+
+<i>Wings on my back, I got horns on my head
+My fangs are sharp and my eyes are red
+Not quite an angel or the one that fell
+Now choose to join us or go straight to hell</i>
+
+<b>Chorus x2</b>
 `,
     },
 ]
