@@ -3344,7 +3344,7 @@ How wonderful life is while you're in the world [D]
     {
         artist: "Elvis Presley",
         title: "Can’t Help Falling in Love",
-        tags: ["not validated", "60s", "ballad", "rock and roll"],
+        tags: ["not validated", "60s", "ballad", "classic rock", "japan 2022"],
         tabs: `
 Verse: C - Em - Am // F - C - G // F - G - Am - F - C - G - C
 Chorus: Em - B7 x3 // Em - A7 - Dm - G
@@ -3378,7 +3378,7 @@ For I can't help falling in love with you
     {
         artist: "Elvis Presley",
         title: "Hound Dog",
-        tags: ["not validated", "50s", "rock and roll"],
+        tags: ["not validated", "50s", "rock and roll", "japan 2022"],
         tabs: `
 C - F - C - G - F - C
 `,
@@ -4989,10 +4989,10 @@ Hallelujah, Hallelujah</b>
     {
         artist: "Jefferson Airplane",
         title: "Somebody to Love",
-        tags: ["60s", "rock", "max"],
+        tags: ["60s", "hippie", "max"],
         tabs: `
-VERSE : Am - Am - D - G
-CHORUS : C - G - Am - D // C - D - A
+Verse: Am - Am - D - G
+Chorus: C - G - Am - D // C - D - A
 `,
         lyrics: `
 When the truth is found
@@ -5030,26 +5030,27 @@ They treat you like a guest
     {
         artist: "Jefferson Airplane",
         title: "White Rabbit",
-        tags: ["not validated", "60s", "rock"],
+        tags: ["hippie", "60s", "rock"],
         tabs: `
-VERSE : F# - G x2  // A - C - D - A
-BRIDGE: E - A x2 // F# - F#
-OUTRO: E - A x2
+Verse: F# - G x2  
+Chorus: A - C - D - A
+Bridge: E - A x2 // F# - F#
+Outro: E - A x2
 `,
         lyrics: `
 One pill makes you larger
 And one pill makes you small
 And the ones that mother gives you
 Don't do anything at all
-Go ask Alice
-When she's ten feet tall
+<b>Go ask Alice
+When she's ten feet tall</b>
 
 And if you go chasing rabbits
 And you know you're going to fall
 Tell 'em a hookah-smoking caterpillar
 Has given you the call
-Call Alice
-When she was just small
+<b>Call Alice
+When she was just small</b>
 
 <i>When the men on the chessboard
 Get up and tell you where to go
@@ -5062,9 +5063,9 @@ When logic and proportion
 Have fallen sloppy dead
 And the White Knight is talking backwards
 And the Red Queen's off with her head
-Remember what the dormouse said
-<b>Feed your head
-Feed your head</b>
+<b>Remember what the dormouse said</b>
+<b><i>Feed your head
+Feed your head</i></b>
 `,
     },
     {
@@ -11407,7 +11408,7 @@ We eat and drink while tomorrow they die
     {
         artist: "Weezer",
         title: "Say It Ain't So",
-        tags: ["not validated", "rock", "alternative", "90s"],
+        tags: ["not validated", "pop punk", "90s"],
         tabs: `
 Bm - F# - G - D
 BRIDGE: A - A/Ab - D - F
@@ -11457,7 +11458,7 @@ Like father, stepfather, the son is drowning in the flood
     {
         artist: "Yutaka Ozaki",
         title: "I Love You",
-        tags: ["not validated", "ballad", "japanese", "80s"],
+        tags: ["not validated", "ballad", "80s", "japan 2022"],
         tabs: `
 G - Bm7 - Em - Am7 - D7 x2
 C - B7 - Em x2
