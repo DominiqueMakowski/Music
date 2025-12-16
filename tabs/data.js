@@ -1424,7 +1424,7 @@ My little windmill</b>
     {
         artist: "Blink 182",
         title: "Dammit",
-        tags: ["2000s", "pop punk", "max"],
+        tags: ["2000s", "pop punk", "max", "4chords", "CGAmF"],
         tabs: `
 Riff:
 -----0--2----0--2-------0--2------2--0
@@ -1466,7 +1466,7 @@ Well, I guess this is growing up x4</b>
     {
         artist: "Blink 182",
         title: "Feeling This",
-        tags: ["2000s", "pop punk", "harmonies", "franky"],
+        tags: ["2000s", "pop punk", "harmonies", "franky", "4chords", "CGAmF"],
         tabs: `
 C - G - Am - F
 `,
@@ -8196,12 +8196,12 @@ CHORUS</b>
     {
         artist: "Red Hot Chili Peppers",
         title: "Under the Bridge",
-        tags: ["not validated", "rock", "90s", "ballad"],
+        tags: ["rock", "90s", "japan 2022", "max"],
         tabs: `
-INTRO: D - F#
-VERSE : E (up) - B - C#m - A (Emaj7)
-CHORUS: F#m - E - B - F#m
-END: A - Am7 - G - F x3 // F - E7 - G // A - C - G - F x4
+Intro: D - F#
+Verse: E (up) - B - C#m - G#m - A // E (up) - B - C#m - A // (Emaj7)
+Chorus: F#m - E - B - F#m
+End: A - Am7 - G - F x3 // F - E7 - G // A - C - G - F x4
 `,
         lyrics: `
 Sometimes I feel like I don't have a partner
@@ -8219,16 +8219,17 @@ Like I did that day
 Take me to the place I love
 Take me all the way 
 x2</b>
+
 It's hard to believe that there's nobody out there
 It's hard to believe that I'm all alone
 At least I have her love, the city, she loves me
 Lonely as I am, together we cry
 
-<b>CHORUS
+<b>CHORUS</b>
 
-Yeah, yeah, yeah
+<b><i>Yeah, yeah, yeah
 Oh, no, no-no, yeah, yeah
-Love me, I say, yeah yeah</b>
+Love me, I say, yeah yeah
 
 Under the bridge downtown
 Is where I drew some blood
@@ -8237,7 +8238,7 @@ I could not get enough
 Under the bridge downtown
 Forgot about my love
 Under the bridge downtown
-I gave my life away
+I gave my life away</i></b>
 `,
     },
     {
