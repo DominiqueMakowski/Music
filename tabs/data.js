@@ -1466,7 +1466,7 @@ Well, I guess this is growing up x4</b>
     {
         artist: "Blink 182",
         title: "Feeling This",
-        tags: ["2000s", "pop punk", "harmonies", "franky", "4chords", "CGAmF"],
+        tags: ["2000s", "pop punk", "harmonies", "franky", "max", "4chords", "CGAmF"],
         tabs: `
 C - G - Am - F
 `,
@@ -7978,7 +7978,7 @@ I'd have to pack my things and go. (That's right)
     {
         artist: "Red Hot Chili Peppers",
         title: "Californication",
-        tags: ["not validated", "rock", "90s"],
+        tags: ["not validated", "pop rock", "90s"],
         tabs: `
 VERSE : Am - F (x2) - C - G - F - Dm
 BRIDGE: Am - F
@@ -8031,7 +8031,7 @@ Hardcore soft porn
     {
         artist: "Red Hot Chili Peppers",
         title: "Dani California",
-        tags: ["not validated", "rock", "2000s"],
+        tags: ["not validated", "pop rock", "2000s"],
         tabs: `
 VERSE : Am - G - Dm - Am
 CHORUS: G - F - C - Dm
@@ -8090,7 +8090,7 @@ Gone too fast (G#)
     {
         artist: "Red Hot Chili Peppers",
         title: "Otherside",
-        tags: ["not validated", "rock", "90s"],
+        tags: ["not validated", "pop rock", "90s"],
         tabs: `
 VERSE : Am - Em (x3) -- G - Am
 CHORUS: Am - F - C - G
@@ -8132,7 +8132,7 @@ Take it on, take it on
     {
         artist: "Red Hot Chili Peppers",
         title: "Snow (Hey Oh)",
-        tags: ["not validated", "rock", "2000s"],
+        tags: ["not validated", "pop rock", "2000s"],
         tabs: `
 VERSE : G#m - E - B - F#
 CHORUS: E - G#m - E - G#m - (B - F# - C#m)x4
@@ -8196,7 +8196,7 @@ CHORUS</b>
     {
         artist: "Red Hot Chili Peppers",
         title: "Under the Bridge",
-        tags: ["rock", "90s", "japan 2022", "max"],
+        tags: ["pop rock", "90s", "japan 2022", "max"],
         tabs: `
 Intro: D - F#
 Verse: E (up) - B - C#m - G#m - A // E (up) - B - C#m - A // (Emaj7)
