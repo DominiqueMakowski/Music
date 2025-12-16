@@ -36,7 +36,7 @@ I picked you up and put you back on solid ground
     {
         artist: "4 Non Blondes",
         title: "What's Up",
-        tags: ["easy"],
+        tags: ["easy", "known"],
         tabs: `
 E - F#m - A - E
 `,
@@ -173,9 +173,9 @@ CHORUS (loud)</b>
     {
         artist: "Adele",
         title: "Hello",
-        tags: ["slow"],
+        tags: ["pop", "love"],
         tabs: `
-VERSE : F#m - A - E - D
+Verse : F#m - A - E - D
 Chorus: F#m - D - A - E
 `,
         lyrics: `
@@ -218,9 +218,9 @@ Are running out of time
         title: "Rolling in the Deep",
         tags: ["pop"],
         tabs: `
-VERSE : Am -- (Em - G) x2
-PRECHORUS : F - G - Em - F (E7)
-CHORUS : Am - G - F - G
+Verse: Am -- (Em - G) x2
+Prechorus: F - G - Em - F (E7)
+Chorus: Am - G - F - G
 `,
         lyrics: `
 There's a fire starting in my heart
@@ -260,7 +260,7 @@ As mine sure won't be shared
         title: "Someone Like You",
         tags: ["pop", "love"],
         tabs: `
-VERSE/Chorus: G - D - Em - C
+Verse/Chorus: G - D - Em - C
 Prechorus: D - Em - C
 `,
         lyrics: `
@@ -667,7 +667,7 @@ I didn't know (didn't know, didn't know)
     {
         artist: "Avril Lavigne",
         title: "Complicated",
-        tags: ["2000s", "pop punk"],
+        tags: ["2000s", "punk rock"],
         tabs: `
 Intro : Dm - Bb - F - C
 Verse: F - Dm - Bb - C
@@ -727,7 +727,7 @@ You will see
     {
         artist: "Avril Lavigne",
         title: "Don't Tell Me",
-        tags: ["2000s", "pop punk"],
+        tags: ["2000s", "punk rock"],
         tabs: `
 Verse: E - C#m - B - A
 Prechorus: A - A - C#m - C#m - A - A - B
@@ -791,7 +791,7 @@ Did you think that I was gonna give it up to you (E)
     {
         artist: "Avril Lavigne",
         title: "My Happy Ending",
-        tags: ["2000s", "pop punk"],
+        tags: ["2000s", "punk rock"],
         tabs: `
 Verse : Bm - G - D - A
 Prechorus : G - A
@@ -848,7 +848,7 @@ CHORUS</b>
     {
         artist: "Avril Lavigne",
         title: "Nobody's Home",
-        tags: ["2000s", "pop punk"],
+        tags: ["2000s", "punk rock"],
         tabs: `
 Verse : Em - D - C
 Bridge: Em - D - C
@@ -905,7 +905,7 @@ She's all over the place</i>
     {
         artist: "Avril Lavigne",
         title: "Sk8ter Boi",
-        tags: ["2000s", "pop punk"],
+        tags: ["2000s", "punk rock"],
         tabs: `
 Verse : D - A - Bm - Bb / C
 Chorus: F - C - Bb - A
@@ -1019,7 +1019,7 @@ Et encore
     {
         artist: "Backstreet Boys",
         title: "I Want it That Way",
-        tags: ["banger", "90s"],
+        tags: ["90s", "pop", "banger"],
         tabs: `
 Verse: (F#m - D - A)x3 - F#m - E - A 
 Chorus: (D - D - E - F#m)x2 - D - D -  E - A - F#m - E - A
@@ -1380,7 +1380,7 @@ I wish I could but it's too late
     {
         artist: "Blink 182",
         title: "All the Small Things",
-        tags: ["2000s", "pop punk", "franky"],
+        tags: ["2000s", "punk rock", "franky"],
         tabs: `
 Intro: C - F(up) - G - F
 Verse: C - G - F - G
@@ -1424,7 +1424,7 @@ My little windmill</b>
     {
         artist: "Blink 182",
         title: "Dammit",
-        tags: ["2000s", "pop punk", "max", "4chords", "CGAmF"],
+        tags: ["2000s", "punk rock", "max", "4 chords", "CGAmF"],
         tabs: `
 Riff:
 -----0--2----0--2-------0--2------2--0
@@ -1466,7 +1466,7 @@ Well, I guess this is growing up x4</b>
     {
         artist: "Blink 182",
         title: "Feeling This",
-        tags: ["2000s", "pop punk", "harmonies", "franky", "max", "4chords", "CGAmF"],
+        tags: ["2000s", "punk rock", "harmonies", "franky", "max", "4 chords", "CGAmF"],
         tabs: `
 C - G - Am - F
 `,
@@ -1523,7 +1523,7 @@ I'll always be dreaming of you.</i>
     {
         artist: "Blink 182",
         title: "I Miss You",
-        tags: ["2000s", "pop punk"],
+        tags: ["2000s", "punk rock"],
         tabs: `
 Verse : C - C/B - Am - G
 Chorus : C - C/B - Am - G - F - Fm
@@ -1571,7 +1571,7 @@ x3
     {
         artist: "Blink 182",
         title: "The Rock Show",
-        tags: ["2000s", "pop punk", "franky"],
+        tags: ["2000s", "punk rock", "franky"],
         tabs: `
 Verse : A - D - E
 Chorus :  (A -  F# - D)x3 - E - D
@@ -1613,7 +1613,7 @@ Because she kept me waiting</i>
     {
         artist: "Blink 182",
         title: "What's My Age Again?",
-        tags: ["2000s", "pop punk", "franky"],
+        tags: ["2000s", "punk rock", "franky"],
         tabs: `
 Verse: C - G - D - Em
 Chorus: G - D - Em - C
@@ -1983,7 +1983,7 @@ Hit me, baby, one more time</i>
     {
         artist: "Britney Spears",
         title: "Everytime",
-        tags: ["90s", "slow"],
+        tags: ["90s", "pop", "slow", "love"],
         tabs: `
 Verse:  C - G - C - Am
 Prechorus : Em - C x2
@@ -2030,7 +2030,7 @@ Will fade away
     {
         artist: "Britney Spears",
         title: "Toxic",
-        tags: ["90s"],
+        tags: ["90s", "pop"],
         tabs: `
 Verse: C#m - E - G#m (open)
 Chorus: C#m - E - F#m (open) - G# (open)
@@ -2218,7 +2218,7 @@ I missed you so, so bad</i>
     {
         artist: "Cascada",
         title: "Everytime We Touch",
-        tags: [],
+        tags: ["90s", "electro"],
         tabs: `
 Verse: (Em - G  - D - Em) x2 // C - G - D - Em
 Chorus: (C- D - Em) x2 -- C - G  - D - Em - G - D
@@ -2560,7 +2560,7 @@ Reste à faire
     {
         artist: "David Guetta",
         title: "Baby When The Light",
-        tags: [],
+        tags: ["2000s", "electro"],
         tabs: `
 E - C#m - G#
 `,
@@ -2595,7 +2595,7 @@ Are you someone I'll forever miss
     {
         artist: "David Guetta ft. Akon",
         title: "Sexy Bitch",
-        tags: ["not validated", "2000s", "dance", "pop"],
+        tags: ["not validated", "2000s", "electro"],
         tabs: `
 Bm - D - G - D
 `,
@@ -3095,7 +3095,7 @@ Our memory will live on
     {
         artist: "Eagle-Eye Cherry",
         title: "Save Tonight",
-        tags: ["not validated", "90s", "rock", "pop"],
+        tags: ["not validated", "90s", "pop", "known", "4 chords", "AmFCG"],
         tabs: `
 Am - F - C - G
 `,
@@ -3851,7 +3851,7 @@ I got my mind set on you
     {
         artist: "Green Day",
         title: "Basket Case",
-        tags: ["2000s", "pop punk", "japan 2022", "max"],
+        tags: ["2000s", "punk rock", "japan 2022", "max"],
         tabs: `
 Verse:  E - B - C#m - G# - A - E - B
 Chorus: (A - B - E)x3 - C#m - C // A - B - E
@@ -3892,7 +3892,7 @@ So I better hold on</i>
     {
         artist: "Green Day",
         title: "Boulevard of Broken Dreams",
-        tags: ["2000s", "pop punk"],
+        tags: ["2000s", "punk rock"],
         tabs: `
 Verse: Em - G - D - A
 Chorus: C - G - D - Em (B7)
@@ -3937,7 +3937,7 @@ I walk alone, I walk a-</i>
     {
         artist: "Green Day",
         title: "Good Riddance (Time Of Your Life)",
-        tags: ["2000s", "pop punk", "ballad"],
+        tags: ["2000s", "punk rock", "ballad"],
         tabs: `
 Verse: G - G - C - D x2 // Em - D - C - G x2
 Chorus: Em - G x2 // Em - D - G
@@ -3963,7 +3963,7 @@ For what it's worth, it was worth all the while
     {
         artist: "Green Day",
         title: "Holiday",
-        tags: ["2000s", "pop punk"],
+        tags: ["2000s", "punk rock"],
         tabs: `
 Em - C - G - D (B)
 
@@ -3999,7 +3999,7 @@ A gag, a plastic bag on a monument</i>
     {
         artist: "Green Day",
         title: "Wake Me Up (When September Ends)",
-        tags: ["2000s", "pop punk", "ballad"],
+        tags: ["2000s", "punk rock", "ballad"],
         tabs: `
 VERSE: G - G/F# - G/Em - G/D // C - Cm - G - G/F#
 CHORUS: Em - Bm - C -  G
@@ -4042,7 +4042,7 @@ Wake me up when September ends
     {
         artist: "Green Day",
         title: "Welcome to Paradise",
-        tags: ["2000s", "pop punk"],
+        tags: ["2000s", "punk rock"],
         tabs: `
 Intro: E - E - D - A
 Verse: E - D - E / E - D - G - B (G - B)
@@ -4086,7 +4086,7 @@ And I'm never gonna go
     {
         artist: "Green Day",
         title: "When I Come Around",
-        tags: ["2000s", "pop punk", "max"],
+        tags: ["2000s", "punk rock", "max"],
         tabs: `
 VERSE: G - D - Em (up) - C
 CHORUS: Am - C 
@@ -7775,7 +7775,7 @@ Well, you let her go</b>
     {
         artist: "Pointer Sisters",
         title: "I’m so Excited",
-        tags: ["not validated", "pop", "disco", "80s"],
+        tags: ["not validated", "pop", "disco", "80s", "energy"],
         tabs: `
 VERSE:  Em - Am - C - G
 PRECHORUS: F#m - Em - Bm - F#m - Em - C - D
@@ -7883,7 +7883,7 @@ Wish you were here.</b>
     {
         artist: "Plain White T’s",
         title: "Hey There Delilah",
-        tags: ["not validated", "pop", "acoustic", "2000s"],
+        tags: ["not validated", "punk rock", "love", "2000s"],
         tabs: `
 VERSE : (D - F#m) x2 - Bm - G - A - Bm - A
 CHORUS : D - Bm
@@ -8331,7 +8331,7 @@ But I’ve gotta let it go</i>
     {
         artist: "Ricky Martin",
         title: "Livin’ La Vida Loca",
-        tags: ["not validated", "pop", "latin", "90s"],
+        tags: ["not validated", "pop", "90s", "energy"],
         tabs: `
 Verse / Chorus: Am - G
 Bridge: Dm - Em - F - G - E7
@@ -8513,7 +8513,7 @@ What my guitar wants to say</i>
     {
         artist: "Sea Shanty",
         title: "Santiana",
-        tags: ["not validated", "folk", "traditional"],
+        tags: ["not validated", "folk", "traditional", "sea shanty"],
         tabs: `
 Em - Em - D - Em - D
 Am - D - Bm // Em - Bm - Em
@@ -8947,7 +8947,7 @@ Do you want me around
     {
         artist: "Smash Mouth",
         title: "I’m a Believer",
-        tags: ["not validated", "pop", "rock", "cover", "2000s"],
+        tags: ["not validated", "pop", "rock", "2000s"],
         tabs: `
 Verse: G - D - G - G
 Bridge: C - G x3 // D
@@ -9433,7 +9433,7 @@ I guess I knew that all along
     {
         artist: "Sum 41",
         title: "The Hell Song",
-        tags: ["not validated", "punk rock", "2000s"],
+        tags: ["not validated", "punk rock", "2000s", "4 chords", "AmFCG"],
         tabs: `
 Am - F - C - G
 `,
@@ -9482,7 +9482,7 @@ x2
     {
         artist: "Tears for Fears",
         title: "Mad World",
-        tags: ["not validated", "pop", "80s", "ballad"],
+        tags: ["not validated", "pop", "80s"],
         tabs: `
 Verse: Gm - B - F - C
 Chorus: Gm - C
@@ -10565,7 +10565,7 @@ Try to set the night on fire</b>
     {
         artist: "The Killers",
         title: "Mr. Brightside",
-        tags: ["not validated", "rock", "indie", "pop", "2000s"],
+        tags: ["not validated", "british", "2000s"],
         tabs: `
 VERSE : C - C/B - Am - F
 BRIDGE: Am - G - F (Fm)
@@ -11084,7 +11084,7 @@ So happy together (ba-ba-ba-ba ba-ba-ba-ba)</b>
     {
         artist: "The Weeknd",
         title: "Blinding Lights",
-        tags: ["not validated", "pop", "synthwave", "2020s"],
+        tags: ["not validated", "pop", "2020s"],
         tabs: `
 Am - Em - G - D
 `,
@@ -11409,7 +11409,7 @@ We eat and drink while tomorrow they die
     {
         artist: "Weezer",
         title: "Say It Ain't So",
-        tags: ["not validated", "pop punk", "90s"],
+        tags: ["not validated", "punk rock", "90s"],
         tabs: `
 Bm - F# - G - D
 BRIDGE: A - A/Ab - D - F
