@@ -9283,6 +9283,41 @@ CHORUS</b>
 `,
     },
     {
+        artist: "Steve Earle",
+        title: "Galway Girl",
+        tags: ["irish"],
+        tabs: `
+Verse: D - D - A - G
+Chorus: G - D x2 // Bm - A - G - D
+`,
+        lyrics: `
+Well I took a stroll on the old long walk
+Of a day -I-ay-I-ay
+I met a little girl and we stopped to talk
+Of a fine soft day -I-ay-I-ay
+<b>And I ask you friend, what's a fella to do
+Cuz her hair was black and her eyes were blue
+And I knew right then I'd be takin' a whirl
+'Round the Salthill Prom with a Galway girl</b>
+
+We were halfway there when the rain came down
+Of a day -I-ay-I-ay
+And she asked me up to her flat downtown
+Of a fine soft day -I-ay
+And I ask you friend, what's a fella to do
+Cuz her hair was black and her eyes were blue
+So I took her hand and I gave her a twirl
+Oh and I lost my heart to a Galway girl
+
+When I woke up I was all alone
+With a broken heart and a ticket home
+And I ask you now, tell me what would you do
+If her hair was black and her eyes were blue
+Cuz I've traveled around I've been all over this world
+Boys I ain't never seen nothin' like a Galway girl
+`,
+    },
+    {
         artist: "Sum 41",
         title: "In Too Deep",
         tags: ["not validated", "punk rock", "2000s"],

@@ -329,6 +329,121 @@ function getChordColor(root) {
     return colors[root] || "inherit"
 }
 
+const CHORD_DATA = {
+    A: {
+        guitar: { n_frets: 4, position: [-1, 0, 2, 2, 2, 0], fingers: [0, 0, 2, 1, 3, 0] },
+        ukulele: { n_frets: 4, position: [2, 1, 0, 0], fingers: [2, 1, 0, 0] },
+    },
+    Am: {
+        guitar: { n_frets: 4, position: [-1, 0, 2, 2, 1, 0], fingers: [0, 0, 2, 3, 1, 0] },
+        ukulele: { n_frets: 4, position: [2, 0, 0, 0], fingers: [2, 0, 0, 0] },
+    },
+    B: {
+        guitar: { n_frets: 4, position: [-1, 2, 4, 4, 4, 2], fingers: [0, 1, 2, 3, 4, 1] },
+        ukulele: { n_frets: 4, position: [4, 3, 2, 2], fingers: [3, 2, 1, 1] },
+    },
+    Bm: {
+        guitar: { n_frets: 4, position: [-1, 2, 4, 4, 3, 2], fingers: [0, 1, 3, 4, 2, 1] },
+        ukulele: { n_frets: 4, position: [4, 2, 2, 2], fingers: [3, 1, 1, 1] },
+    },
+    C: {
+        guitar: { n_frets: 4, position: [-1, 3, 2, 0, 1, 0], fingers: [0, 3, 2, 0, 1, 0] },
+        ukulele: { n_frets: 4, position: [0, 0, 0, 3], fingers: [0, 0, 0, 3] },
+    },
+    Cm: {
+        guitar: { n_frets: 5, position: [-1, 3, 5, 5, 4, 3], fingers: [0, 1, 3, 4, 2, 1] },
+        ukulele: { n_frets: 4, position: [0, 3, 3, 3], fingers: [0, 1, 1, 1] },
+    },
+    D: {
+        guitar: { n_frets: 4, position: [-1, -1, 0, 2, 3, 2], fingers: [0, 0, 0, 1, 3, 2] },
+        ukulele: { n_frets: 4, position: [2, 2, 2, 0], fingers: [1, 2, 3, 0] },
+    },
+    Dm: {
+        guitar: { n_frets: 4, position: [-1, -1, 0, 2, 3, 1], fingers: [0, 0, 0, 2, 3, 1] },
+        ukulele: { n_frets: 4, position: [2, 2, 1, 0], fingers: [2, 3, 1, 0] },
+    },
+    E: {
+        guitar: { n_frets: 4, position: [0, 2, 2, 1, 0, 0], fingers: [0, 2, 3, 1, 0, 0] },
+        ukulele: { n_frets: 4, position: [4, 4, 4, 2], fingers: [2, 3, 4, 1] },
+    },
+    Em: {
+        guitar: { n_frets: 4, position: [0, 2, 2, 0, 0, 0], fingers: [0, 2, 3, 0, 0, 0] },
+        ukulele: { n_frets: 4, position: [0, 4, 3, 2], fingers: [0, 3, 2, 1] },
+    },
+    F: {
+        guitar: { n_frets: 4, position: [-1, -1, 3, 2, 1, 1], fingers: [0, 0, 3, 2, 1, 1] },
+        ukulele: { n_frets: 4, position: [2, 0, 1, 0], fingers: [2, 0, 1, 0] },
+    },
+    Fm: {
+        guitar: { n_frets: 4, position: [1, 3, 3, 1, 1, 1], fingers: [1, 3, 4, 1, 1, 1] },
+        ukulele: { n_frets: 4, position: [1, 0, 1, 3], fingers: [1, 0, 2, 4] },
+    },
+    G: {
+        guitar: { n_frets: 4, position: [3, 2, 0, 0, 0, 3], fingers: [2, 1, 0, 0, 0, 3] },
+        ukulele: { n_frets: 4, position: [0, 2, 3, 2], fingers: [0, 1, 3, 2] },
+    },
+    Gm: {
+        guitar: { n_frets: 5, position: [3, 5, 5, 3, 3, 3], fingers: [1, 3, 4, 1, 1, 1] },
+        ukulele: { n_frets: 4, position: [0, 2, 3, 1], fingers: [0, 2, 3, 1] },
+    },
+}
+
+function make_chords({ n_frets = 4, position, fingers, title }) {
+    const numStrings = position.length
+    const width = numStrings * 20 + 20
+    const height = n_frets * 25 + 30
+    const paddingX = 15
+    const paddingY = 20
+    const fretSpacing = 25
+    const stringSpacing = 20
+
+    let svg = `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">`
+
+    // Draw frets (horizontal lines)
+    // Top nut (thicker)
+    svg += `<line x1="${paddingX}" y1="${paddingY}" x2="${
+        paddingX + (numStrings - 1) * stringSpacing
+    }" y2="${paddingY}" stroke="currentColor" stroke-width="3" />`
+
+    for (let i = 1; i <= n_frets; i++) {
+        const y = paddingY + i * fretSpacing
+        svg += `<line x1="${paddingX}" y1="${y}" x2="${
+            paddingX + (numStrings - 1) * stringSpacing
+        }" y2="${y}" stroke="currentColor" stroke-width="1" />`
+    }
+
+    // Draw strings (vertical lines)
+    for (let i = 0; i < numStrings; i++) {
+        const x = paddingX + i * stringSpacing
+        svg += `<line x1="${x}" y1="${paddingY}" x2="${x}" y2="${
+            paddingY + n_frets * fretSpacing
+        }" stroke="currentColor" stroke-width="1" />`
+    }
+
+    // Draw positions
+    position.forEach((fret, stringIndex) => {
+        const x = paddingX + stringIndex * stringSpacing
+        if (fret === 0) {
+            // Open string
+            svg += `<circle cx="${x}" cy="${paddingY - 8}" r="4" stroke="currentColor" fill="none" stroke-width="1"/>`
+        } else if (fret === -1 || fret === null) {
+            // Muted string (X)
+            svg += `<text x="${x}" y="${paddingY - 5}" text-anchor="middle" font-size="12" fill="currentColor">×</text>`
+        } else if (fret > 0) {
+            const y = paddingY + (fret - 0.5) * fretSpacing
+            svg += `<circle cx="${x}" cy="${y}" r="8" fill="currentColor" />`
+
+            // Finger number
+            if (fingers && fingers[stringIndex]) {
+                svg += `<text x="${x}" y="${y}" dy="4" text-anchor="middle" font-size="10" font-weight="bold" fill="var(--bg)">${fingers[stringIndex]}</text>`
+            }
+        }
+    })
+
+    svg += `</svg>`
+    return svg
+}
+
 function colorizeChords(text) {
     // Use a regex that doesn't rely on word-boundary (\b) because
     // the sharp symbol (`#`) is a non-word character and breaks \b.
@@ -338,7 +453,7 @@ function colorizeChords(text) {
     return text.replace(chordRegex, (match, prefix, chord) => {
         const root = chord[0].toUpperCase()
         const color = getChordColor(root)
-        return `${prefix}<span style="color: ${color}">${chord}</span>`
+        return `${prefix}<span class="chord-span" style="color: ${color}" data-chord="${chord}">${chord}</span>`
     })
 }
 
@@ -521,3 +636,44 @@ window.addEventListener("popstate", (ev) => {
         }
     }
 })()
+
+tabsDiv.addEventListener("mouseover", (e) => {
+    const target = e.target.closest(".chord-span")
+    if (!target) return
+
+    const chordName = target.dataset.chord
+    let chordData = CHORD_DATA[chordName]
+
+    if (!chordData) return
+
+    // Create tooltip if not exists
+    let tooltip = target.querySelector(".chord-tooltip")
+    if (!tooltip) {
+        tooltip = document.createElement("div")
+        tooltip.className = "chord-tooltip"
+
+        // Guitar
+        const guitarDiv = document.createElement("div")
+        guitarDiv.className = "chord-diagram"
+        guitarDiv.innerHTML = "<h4>Guitar</h4>" + make_chords(chordData.guitar)
+        tooltip.appendChild(guitarDiv)
+
+        // Ukulele
+        const ukeDiv = document.createElement("div")
+        ukeDiv.className = "chord-diagram"
+        ukeDiv.innerHTML = "<h4>Ukulele</h4>" + make_chords(chordData.ukulele)
+        tooltip.appendChild(ukeDiv)
+
+        target.appendChild(tooltip)
+    }
+})
+
+tabsDiv.addEventListener("mouseout", (e) => {
+    const target = e.target.closest(".chord-span")
+    if (!target) return
+
+    const tooltip = target.querySelector(".chord-tooltip")
+    if (tooltip) {
+        tooltip.remove()
+    }
+})
