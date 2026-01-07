@@ -6745,7 +6745,7 @@ I do x4</b>
     {
         artist: "Nirvana",
         title: "Come as You Are",
-        tags: ["not validated", "grunge", "90s"],
+        tags: ["grunge", "90s", "japan 2022"],
         tabs: `
 Verse: F#m - E
 Chorus: F#m - A
@@ -6761,28 +6761,28 @@ Take your time, hurry up
 Choice is yours, don't be late
 Take a rest as a friend
 As an old
-Memoria, memoria
-Memoria, memoria
+<b>Memoria, memoria
+Memoria, memoria</b>
 
-<b>Come doused in mud, soaked in bleach
+Come doused in mud, soaked in bleach
 As I want you to be
 As a trend, as a friend
 As an old
-Memoria, memoria
-Memoria, memoria
-And I swear that I don't have a gun
+<b>Memoria, memoria
+Memoria, memoria</b>
+<i>And I swear that I don't have a gun
 No, I don't have a gun
-No, I don't have a gun</b>
+No, I don't have a gun</i>
 
-Memoria, memoria
+<b>Memoria, memoria
 Memoria, memoria
 (No I don't have a gun)
 
-<b>And I swear that I don't have a gun
+<i>And I swear that I don't have a gun
 No I don't have a gun
 No I don't have a gun
 No I don't have a gun
-No I don't have a gun</b>
+No I don't have a gun</i></b>
 `,
     },
     {
@@ -9295,6 +9295,7 @@ Well I took a stroll on the old long walk
 Of a day -I-ay-I-ay
 I met a little girl and we stopped to talk
 Of a fine soft day -I-ay-I-ay
+
 <b>And I ask you friend, what's a fella to do
 Cuz her hair was black and her eyes were blue
 And I knew right then I'd be takin' a whirl
@@ -9304,17 +9305,19 @@ We were halfway there when the rain came down
 Of a day -I-ay-I-ay
 And she asked me up to her flat downtown
 Of a fine soft day -I-ay
-And I ask you friend, what's a fella to do
+
+<b>And I ask you friend, what's a fella to do
 Cuz her hair was black and her eyes were blue
 So I took her hand and I gave her a twirl
-Oh and I lost my heart to a Galway girl
+Oh and I lost my heart to a Galway girl</b>
 
 When I woke up I was all alone
 With a broken heart and a ticket home
-And I ask you now, tell me what would you do
+
+<b>And I ask you now, tell me what would you do
 If her hair was black and her eyes were blue
 Cuz I've traveled around I've been all over this world
-Boys I ain't never seen nothin' like a Galway girl
+Boys I ain't never seen nothin' like a Galway girl</b>
 `,
     },
     {
@@ -9463,6 +9466,55 @@ It never gets easy
 I guess I knew that all along
 
 <b>Chorus</b>
+`,
+    },
+    {
+        artist: "Sum 41",
+        title: "Thanks for Nothing",
+        tags: ["punk rock", "2000s"],
+        tabs: `
+Dm - Bb - F - C
+`,
+        lyrics: `
+I'll never take part in the grown population
+Or waste my time with further education
+To get what we know, is just a big show
+Where they want to control
+
+So chained and frustrated
+It's all so complicated
+Fashion, no passion surrounds me
+
+<i>G -> Dm
+All I know is</i> 
+<b>I've heard this all before
+Reality's a bore (is a bore)
+You ask me to believe it (never believe)
+Something they provide
+Can't bring myself to, do what
+You want me to (want me to)
+This is who we are and (who we are)
+nothing's gonna change</b>
+
+nothing's gonna change
+
+I can't take part in the business revolution
+Or take my chance in the real world confusion
+Don't blame us, who do we trust when they're so dis-a-honest
+No patience, this nation's obsessed with exploitation
+Lying, denying surrounds me
+
+<b>CHORUS</b>
+
+<i>Don't tell me your word is right (word is right)
+Don't pick a future for us (for us)
+We lack 'cause we're involved!!</i>
+
+<b>CHORUS</b>
+Thanks for nothing (I've heard this all before),
+Thanks for nothing (reality's a bore),
+Thanks for nothing (it'll never be the same),
+Thanks for nothing (and nothing's gonna change)
 `,
     },
     {
