@@ -3627,7 +3627,7 @@ For auld lang syne</b>
     {
         artist: "Traditional",
         title: "Bella Ciao",
-        tags: ["not validated", "italian", "folk", "traditional"],
+        tags: ["not validated", "italian", "folk"],
         tabs: `
 Am - Am - Am - Dm - Am - E - Am
 `,
@@ -3672,7 +3672,7 @@ Morto per la liberta.</b>
     {
         artist: "Traditional",
         title: "Bij Bolszewika!",
-        tags: ["not validated", "polish", "folk", "historical"],
+        tags: ["not validated", "polish", "folk"],
         tabs: `
 Am - E - Am / Dm - Am - E - Am
 `,
@@ -3716,6 +3716,109 @@ bo to jest twój największy dzisiaj wróg.
 
 Bij bolszewika w każdej go postaci
 bo to jest twój największy dzisiaj wróg.</b>
+`,
+    },
+    {
+        artist: "Traditional",
+        title: "John Barleycorn",
+        tags: ["english", "folk"],
+        tabs: `
+A1: A - Em  - G - D - Em - Esus2 - Em - Esus2 
+A2: A - G - D - Em - Esus2 - Em - Esus2
+B1: G - D - Em 
+B2: G -  A -  Bsus - B - Bsus - B
+B3: Am - Em - G - D - Em - Esus2 - Em - Esus2 [+ A2]
+`,
+        lyrics: `
+[A - Intro]
+There were three men came out of the east,
+their fortunes for to try
+And these three men made a solemn vow
+John Barleycorn must die
+
+[B - Plowing]
+They took a plough and plough'd him down
+threw clods at Johny's head
+And these three men made a solemn vow
+John Barleycorn was dead.
+
+[A - Germination in the field]
+They've let him lie for a very long time,
+'til the rains began to fall
+And John Barleycorn got up again,
+And so surprised them all
+
+[B - Ripening]
+They've let him stand 'til midsummer's day
+'til he looked both pale and wan
+And little Sir John's grown a long long beard
+and so become a man.
+
+[A - Harvesting]
+They've hired men with their scythes so sharp
+to cut him off at the knee
+They've bound him round and laid him flat, 
+for all the world to see.
+
+[B - Forking and Loading]
+They've hired men with their sharp pitchforks
+who've pricked him to the heart
+And the loader he has served him worse than that
+For he's bound him to the cart.
+
+[A - Transporting]
+They've wheeled him around and around a field
+'til they came onto a barn
+And there they made a solemn oath
+on poor John Barleycorn
+
+[B - Threshing]
+They've hired men with their crabtree sticks
+to cut him skin from bone
+They stripped the coat from off his back, 
+and left him all alone.
+
+[A - Steeping]
+They've filled up then a darksome pit
+With water to the brim,
+And heaved in poor John Barleycorn,
+To let him sink or swim.
+
+[B - Germination on the Floor]
+They flung him hard against the floor,
+To work him further woe;
+And when he tried to raise his head, 
+they struck him blow for blow.
+
+[A - Drying and Grinding the Malt]
+They seared away with scorching flame
+The marrow of his bones;
+But the miller used him worst of all,
+For he crushed him between two stones.  
+
+[B - Fermentation] 
+They sealed his remains in an oaken tomb, 
+to froth and foam and rage;
+And left him in the dark alone, 
+within that timber cage.
+
+[A - Drinking]
+And they have strain'd his very heart's blood,
+And drank it round and round,
+And still the more and more they drank,
+Their joy did more abound.
+
+[B - Finale]
+Then let us toast John Barleycorn,
+Each man a glass in hand;
+For he has died a thousand deaths
+So that we might sing and stand.
+
+[A - Outro]
+Now little Sir John in the nut brown bowl
+and his whisky in the glass
+And little Sir John in the nut brown bowl
+proved the strongest man at last
 `,
     },
     {
