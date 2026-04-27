@@ -1,3 +1,1 @@
 - Add colored lyrics
-- if you click on the chords, it shows the guitar + ukulele schema
-- Make it so that song pages are accessible via a url var "artist + song" 

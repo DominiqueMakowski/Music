@@ -3745,7 +3745,7 @@ John Barleycorn was dead.
 [A - Germination in the field]
 They've let him lie for a very long time,
 'til the rains began to fall
-And John Barleycorn got up again,
+And little Sir John got up again,
 And so surprised them all
 
 [B - Ripening]
@@ -3769,7 +3769,7 @@ For he's bound him to the cart.
 [A - Transporting]
 They've wheeled him around and around a field
 'til they came onto a barn
-And there they made a solemn oath
+And there they made a solemn vow
 on poor John Barleycorn
 
 [B - Threshing]
@@ -3799,7 +3799,7 @@ For he crushed him between two stones.
 [B - Fermentation] 
 They sealed his remains in an oaken tomb, 
 to froth and foam and rage;
-And left him in the dark alone, 
+And left him rot in the dark alone, 
 within that timber cage.
 
 [A - Drinking]
@@ -4492,10 +4492,11 @@ Ooh this time
     {
         artist: "Guns ‘N’ Roses",
         title: "Sweet Child O’ Mine",
-        tags: ["not validated", "rock", "80s"],
+        tags: ["rock", "80s", "baby"],
         tabs: `
 VERSE: D - C - G - D 
 CHORUS: A - C - D
+SOLO: Em - C - B - Am
 OUTRO: Em - G - A - C - D
 `,
         lyrics: `
@@ -4520,8 +4521,11 @@ And pray for the thunder and the rain to quietly pass me by
 
 <b>CHORUS x2</b>
 
-Where do we go?
-Where do we go now?
+Where do we go? Where do we go now? Where do we go? x2
+Where do we go? Sweet child... Where do we go now?
+Ayayaya
+Where do we go? Where do we go now? x3 [Slide down]
+Sweet child o' mine x2
 `,
     },
     {
@@ -5352,7 +5356,7 @@ I would find a way</b>
     {
         artist: "Johnny Cash",
         title: "You are my Sunshine",
-        tags: ["not validated", "country", "love"],
+        tags: ["country", "love", "baby"],
         tabs: `
 A - D - A - D - A - E  - A
 `,
@@ -10213,7 +10217,7 @@ I want to hold your hand
     {
         artist: "The Beatles",
         title: "I Saw Her Standing There",
-        tags: ["not validated", "rock", "pop", "60s"],
+        tags: ["rock", "pop", "60s", "baby"],
         tabs: `
 VERSE: E7 - A7 - E7 - B7 
 CHORUS: E - A - C -- E - B - E
@@ -10235,9 +10239,10 @@ I'd fall in love with her
 
 <b>She wouldn't dance with another
 Ooh, when I saw her standing there</b>
-Well, my heart went "boom"
+
+<i>Well, my heart went "boom"
 When I crossed that room
-And I held her hand in mine
+And I held her hand in mine</i>
 
 Oh we danced through the night
 And we held each other tight
