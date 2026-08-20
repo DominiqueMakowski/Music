@@ -3731,11 +3731,11 @@ bo to jest twój największy dzisiaj wróg.</b>
         title: "John Barleycorn",
         tags: ["english", "folk"],
         tabs: `
-A1: A - Em  - G - D - Em - Esus2 - Em - Esus2
-A2: A - G - D - Em - Esus2 - Em - Esus2
+A1: A - Em  - G - D - Em
+A2: A - G - D - Em
 B1: G - D - Em
-B2: G -  A -  Bsus - B - Bsus - B
-B3: Am - Em - G - D - Em - Esus2 - Em - Esus2 [+ A2]
+B2: G -  A -  B
+B3: Am - Em - G - D - Em [+ A2]
 `,
         lyrics: `
 [A - Intro]
