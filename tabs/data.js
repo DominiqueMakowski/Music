@@ -4,7 +4,7 @@ const DATA = [
         title: "Kryptonite",
         tags: ["rock"],
         tabs: `
-Verse: Bm - G - A 
+Verse: Bm - G - A
 Chorus: Bm - G - A / Bm - Em- F#5
 `,
         lyrics: `
@@ -59,7 +59,7 @@ And I scream from the top of my lungs
 "What's going on?"
 
 <b>And I say, hey-ey-ey, Hey-ey-ey
-I said "Hey, 
+I said "Hey,
 what's going on?"
 x2</b>
 
@@ -94,7 +94,7 @@ Chorus: C - G - C (x2) // Dm - G (x2)
 We can go dancing, we can go walking, as long as we're together
 Listen to some music, maybe just talking, get to know you better
 
-<i>'Cos you know I've got - 
+<i>'Cos you know I've got -
 So much that I wanna do, when I dream I'm alone with you
 It's magic
 You want me to leave it there, afraid of a love affair
@@ -117,11 +117,11 @@ Take a chance on me</b>
 Oh you can take your time baby, I'm in no hurry, know I'm gonna get you
 You don't wanna hurt me, baby don't worry, I ain't gonna let you
 
-<i>Let me tell you now - 
+<i>Let me tell you now -
 My love is strong enough to last when things are rough
 It's magic
 You say that I waste my time but I can't get you off my mind
-No I can't let 
+No I can't let
 go 'Cos I love you so</i>
 
 <b>CHORUS</b>
@@ -142,12 +142,12 @@ She leads a lonely life</b>
 When she woke up late in the morning light
 And the day had just begun
 She opened up her eyes and thought
-Oh, what a morning 
+Oh, what a morning
 
 It's not a day for work
 It's a day for catching sun
 Just laying on the beach and having fun
-She's going to get you  
+She's going to get you
 
 <b>All that she wants is another baby
 She's gone tomorrow, boy
@@ -296,7 +296,7 @@ Nothing compares, no worries or cares
 <b>Em</b>
 Regrets and mistakes, they're memories made
 <b>C</b>
-Who would have known how 
+Who would have known how
 <b>Am           Bm             C</b>
 bittersweet this would taste?</i>
 
@@ -594,30 +594,30 @@ And where you gonna go, where you gonna sleep tonight?
 Em - G - D - C
 `,
         lyrics: `
-No more tears, my heart is dry 
-I don't laugh and I don't cry 
-I don't think about you all the time 
-But when I do - I wonder why 
+No more tears, my heart is dry
+I don't laugh and I don't cry
+I don't think about you all the time
+But when I do - I wonder why
 
-You have to go out of my door 
-And leave just like you did before 
-I know I said that I was sure 
+You have to go out of my door
+And leave just like you did before
+I know I said that I was sure
 But rich men can't imagine poor
 
-<b>One day baby, we'll be old 
-Oh baby, we'll be old 
+<b>One day baby, we'll be old
+Oh baby, we'll be old
 And think of all the stories that we could have told</b>
 
 CHORUS
-Little me and little you 
-Kept doing all the things they do 
-They never really think it through 
-Like I can never think you're true 
+Little me and little you
+Kept doing all the things they do
+They never really think it through
+Like I can never think you're true
 
-Here I go again - the blame 
-The guilt, the pain, the hurt, the shame 
-The founding fathers of our plane 
-That's stuck in heavy clouds of rain 
+Here I go again - the blame
+The guilt, the pain, the hurt, the shame
+The founding fathers of our plane
+That's stuck in heavy clouds of rain
 
 <b>CHORUS x2</b>
 `,
@@ -748,9 +748,9 @@ To take up some of my love.
 Guys are so hard to trust.
 
 <b><i>Did I
-no-ot tell 
-you that I'm 
-not like that 
+no-ot tell
+you that I'm
+not like that
 girl: the one who
 who gives it all away?</i></b>
 
@@ -777,9 +777,9 @@ Yeah, that's what I said.
 
 <b>CHORUS</b>
 
-<i>This guilt trip that you put me on 
+<i>This guilt trip that you put me on
 won't mess me up, I've done no wrong
-Any thoughts of you and me have gone 
+Any thoughts of you and me have gone
 away</i>
 
 <i>C#m</i>
@@ -829,7 +829,7 @@ But so are they
 But they don't know me
 Do they even know you?
 All the things you hide from me
-All the shit that you do 
+All the shit that you do
 
 <i>PRECHORUS</i>
 <b>CHORUS</b>
@@ -872,7 +872,7 @@ But nobody's home
 It's where she lies
 Broken inside
 With no place to go,
-No place to go 
+No place to go
 to dry her eyes
 Broken inside</b>
 
@@ -981,37 +981,37 @@ VERSE a: A - Am7 - D - Dm x2 - C#m - F#m - F - G
 Chorus: A - C#m - D - E
 `,
         lyrics: `
-Jamais je n'aurais pensé... 
-"Tant besoin de lui" 
-Je me sens si envoûtée 
-Que ma maman me dit: ralentis 
-<i>Désir ou amour 
+Jamais je n'aurais pensé...
+"Tant besoin de lui"
+Je me sens si envoûtée
+Que ma maman me dit: ralentis
+<i>Désir ou amour
 Tu le sauras un jour</i>
 
-<b>J'aime j'aime 
-Tes yeux, j'aime ton odeur 
-Tous tes gestes en douceur 
-Lentement dirigés 
-Sensualité 
+<b>J'aime j'aime
+Tes yeux, j'aime ton odeur
+Tous tes gestes en douceur
+Lentement dirigés
+Sensualité
 
-Oh stop un instant 
-J'aimerais que ce moment 
-Fixe pour des tas d'années 
+Oh stop un instant
+J'aimerais que ce moment
+Fixe pour des tas d'années
 Ta sensualité</b>
 
-Il parait qu'après quelques temps 
-La passion s'affaiblit 
+Il parait qu'après quelques temps
+La passion s'affaiblit
 
-Pas toujours apparemment 
-Et maman m'avait dit: ralentis 
+Pas toujours apparemment
+Et maman m'avait dit: ralentis
 <i>Désir et amour tu le sauras un jour</i>
 
 <b>CHORUS</b>
 
-Je te demande si simplement 
-Ne fais pas semblant 
-Je t'aimerai encore 
-Et encore 
+Je te demande si simplement
+Ne fais pas semblant
+Je t'aimerai encore
+Et encore
 
 <i>Désir ou amour...</i>
 `,
@@ -1021,7 +1021,7 @@ Et encore
         title: "I Want it That Way",
         tags: ["90s", "pop", "banger"],
         tabs: `
-Verse: (F#m - D - A)x3 - F#m - E - A 
+Verse: (F#m - D - A)x3 - F#m - E - A
 Chorus: (D - D - E - F#m)x2 - D - D -  E - A - F#m - E - A
 Bridge: F#m - A - D - Bm - E - F#m - A - D - E - (D - E - A)x2
 Chorus 2: (E - E - F# - G#m)x2 - E - E -  F# - B - E - B - G#m
@@ -1032,7 +1032,7 @@ The one desire
 Believe when I say
 I want it that way
 
-But we are two worlds 
+But we are two worlds
 apart , Can't reach to your
 Heart, When you say
 That I want it that way
@@ -1199,7 +1199,7 @@ Rouge à lèvre de noires grandes lunettes
 Sur le chemin trembleuse sifflote
 Cet air, cette chansonnette très sotte</i>
 
-<b>Traîne dans le métro, 
+<b>Traîne dans le métro,
 mais toutes ces lignes en couleur ça me dit pas trop
 Houna je te promet tu ne feras plus la pute si j'ai un micro</b>
 
@@ -1217,7 +1217,7 @@ Comme une héroïne qu'on chérit un peu trop.
         tags: ["french"],
         tabs: `
 Verse: Bm - A - D - F#
-Chorus: Bm - A - E - E7 (G - A) 
+Chorus: Bm - A - E - E7 (G - A)
 Bridge: G7 - Bm - G7 - F#
 `,
         lyrics: `
@@ -1466,7 +1466,15 @@ Well, I guess this is growing up x4</b>
     {
         artist: "Blink 182",
         title: "Feeling This",
-        tags: ["2000s", "punk rock", "harmonies", "franky", "max", "4 chords", "CGAmF"],
+        tags: [
+            "2000s",
+            "punk rock",
+            "harmonies",
+            "franky",
+            "max",
+            "4 chords",
+            "CGAmF",
+        ],
         tabs: `
 C - G - Am - F
 `,
@@ -1501,7 +1509,7 @@ Take me away from here
 <i>This place was never the same again
 After you came and went
 How can you say you meant anything different
-To anyone standing alone 
+To anyone standing alone
 On the street with a cigarette
 On the first night we met
 
@@ -1511,7 +1519,7 @@ And maybe tonight
 I can breathe for awhile.
 I'm not in the scene
 I think I'm fallin' asleep
-But then all that it means is 
+But then all that it means is
 I'll always be dreaming of you.</i>
 
 [Fast]
@@ -1715,7 +1723,7 @@ Verse: Bm - G - Bm - A - D
 Everybody needs somebody
 Everybody needs somebody to love
 Sweetheart to miss
-Sugar to kiss 
+Sugar to kiss
 I need you, you, you
 I need you, you, you
 I need you, you, you in the morning
@@ -1739,7 +1747,7 @@ Verse 1
         title: "Wanted Dead or Alive",
         tags: ["80s"],
         tabs: `
-Verse: A - G - D - G - D - C - A 
+Verse: A - G - D - G - D - C - A
 Chorus: G - D - C - A
 `,
         lyrics: `
@@ -1852,12 +1860,12 @@ Though she'd heard the things he'd done
 She believed he was a holy healer
 Who would heal her son
 
-<b>CHORUS</b> 
+<b>CHORUS</b>
 
 <i>[Spoken:]
-But when his drinking and lusting and his hunger for power 
-became known to more and more people, 
-the demands to do something about this outrageous man 
+But when his drinking and lusting and his hunger for power
+became known to more and more people,
+the demands to do something about this outrageous man
 became louder and louder.</i>
 
 "This man's just got to go!" declared his enemies
@@ -2261,39 +2269,39 @@ You make me rise when I fall
 `,
         lyrics: `
 [1] [2]
-Je rêve son visage, je décline son corps 
-Et puis je l'imagine habitant mon décor 
-J'aurais tant à lui dire si j'avais su parler 
-Comment lui faire lire au fond de mes pensées ? 
+Je rêve son visage, je décline son corps
+Et puis je l'imagine habitant mon décor
+J'aurais tant à lui dire si j'avais su parler
+Comment lui faire lire au fond de mes pensées ?
 
-Mais comment font ces autres à qui tout réussi ? 
-Qu'on me dise mes fautes, mes chimères aussi 
-Moi j'offrirais mon âme, mon coeur et tout mon temps 
-Mais j'ai beau tout donner, tout n'est pas suffisant 
+Mais comment font ces autres à qui tout réussi ?
+Qu'on me dise mes fautes, mes chimères aussi
+Moi j'offrirais mon âme, mon coeur et tout mon temps
+Mais j'ai beau tout donner, tout n'est pas suffisant
 
 [1] x2 End: F - Bb
-<b>S'il suffisait qu'on s'aime, S'il Suffisait D'Aimer 
-Si l'on changeait les choses un peu, 
-Rien qu'en aimant donner 
-S'il suffisait qu'on s'aime, S'il Suffisait D'Aimer 
+<b>S'il suffisait qu'on s'aime, S'il Suffisait D'Aimer
+Si l'on changeait les choses un peu,
+Rien qu'en aimant donner
+S'il suffisait qu'on s'aime, S'il Suffisait D'Aimer
 Je ferais de ce monde un rêve, une éternité</b>
 
-J'ai du sang dans mes songes, un pétale séché 
-Quand des larmes me rongent que d'autres ont versées 
-La vie n'est pas étanche, mon île est sous le vent 
-Les portes laissent entrer les cris même en fermant 
-Dans un jardin d'enfant, sur un balcon des fleurs 
-Ma vie paisible où j'entends battre tous les coeurs 
-Quand les nuages foncent, présages des malheurs 
-Quelles armes répondent aux pays de nos peurs ? 
+J'ai du sang dans mes songes, un pétale séché
+Quand des larmes me rongent que d'autres ont versées
+La vie n'est pas étanche, mon île est sous le vent
+Les portes laissent entrer les cris même en fermant
+Dans un jardin d'enfant, sur un balcon des fleurs
+Ma vie paisible où j'entends battre tous les coeurs
+Quand les nuages foncent, présages des malheurs
+Quelles armes répondent aux pays de nos peurs ?
 
 <b>CHORUS</b>
 
-<b>S'il suffisait qu'on s'aime, S'il Suffisait D'Aimer 
-Si l'on pouvait changer les choses 
-Et tout recommencer 
-S'il suffisait qu'on s'aime, S'il Suffisait D'Aimer 
-Nous ferions de ce rêve un monde 
+<b>S'il suffisait qu'on s'aime, S'il Suffisait D'Aimer
+Si l'on pouvait changer les choses
+Et tout recommencer
+S'il suffisait qu'on s'aime, S'il Suffisait D'Aimer
+Nous ferions de ce rêve un monde
 S'il Suffisait D'Aimer</b>
 `,
     },
@@ -2304,11 +2312,11 @@ S'il Suffisait D'Aimer</b>
         tabs: `
 `,
         lyrics: `
-C                                       Am                                 Em           Em 
+C                                       Am                                 Em           Em
 If you leave me now you'll take away the biggest part of me
  Am            D           G                  C
 Oooh oooh No baby please don't go
-C                                       Am                                 Em             Em 
+C                                       Am                                 Em             Em
 And if you leave me now you'll take away the very heart of me
  Am            D           G                  C
 Oooh oooh No baby please don't go
@@ -2335,7 +2343,7 @@ When tomorrow comes and we both regret The things we said today
         title: "True Colors",
         tags: [],
         tabs: `
-  Am      G/B      C     F          
+  Am      G/B      C     F
 e|3-----3-3-----3-|3-----------------|
 B|--0-1-----0-1---|--0-1-------0-1---|
 G|------------------|--------2---------|
@@ -2452,7 +2460,7 @@ The present has no ribbon
 Your gift keeps on giving,
 What is this I'm feeling?
 (ah)
-If you wanna leave I'm with it 
+If you wanna leave I'm with it
 
 <i>We've come too far to give up who we are
 So let's raise the bar and our cups to the stars</i>
@@ -2513,47 +2521,47 @@ Prechorus : C - G - Am - F - C - G - F - G - F - G - C -  G - F
 Chorus : Dm - E - E7 - Am - F - G - Em - F
 `,
         lyrics: `
-Comme un fou va jeter à la mer 
-Des bouteilles vides et puis espère 
-Qu'on pourra lire à travers 
-S.O.S. écrit avec de l'air 
-Pour te dire que je me sens seul 
-Je dessine à l'encre vide 
+Comme un fou va jeter à la mer
+Des bouteilles vides et puis espère
+Qu'on pourra lire à travers
+S.O.S. écrit avec de l'air
+Pour te dire que je me sens seul
+Je dessine à l'encre vide
 Un désert
 
-<i>Et je cours 
-Je me raccroche à la vie 
-Je me saoule avec le bruit 
-Des corps qui m'entourent 
-Comme des lianes nouées de tresses 
-Sans comprendre la détresse 
+<i>Et je cours
+Je me raccroche à la vie
+Je me saoule avec le bruit
+Des corps qui m'entourent
+Comme des lianes nouées de tresses
+Sans comprendre la détresse
 Des mots que j'envoie</i>
 
-Difficile d'appeler au secours 
-Quand tant de drames nous oppressent 
-Et les larmes nouées de stress 
-Etouffent un peu plus les cris d'amour 
-De ceux qui sont dans la faiblesse 
-Et dans un dernier espoir 
+Difficile d'appeler au secours
+Quand tant de drames nous oppressent
+Et les larmes nouées de stress
+Etouffent un peu plus les cris d'amour
+De ceux qui sont dans la faiblesse
+Et dans un dernier espoir
 Disparaissent
 
 <i>PRECHORUS</i>
 
-<b>Tous les cris les S.O.S. 
-Partent dans les airs 
-Dans l'eau laissent une trace 
-Dont les écumes font la beauté 
-Pris dans leur vaisseau de verre 
-Les messages luttent 
-Mais les vagues les ramènent 
+<b>Tous les cris les S.O.S.
+Partent dans les airs
+Dans l'eau laissent une trace
+Dont les écumes font la beauté
+Pris dans leur vaisseau de verre
+Les messages luttent
+Mais les vagues les ramènent
 En pierres d'étoile sur les rochers</b>
 
-Et j'ai ramassé les bouts de verre 
-J'ai recollé tous les morceaux 
-Tout était clair comme de l'eau 
-Contre le passé y a rien à faire 
-Il faudrait changer les héros 
-Dans un monde où le plus beau 
+Et j'ai ramassé les bouts de verre
+J'ai recollé tous les morceaux
+Tout était clair comme de l'eau
+Contre le passé y a rien à faire
+Il faudrait changer les héros
+Dans un monde où le plus beau
 Reste à faire
 `,
     },
@@ -2643,13 +2651,13 @@ You say the world has come between us
 Our lives have come between us
 Still I know you just don't care
 
-<b>And I said, "What about 
+<b>And I said, "What about
 Breakfast at Tiffany's?"
 She said, "I think I,
 remember the film And as
 I recall, I think,
 we both kinda liked it"
-And I said, "Well, that's, 
+And I said, "Well, that's,
 the one thing we've got"</b>
 
 I see you, the only one who knew me
@@ -2874,40 +2882,40 @@ VERSE : Am - E7 (Am)
 CHORUS:  G - C - A7 - D7 - G7 - C
 `,
         lyrics: `
-Je suis le roi de la danse, oh 
-la jungle est ma pieds 
-de la puissance, je suis au plus haut 
-et pourtant je dois vous envier 
-je voudrais devenir un homme 
-ce serait merveilleux 
-vivre pareil aux autres hommes loin des singes ennuyeux 
-
-<b>Oh woupidou 
-je voudrais marcher comme vous 
-et parler comme vous 
-faire comme vous, tout 
-un singe comme moi 
-pourrais, je crois, 
-être parfois bien plus humain que vous</b>
-
-Pourtant crois moi bien je suis pas dupe 
-si je marchande avec vous 
-c'est que je désir le moyen d'être 
-un homme un point c'est tout 
-dis moi le secret pour être un homme 
-est-ce vraiment mystérieux 
-pour moi faire éclore 
-la grande fleur rouge 
-ce serait merveilleux 
+Je suis le roi de la danse, oh
+la jungle est ma pieds
+de la puissance, je suis au plus haut
+et pourtant je dois vous envier
+je voudrais devenir un homme
+ce serait merveilleux
+vivre pareil aux autres hommes loin des singes ennuyeux
 
 <b>Oh woupidou
-je voudrais marcher comme vous 
-et parler comme vous 
-faire comme vous, tout 
+je voudrais marcher comme vous
+et parler comme vous
+faire comme vous, tout
+un singe comme moi
+pourrais, je crois,
+être parfois bien plus humain que vous</b>
+
+Pourtant crois moi bien je suis pas dupe
+si je marchande avec vous
+c'est que je désir le moyen d'être
+un homme un point c'est tout
+dis moi le secret pour être un homme
+est-ce vraiment mystérieux
+pour moi faire éclore
+la grande fleur rouge
+ce serait merveilleux
+
+<b>Oh woupidou
+je voudrais marcher comme vous
+et parler comme vous
+faire comme vous, tout
 car je l'avoue,
-quelqu’un comme moi 
-c'est vrai je crois peux devenir comme vous (Roi Louis) 
-c'est vrai je crois peux devenir comme vous (Roi Louis) 
+quelqu’un comme moi
+c'est vrai je crois peux devenir comme vous (Roi Louis)
+c'est vrai je crois peux devenir comme vous (Roi Louis)
 c'est vrai je crois peux devenir comme moi (Baloo)</b>
 `,
     },
@@ -3184,7 +3192,7 @@ No Ceiling [B]
         tags: ["not validated", "2010s", "pop", "irish"],
         tabs: `
 Verse: Em - G - D - C
-Chorus: C - G - D - C / C - G - D - Em x2 
+Chorus: C - G - D - C / C - G - D - Em x2
 
 Verse Variations:
 V2: [Em - G - D - G]
@@ -3303,7 +3311,7 @@ Tell the driver make the radio play, and I'm singing like
         title: "Your Song",
         tags: ["not validated", "70s", "ballad", "piano"],
         tabs: `
-VERSE 1: D - G - A - F#m - Bm - Bm/A - Bm/Ab  - G 
+VERSE 1: D - G - A - F#m - Bm - Bm/A - Bm/Ab  - G
 VERSE 2 : D - A - F# - Bm - D - Em7 - G - (A / D)
 CHORUS: A - Bm - Em7 - G x2 - Bm - Bm/A - Bm/Ab - G - D - Em - G - A
 `,
@@ -3504,25 +3512,25 @@ Keep your head up, movin' on</i>
         tags: ["not validated", "2000s", "rock", "nu metal"],
         tabs: `
 Verse: Em - C - Am - D
-Chorus: Em - G - D - Am 
+Chorus: Em - G - D - Am
 Bridge: C - G - D - Em
 `,
         lyrics: `
 How can you see into my eyes, like open doors
 Leading you down into my core
-Where I've become so numb, 
+Where I've become so numb,
 without a soul
 My spirit's sleeping somewhere cold
 Until you find it there and lead it back home
 
 <b>(Wake me up)
-Wake me up inside 
+Wake me up inside
 (I can't wake up)
 Wake me up inside
 (Save me)
 Call my name and save me from the dark,
 (Wake me up)
-Bid my blood to run, 
+Bid my blood to run,
 (I can't wake up)
 Before I come undone,
 (Save me)
@@ -3533,7 +3541,7 @@ You can't just leave me
 Breathe into me and make me real, bring me to life
 
 <b>CHORUS (C - D - Em)
-Bring me to life, 
+Bring me to life,
 (I've been living a lie, there's nothing inside),
 Bring me to life</b>
 
@@ -3553,7 +3561,7 @@ There must be something wrong</i>
 (Am - D) Bring me to life
 
 <b>CHORUS (C - D - E)
-Bring me to life, 
+Bring me to life,
 (I've been living a lie, there's nothing inside),
 Bring me to life</b>
 `,
@@ -3564,7 +3572,7 @@ Bring me to life</b>
         tags: ["not validated", "2000s", "rock", "metal"],
         tabs: `
 Verse: Bm
-Prechorus: G - A - Em 
+Prechorus: G - A - Em
 Chorus: Bm - G - D - A
 Bridge: G - F# - Bm
 `,
@@ -3575,7 +3583,7 @@ Screaming, deceiving, and bleeding for you
 And you still won't hear me
 
 <i>Don't want your hand this time, I'll save myself
-Maybe I'll wake up for once 
+Maybe I'll wake up for once
 Not tormented, daily defeated by you
 Just when I thought I'd reached the bottom</i>
 
@@ -3589,16 +3597,16 @@ I've got to break through
 I'm going under
 Blurring and stirring the truth and the lies
 So I don't know what's real and what's not
-Always confusing the thoughts in my head 
+Always confusing the thoughts in my head
 So I can't trust myself anymore</b>
 
 <i>PRECHORUS</i>
 <b>CHORUS</b>
 
 <i>So go on and scream
-Scream at me, I'm so far away 
-I won't be broken again 
-I've got to breathe, I can't keep 
+Scream at me, I'm so far away
+I won't be broken again
+I've got to breathe, I can't keep
 going under</i>
 
 <b>CHORUS x2</b>
@@ -3609,7 +3617,7 @@ going under</i>
         title: "Auld Lang Syne",
         tags: ["not validated", "folk", "traditional", "holiday"],
         tabs: `
-F - C - F - Bb 
+F - C - F - Bb
 F - C - A -> Dm - C - F
 `,
         lyrics: `
@@ -3723,9 +3731,9 @@ bo to jest twój największy dzisiaj wróg.</b>
         title: "John Barleycorn",
         tags: ["english", "folk"],
         tabs: `
-A1: A - Em  - G - D - Em - Esus2 - Em - Esus2 
+A1: A - Em  - G - D - Em - Esus2 - Em - Esus2
 A2: A - G - D - Em - Esus2 - Em - Esus2
-B1: G - D - Em 
+B1: G - D - Em
 B2: G -  A -  Bsus - B - Bsus - B
 B3: Am - Em - G - D - Em - Esus2 - Em - Esus2 [+ A2]
 `,
@@ -3757,7 +3765,7 @@ and so become a man.
 [A - Harvesting]
 They've hired men with their scythes so sharp
 to cut him off at the knee
-They've bound him round and laid him flat, 
+They've bound him round and laid him flat,
 for all the world to see.
 
 [B - Forking and Loading]
@@ -3775,7 +3783,7 @@ on poor John Barleycorn
 [B - Threshing]
 They've hired men with their crabtree sticks
 to cut him skin from bone
-They stripped the coat from off his back, 
+They stripped the coat from off his back,
 and left him all alone.
 
 [A - Steeping]
@@ -3787,19 +3795,19 @@ To let him sink or swim.
 [B - Germination on the Floor]
 They flung him hard against the floor,
 To work him further woe;
-And when he tried to raise his head, 
+And when he tried to raise his head,
 they struck him blow for blow.
 
 [A - Drying and Grinding the Malt]
 They seared away with scorching flame
 The marrow of his bones;
 But the miller used him worst of all,
-For he crushed him between two stones.  
+For he crushed him between two stones.
 
-[B - Fermentation] 
-They sealed his remains in an oaken tomb, 
+[B - Fermentation]
+They sealed his remains in an oaken tomb,
 to froth and foam and rage;
-And left him rot in the dark alone, 
+And left him rot in the dark alone,
 within that timber cage.
 
 [A - Drinking]
@@ -3954,7 +3962,7 @@ I got my mind set on you
     {
         artist: "Green Day",
         title: "Basket Case",
-        tags: ["2000s", "punk rock", "japan 2022", "max"],
+        tags: ["2000s", "punk rock", "japan 2022", "max", "domandy"],
         tabs: `
 Verse:  E - B - C#m - G# - A - E - B
 Chorus: (A - B - E)x3 - C#m - C // A - B - E
@@ -4011,7 +4019,7 @@ On the Boulevard of Broken Dreams
 Where the city sleeps
 And I'm the only one, and I walk alone
 
-<i>I walk alone, I walk alone, 
+<i>I walk alone, I walk alone,
 I walk alone, I walk a-</i>
 
 <b>My shadow's the only one that walks beside me
@@ -4031,7 +4039,7 @@ What's fucked up, and everything's alright
 Check my vital signs
 To know I'm still alive, and I walk alone</i>
 
-<i>I walk alone, I walk alone, 
+<i>I walk alone, I walk alone,
 I walk alone, I walk a-</i>
 
 <b>CHORUS</b>
@@ -4192,7 +4200,7 @@ And I'm never gonna go
         tags: ["2000s", "punk rock", "max"],
         tabs: `
 VERSE: G - D - Em (up) - C
-CHORUS: Am - C 
+CHORUS: Am - C
 `,
         lyrics: `
 I heard you crying loud, all the way across town
@@ -4218,7 +4226,7 @@ You may find out that your self-doubt means nothing
 Was ever there
 You can't go forcing something if it's just not right
 
-<b>CHORUS 
+<b>CHORUS
 When I come around x4</b>
 `,
     },
@@ -4228,8 +4236,8 @@ When I come around x4</b>
         tags: ["not validated", "rock", "ballad"],
         tabs: `
 VERSE: Am - Dm - G - C
-CHORUS: F - G - Am (x2) F - G - C - Am - G // F - G - Am 
-ENDING: F - G (E)  
+CHORUS: F - G - Am (x2) F - G - C - Am - G // F - G - Am
+ENDING: F - G (E)
 `,
         lyrics: `
 Talk to me softly
@@ -4289,38 +4297,38 @@ Tonight (C)</b>
         tags: ["not validated", "rock"],
         tabs: `
 VERSE: D - A - G - A
-CHORUS: G - A - G - A - D 
+CHORUS: G - A - G - A - D
 `,
         lyrics: `
-<b>I used to love her 
+<b>I used to love her
 but I had to kill her
-I used to love her, oh yeah 
+I used to love her, oh yeah
 but I had to kill her
-I had to put her 
+I had to put her
 six feet under
 And I can still hear her complain</b>
 
-<b>I used to love her, oh yeah 
+<b>I used to love her, oh yeah
 but I had to kill her
-I used to love her, ooh yeah 
+I used to love her, ooh yeah
 but I had to kill her
-I knew I'll miss her 
+I knew I'll miss her
 so I had to keep her
 She's buried right in my back yard</b>
 
 <b>I used to love her
 but I had to kill her
-I used to love her, ooh yeah 
+I used to love her, ooh yeah
 but I had to kill her
 She bitched so much
 she drove me nuts
 And now I'm happier this way</b>
 
-<b>I used to love her 
+<b>I used to love her
 but I had to kill her
-I used to love her, oh yeah 
+I used to love her, oh yeah
 but I had to kill her
-I had to put her 
+I had to put her
 six feet under
 And I can still hear her complain</b>
 `,
@@ -4483,10 +4491,10 @@ Just trying to get it right
 It's hard to see with so many around
 You know I don't like being stuck in the crowd
 And the streets don't change but maybe the names
-I ain't got time for the game 'cause I need you 
-Yeah, yeah, yeah but I need you 
+I ain't got time for the game 'cause I need you
+Yeah, yeah, yeah but I need you
 Oh, I need you x2 (F)
-Ooh this time 
+Ooh this time
 `,
     },
     {
@@ -4494,7 +4502,7 @@ Ooh this time
         title: "Sweet Child O’ Mine",
         tags: ["rock", "80s", "baby"],
         tabs: `
-VERSE: D - C - G - D 
+VERSE: D - C - G - D
 CHORUS: A - C - D
 SOLO: Em - C - B - Am
 OUTRO: Em - G - A - C - D
@@ -4598,7 +4606,7 @@ To know that I care
         tabs: `
 VERSE: A - D - A - E
 CHORUS: D // E -> D / G -> A
-BRIDGE: A 
+BRIDGE: A
 `,
         lyrics: `
 I've been lookin' for a trace
@@ -4635,7 +4643,7 @@ When I was younger said I knew someone like you and they said
         tags: ["not validated", "soundtrack", "musical"],
         tabs: `
 VERSE : Dm - Dm -  Bb - F - A - Dm / (F - C - Dm - Bb)x2
-CHORUS: (F- Bb - F - C - Bb)x3 - C 
+CHORUS: (F- Bb - F - C - Bb)x3 - C
 `,
         lyrics: `
 I got chills, they're multiplying
@@ -4674,7 +4682,7 @@ Are you sure? Yes I'm sure down deep inside</i>
         title: "The Reason",
         tags: ["not validated", "2000s", "rock"],
         tabs: `
-VERSE: G - Em x2 C - Am - D 
+VERSE: G - Em x2 C - Am - D
 CHORUS: G - Em - C - D - G (F - G)
 `,
         lyrics: `
@@ -4746,7 +4754,7 @@ Close my eyes, I am rhythm
 In a flash
 It takes hold of my heart
 
-<b>What a feeling 
+<b>What a feeling
 (I am music now)
 Bein's believin'
 (I am rhythm now)
@@ -4769,57 +4777,57 @@ I can have it all</b>
         title: "3 nuits par semaine",
         tags: ["not validated", "french", "80s"],
         tabs: `
-VERSE: Dm - F - Am - G 
+VERSE: Dm - F - Am - G
 PRECHORUS: Am - F - C
 CHORUS: Ab - Eb - Bb - F
 `,
         lyrics: `
-C'est dans la nuit de Rebecca 
-que la légende partira 
-et aujourd'hui pour une troisième fois 
-elle décidait de sa première fois 
+C'est dans la nuit de Rebecca
+que la légende partira
+et aujourd'hui pour une troisième fois
+elle décidait de sa première fois
 
-C'est avec lui qu'elle le voulait 
+C'est avec lui qu'elle le voulait
 qu'elle désirait à ce qu'il l'aimait
-et puis avec cet homme qui rit 
-celui pour qui elle a choisi 
+et puis avec cet homme qui rit
+celui pour qui elle a choisi
 
-Dans la chambre au pied du fleuve 
-la ville endormie les laisse seuls 
-et sous la chaleur et sans un bruit 
+Dans la chambre au pied du fleuve
+la ville endormie les laisse seuls
+et sous la chaleur et sans un bruit
 ils rattraperont toute la nuit "la nuit"
 
-<b>Mais 3 nuits par semaine 
-c'est sa peau contre ma peau 
-et je suis avec elle 
-et 3 nuits par semaine mais bon dieu, qu'elle est belle 
-mais 3 nuits par semaine 
-c'est son corps contre mon corps 
-c'est nos corps qui s'enchaînent 
+<b>Mais 3 nuits par semaine
+c'est sa peau contre ma peau
+et je suis avec elle
+et 3 nuits par semaine mais bon dieu, qu'elle est belle
+mais 3 nuits par semaine
+c'est son corps contre mon corps
+c'est nos corps qui s'enchaînent
 mais 3 nuits par semaine mais bon dieu qu'elle est belle</b>
 
-A bout de souffle comme une sirène 
-elle voit son corps qui se réveille 
-elle arrachait tous ses vêtements 
-par quelques gestes élégants 
+A bout de souffle comme une sirène
+elle voit son corps qui se réveille
+elle arrachait tous ses vêtements
+par quelques gestes élégants
 
-Il posa ses mains sur elle a rougi 
-il a tout voulu et on l'a puni 
-elle caressa en douceur 
-comme pour oublier sa douleur 
+Il posa ses mains sur elle a rougi
+il a tout voulu et on l'a puni
+elle caressa en douceur
+comme pour oublier sa douleur
 
-Et il l'a prise dans ses bras 
-car elle avait un peu froid 
-à cet instant et à chaque fois 
+Et il l'a prise dans ses bras
+car elle avait un peu froid
+à cet instant et à chaque fois
 elle voudra le revoir au moins 3 nuits, 3 nuits, 3 nuits
 
 <b>CHORUS</b>
 
-C'est dans la nuit de Rebecca 
-que la légende partira 
-à cet instant et à chaque fois 
-elle voudra le revoir au moins 3 nuits 
-à cet instant et à chaque fois 
+C'est dans la nuit de Rebecca
+que la légende partira
+à cet instant et à chaque fois
+elle voudra le revoir au moins 3 nuits
+à cet instant et à chaque fois
 ils se donnèrent rendez-vous 3 nuits "3 nuits"
 
 <b>CHORUS</b>
@@ -5056,7 +5064,7 @@ I'm yours</b>
         title: "Hallelujah",
         tags: ["not validated", "ballad", "slow"],
         tabs: `
-C - Am x2 - F - G - C - G // C - F - G - Am - F - G - Em - Am 
+C - Am x2 - F - G - C - G // C - F - G - Am - F - G - Em - Am
 F - Am x2 C- G - C
 `,
         lyrics: `
@@ -5065,7 +5073,7 @@ That David played and it pleased the Lord
 But you don't really care for music, do you?
 Well it goes like this the fourth, the fifth
 The minor fall and the major lift
-The baffled king composing 
+The baffled king composing
 Hallelujah
 
 <b>Hallelujah, Hallelujah
@@ -5086,7 +5094,7 @@ But, all I've ever learned from love
 Was how to shoot somebody who outdrew you?
 And it's not a cry, that you hear at night
 It's not somebody, who's seen the light
-It's a cold and it's a broken 
+It's a cold and it's a broken
 Hallelujah
 
 <b>Hallelujah, Hallelujah
@@ -5139,7 +5147,7 @@ They treat you like a guest
         title: "White Rabbit",
         tags: ["hippie", "60s", "rock"],
         tabs: `
-Verse: F# - G x2  
+Verse: F# - G x2
 Chorus: A - C - D - A
 Bridge: E - A x2 // F# - F#
 Outro: E - A x2
@@ -5181,9 +5189,9 @@ Feed your head</i></b>
         tags: ["not validated", "soundtrack", "70s"],
         tabs: `
 VERSE: Am - Dm - G - C - E - Am - F - Am (B - E // E - Am)
-CHORUS: Am - G - F - E 
-BRIDGE 1 and 2: Am - D // Bm - E 
-CHORUS2 : Bm - A - G - F# 
+CHORUS: Am - G - F - E
+BRIDGE 1 and 2: Am - D // Bm - E
+CHORUS2 : Bm - A - G - F#
 VERSE2 : Bm - Em - A - D - F# - Bm - G - Bm (C# - F# // F# - Bm)
 `,
         lyrics: `
@@ -5285,7 +5293,7 @@ Et l'on n'a même pas pensé
         title: "Country Roads",
         tags: ["banger", "country", "70s"],
         tabs: `
-Verse: A - F#m - E - D 
+Verse: A - F#m - E - D
 Chorus: A  - E - [F#m - D // D - A]
 Bridge: F#m - E - A - D - A - E - F#m - G - D - A - E - E7
 `,
@@ -5296,9 +5304,9 @@ Life is old there, older than the trees, younger than the mountains, blowing lik
 <b>Country roads, take me home to the place I belong.
 West Virginia, mountain mamma, take me home, country roads.</b>
 
-All my memories gather round her, 
+All my memories gather round her,
 miner's lady, stranger to blue water.
-Dark and dusty, painted on the sky, 
+Dark and dusty, painted on the sky,
 misty taste of moonshine, teardrop in my eye.
 
 <b>CHORUS</b>
@@ -5318,38 +5326,38 @@ Verse: Am - C - D (G)
 Chorus: Am - F - C - G  (G - Am)
 `,
         lyrics: `
-I hurt myself today 
-To see if I still feel 
-I focus on the pain 
-The only thing that's real 
+I hurt myself today
+To see if I still feel
+I focus on the pain
+The only thing that's real
 The needle tears a hole
-The old familiar sting 
-Try to kill it all away 
-But I remember everything 
+The old familiar sting
+Try to kill it all away
+But I remember everything
 
-<b>What have I become 
-My sweetest friend 
-Everyone I know goes away 
-In the end 
-And you could have it all 
-My empire of dirt 
-I will let you down 
+<b>What have I become
+My sweetest friend
+Everyone I know goes away
+In the end
+And you could have it all
+My empire of dirt
+I will let you down
 I will make you hurt</b>
 
-I wear this crown of thorns 
-Upon my liar's chair 
-Full of broken thoughts 
-I cannot repair 
-Beneath the stains of time 
-The feelings disappear 
-You are someone else 
-I am still right here 
+I wear this crown of thorns
+Upon my liar's chair
+Full of broken thoughts
+I cannot repair
+Beneath the stains of time
+The feelings disappear
+You are someone else
+I am still right here
 
 <b>CHORUS</b>
 
-<b>If I could start again 
-A million miles away 
-I would keep myself 
+<b>If I could start again
+A million miles away
+I would keep myself
 I would find a way</b>
 `,
     },
@@ -5431,9 +5439,9 @@ I can see clearly now the rain is gone
 I can see all obstacles in my way
 Gone are the dark clouds that had me blind
 
-<b>It's gonna be a bright, bright, 
+<b>It's gonna be a bright, bright,
 sunshiny day
-It's gonna be a bright, bright, 
+It's gonna be a bright, bright,
 sunshiny day</b>
 
 Oh, yes I can make it now the pain is gone
@@ -5623,21 +5631,21 @@ A - G - D - A
         lyrics: `
 My mama told me when I was young,
 "We are all born superstars"
-She rolled my hair and put my lipstick on 
+She rolled my hair and put my lipstick on
 in the glass of her boudoir
-"There's nothing wrong with loving who you are", 
+"There's nothing wrong with loving who you are",
 she said, "'Cause He made you perfect, babe
 So hold your head up, girl, and you'll go far"
 Listen to me when I say
 
-<b>I'm beautiful in my way 
+<b>I'm beautiful in my way
 'cause God makes no mistakes
-I'm on the right track, baby, 
+I'm on the right track, baby,
 I was born this way
-Don't hide yourself in regret, 
+Don't hide yourself in regret,
 just love yourself, and you're set
-I'm on the right track, baby, 
-I was born this way</b> 
+I'm on the right track, baby,
+I was born this way</b>
 
 Ooh, there ain't no other way, baby, I was born this way
 Baby, I was born this way (born this way)
@@ -5650,7 +5658,7 @@ Don't be (don't be, don't be)
 
 <i>Give yourself prudence and love your friends
 Subway kid, rejoice your truth
-In the religion of the insecure, I must 
+In the religion of the insecure, I must
 be myself, respect my youth
 A different lover is not a sin, believe capital H-I-M (hey, hey, hey)
 I love my life, I love this record, and
@@ -5669,7 +5677,7 @@ C#m - E - B - F#m
 Bridge: A - (C# – B - C# x4)
 `,
         lyrics: `
-I've had a little bit too much, much 
+I've had a little bit too much, much
 All of the people start to rush, start to rush by
 A dizzy twister dance, can't find my drink or man
 Where are my keys? I lost my phone, phone
@@ -5980,7 +5988,7 @@ We didn't come from money.
         tabs: `
 Verse: Am - F - G - D - (F - G - C)
 Prechorus: F - Am - G - F (E)
-Chorus: Am - G - F - C - Dm - Bb - F - G 
+Chorus: Am - G - F - C - Dm - Bb - F - G
 Bridge: Am - C - D - (F - G // E)
 Am Hard C rock D hallelujah F - G - C
 `,
@@ -6035,7 +6043,7 @@ There's somethin' wrong, we can't stay still
 I've been drankin' and bustin' two
 and I been thankin' of bustin' you
 Upside ya motherfuckin' forehead
-And if your friends jump in, 
+And if your friends jump in,
 "Ohhh gurrlll", they'll be mo' dead
 Causin' confusion, Disturbin Tha Peace
 It's not an illusion, we runnin the streets
@@ -6066,7 +6074,7 @@ There's too many places I got to see
 
 If I stay here with you girl
 Things just couldn't be the same
-'Cause I'm as free as a bird now 
+'Cause I'm as free as a bird now
 And this bird you cannot change
 
 <b>And the bird you cannot change
@@ -6182,7 +6190,7 @@ For the other guy you loved before?
 VERSE SLOW : G - G/B - C  - Cm
 VERSE: G - G - C  - Cm
 CHORUS: G - G/B - Em - Cm // (G - Em - Am7 - D7) x2
-BRIDGE : B - Em - B7 - Em - Cm - G  - E7 - Am7 - D  
+BRIDGE : B - Em - B7 - Em - Cm - G  - E7 - Am7 - D
 `,
         lyrics: `
 I don't want a lot for Christmas
@@ -6385,7 +6393,7 @@ No, nothing else matters
         tags: ["not validated", "metal", "rock", "90s"],
         tabs: `
 VERSE: Am - Em - D - Am
-BRIDGE: C - G - Am // C - G - E 
+BRIDGE: C - G - Am // C - G - E
 CHORUS: Am - C - G - Em - Am // Am - C - G - E - Am
 `,
         lyrics: `
@@ -6529,10 +6537,10 @@ It don't matter if you're black or white</b>
         title: "Wrecking Ball",
         tags: ["not validated", "pop", "2010s"],
         tabs: `
-VERSE : F#m - A - E - D  
+VERSE : F#m - A - E - D
 PRECHORUS : D - F#m - A - D
 CHORUS : A - E - F#m - D
-BRIDGE: F#m - A  - G# - 
+BRIDGE: F#m - A  - G# -
 `,
         lyrics: `
 We clawed, we chained our hearts in vain
@@ -7007,7 +7015,7 @@ Throw down your umbilical noose so I can climb right back
         title: "In Bloom",
         tags: ["not validated", "grunge", "90s"],
         tabs: `
-RIFF: A - F# - E - F#->G x2 
+RIFF: A - F# - E - F#->G x2
 VERSE : A - F - D - Bb - G#
 CHORUS: (A - F#m) x4 - (B - D) x2
 `,
@@ -7040,7 +7048,7 @@ Knows not what it means, when I say
         title: "Lake of Fire",
         tags: ["not validated", "grunge", "acoustic", "cover", "90s"],
         tabs: `
-Verse: F# - E - A //  F# - B - A  
+Verse: F# - E - A //  F# - B - A
 Chorus: C#m - A -C#m - G# - C#m - A - B - C#m
 `,
         lyrics: `
@@ -7255,7 +7263,7 @@ Maybe she would like some food
 She asks me to untie her
 A chase would be nice for a few
 
-<b>CHORUS 
+<b>CHORUS
 Polly said</b>
 
 Polly says her back hurts
@@ -7271,7 +7279,7 @@ It amazes me, the will of instinct
         title: "Something in the Way",
         tags: ["not validated", "grunge", "slow", "90s"],
         tabs: `
-Em - C 
+Em - C
 `,
         lyrics: `
 Underneath the bridge
@@ -7295,7 +7303,7 @@ Verse 1
         tags: ["not validated", "grunge", "rock", "2000s"],
         tabs: `
 Verse: Em (end: C -> D)
-Chorus: E x2 // C -> D // E x4 
+Chorus: E x2 // C -> D // E x4
 `,
         lyrics: `
 I will never bother you
@@ -7372,59 +7380,59 @@ SOLO: Cm - Fm - Fm - Bb - (Gm - Cm - Fm) x3
 `,
         lyrics: `
 (1 - 2 - 3)
-You and me 
-We used to be together 
-Everyday together always 
-I really feel 
-That I'm losing my best friend 
+You and me
+We used to be together
+Everyday together always
+I really feel
+That I'm losing my best friend
 I can't believe
-This could be the end 
+This could be the end
 
-It looks as though you're letting go 
-And if it's real 
-Well I don't want to know 
+It looks as though you're letting go
+And if it's real
+Well I don't want to know
 
-<b>Don't speak 
+<b>Don't speak
 I know just what you're saying
-So please stop explaining 
-Don't tell me cause it hurts 
-Don't speak 
-I know what you're thinking 
-I don't need your reasons 
+So please stop explaining
+Don't tell me cause it hurts
+Don't speak
+I know what you're thinking
+I don't need your reasons
 Don't tell me cause it hurts</b>
 
 (1 - 3)
-Our memories 
-Well, they can be inviting 
-But some are altogether 
-Mighty frightening 
-As we die, both you and I 
-With my head in my hands 
-I sit and cry 
+Our memories
+Well, they can be inviting
+But some are altogether
+Mighty frightening
+As we die, both you and I
+With my head in my hands
+I sit and cry
 <b>CHORUS</b>
 
-<i>It's all ending 
-I gotta stop pretending who we are... 
+<i>It's all ending
+I gotta stop pretending who we are...
 You and me I can see us dying...are we?</i>
 
 <b>CHORUS
-Don't tell me cause it hurts! 
-I know what you're saying 
+Don't tell me cause it hurts!
+I know what you're saying
 So please stop explaining
 
 Don't speak,
-don't speak, 
-don't speak, 
-oh I know what you're thinking 
-And I don't need your reasons 
-I know you're good, 
-I know you're good, 
-I know you're real good 
-Oh, la la la la la la La la la la la la 
-Don't, Don't, uh-huh Hush, hush darlin' 
-Hush, hush darlin' Hush, hush 
-don't tell me tell me cause it hurts 
-Hush, hush darlin' Hush, hush darlin' 
+don't speak,
+don't speak,
+oh I know what you're thinking
+And I don't need your reasons
+I know you're good,
+I know you're good,
+I know you're real good
+Oh, la la la la la la La la la la la la
+Don't, Don't, uh-huh Hush, hush darlin'
+Hush, hush darlin' Hush, hush
+don't tell me tell me cause it hurts
+Hush, hush darlin' Hush, hush darlin'
 Hush, hush don't tell me tell me cause it hurts</b>
 `,
     },
@@ -7480,20 +7488,20 @@ Back into the hole where I was born
 The sun in the sky never raised an eye to me
 The blood on the trax and must be mine
 The fool on the hill and I feel fine
-Don't look back cos you know what you might see 
+Don't look back cos you know what you might see
 
 Look into the wall of my mind's eye
 I think I know, but I don't know why
 The questions are the answers you might need
 Coming in a mess going out in style
 I ain't good-looking but I'm someone's child
-No-one can give me the air that's mine to breathe 
+No-one can give me the air that's mine to breathe
 
 <i>I met my maker
 I made him cry
 And on my shoulder he asked me why
 His people won't fly through the storm
-I said "Listen up man, they don't even know you're born"</i> 
+I said "Listen up man, they don't even know you're born"</i>
 
 <b>All my people right here, right now
 D'You Know What I Mean?
@@ -7520,7 +7528,7 @@ Get on the bus and bring it on home to me
         tags: ["not validated", "rock", "britpop", "90s"],
         tabs: `
 Verse: G - D - Am7 - C - D
-Chorus: Em7 - D - Am7 - C - D - Em7 - D - Am7 - Fsus2 
+Chorus: Em7 - D - Am7 - C - D - Em7 - D - Am7 - Fsus2
 `,
         lyrics: `
 Maybe I don't really wanna know
@@ -7576,7 +7584,7 @@ Tomorrow never knows what it doesn’t know too soon
 Need a little time to wake up, wake up
 Need a little time to wake up
 Need a little time to rest your mind
-You know you should so I guess you might as 
+You know you should so I guess you might as
 Well</i>
 
 <b>What’s the story morning glory?
@@ -7646,12 +7654,12 @@ CHORUS: Em7 - A7 - C - G / D
 `,
         lyrics: `
 I'm free to be whatever I
-Whatever I choose 
-And I'll sing the blues if I want 
+Whatever I choose
+And I'll sing the blues if I want
 
 I'm free to say whatever I
 Whatever I like
-If it's wrong or right it's alright 
+If it's wrong or right it's alright
 
 <i>Always seems to me
 You only see what people want you to see
@@ -7662,12 +7670,12 @@ Get a grip on yourself
 It don't cost much</i>
 
 Free to be whatever you
-Whatever you say 
-If it comes my way it's alright 
+Whatever you say
+If it comes my way it's alright
 
 You're free to be wherever you
 Wherever you please
-You can shoot the breeze if you want 
+You can shoot the breeze if you want
 
 <b>CHORUS</b>
 `,
@@ -7870,7 +7878,7 @@ Well, you see her when you fall asleep
 But never to touch and never to keep
 'Cause you loved her too much, and you dived too deep
 
-<b>CHORUS 
+<b>CHORUS
 
 And you let her go
 Oh, oh, mm, oh
@@ -7947,8 +7955,8 @@ Every year is getting shorter, never seem to find the time
 Plans that either come to naught or half a page of scribbled lines
 Hanging on in quiet desperation is the English way
 Bm7                             Bm
-The time is gone, the song is over, 
-Bm7                               F                        
+The time is gone, the song is over,
+Bm7                               F
 thought I'd something more to say
 
 <b>Home, home again
@@ -8090,7 +8098,7 @@ I'd have to pack my things and go. (That's right)
 VERSE : Am - F (x2) - C - G - F - Dm
 BRIDGE: Am - F
 CHORUS: C - G - Dm - Am
-SOLO: F#m - D (x2) - Bm - D - A - E 
+SOLO: F#m - D (x2) - Bm - D - A - E
 `,
         lyrics: `
 Psychic spies from China try to steal your mind's elation
@@ -8142,7 +8150,7 @@ Hardcore soft porn
         tabs: `
 VERSE : Am - G - Dm - Am
 CHORUS: G - F - C - Dm
-BRIDGE: Bm - G (F# - E - D - C#) 
+BRIDGE: Bm - G (F# - E - D - C#)
 `,
         lyrics: `
 Getting born in the state of Mississippi
@@ -8324,7 +8332,7 @@ Well, I never worry, now that is a lie
 <b>I don't ever wanna feel
 Like I did that day
 Take me to the place I love
-Take me all the way 
+Take me all the way
 x2</b>
 
 It's hard to believe that there's nobody out there
@@ -8454,7 +8462,7 @@ New kicks in the candlelight
 She's got a new addiction
 For every day and night
 
-<i>She'll make you take your clothes off and go 
+<i>She'll make you take your clothes off and go
 dancing in the rain
 She'll make you live her crazy life, but she'll take away your pain
 Like a bullet to your brain</i>
@@ -8466,7 +8474,7 @@ Livin' la vida loca
 Her lips are devil red
 And her skin's the color mocha
 She will wear you out
-Livin' la vida loca (x3)</b> 
+Livin' la vida loca (x3)</b>
 Woke up in New York City
 In a funky cheap hotel
 She took my heart, and she took my money
@@ -8814,7 +8822,7 @@ And that's the deal my dear
 Thereover, hereunder
 You've got me head over heels
 There's nothing left to fear
-If you really feel the way I feel 
+If you really feel the way I feel
 x2</b>
 `,
     },
@@ -9021,7 +9029,7 @@ Chorus: E - D (x3) // F#m - E - D - B (x2)
 Bridge: D - A - E - B - D / D - A - D - B
 `,
         lyrics: `
-Watching 
+Watching
 for a sound to lead me to
 where ever you go
 I can't help it I will always love you
@@ -9031,8 +9039,8 @@ Any time was right for secret meetings
 It's different now and when you speak
 Every word means no (2x)
 
-I'm thinking 
-of things that come to life 
+I'm thinking
+of things that come to life
 Your going through some things so shallow
 there's nothing to fight
 <b>CHORUS</b>
@@ -9043,7 +9051,7 @@ I'm looking around in directions
 'Cause all I ever thought about was you
 I never noticed anything but you</i>
 
-Predicting 
+Predicting
 puts me down on shaky ground
 I keep thinking your looking at me
 Do you want me around
@@ -9086,7 +9094,7 @@ Now, that's the way it seemed
 Disappointment haunted all of my dreams
 
 <b>CHORUS
-Yes, I saw her face, now I'm a believer… 
+Yes, I saw her face, now I'm a believer…
 CHORUS</b>
 `,
     },
@@ -9099,38 +9107,38 @@ VERSE/CHORUS:  D - Bm - A - G
 PRECHORUS: G - D  - G - A - A
 `,
         lyrics: `
-One, two princes kneel before you 
-That what I said now 
-Princes, princes who adore you 
-Just go ahead now 
-One has diamonds in his pockets 
-That's some bread, now 
-This one said he wants to buy you rockets 
-Ain't in his head, now 
+One, two princes kneel before you
+That what I said now
+Princes, princes who adore you
+Just go ahead now
+One has diamonds in his pockets
+That's some bread, now
+This one said he wants to buy you rockets
+Ain't in his head, now
 
-This one he got a princely racket 
-That's what I said now 
-Got some Big Seal upon his jacket 
-Ain't in his head now 
-You marry him, your father will condone you 
-How 'bout that now 
-You marry me, your father will disown you 
-He'll eat his hat, now 
+This one he got a princely racket
+That's what I said now
+Got some Big Seal upon his jacket
+Ain't in his head now
+You marry him, your father will condone you
+How 'bout that now
+You marry me, your father will disown you
+He'll eat his hat, now
 
-<b>Marry him, marry me 
-I'm the one that loved you baby can't you see? 
-Ain't got no future or family tree 
-But I know what a prince and lover ought to be 
+<b>Marry him, marry me
+I'm the one that loved you baby can't you see?
+Ain't got no future or family tree
+But I know what a prince and lover ought to be
 I know what a prince and lover ought be</b>
 
-Said if you want to call me baby 
-Just go ahead now 
-And if you like to tell me maybe 
-Just go ahead now 
-And if you wanted to buy me flowers 
-Just go ahead now 
-And if you like to talk for hours 
-Just go ahead now 
+Said if you want to call me baby
+Just go ahead now
+And if you like to tell me maybe
+Just go ahead now
+And if you wanted to buy me flowers
+Just go ahead now
+And if you like to talk for hours
+Just go ahead now
 `,
     },
     {
@@ -9174,7 +9182,7 @@ It's like I got punched in the nuts
 By a dude who knows thai-chi
 
 <i>Prechorus</i>
-<b>CHORUS</b> 
+<b>CHORUS</b>
 
 Hey, I'm the man with a plan
 I'm fuckin' going to Japan
@@ -9194,7 +9202,7 @@ I'm fuckin' gonna be the man
         tags: ["not validated", "glam metal", "comedy", "2000s"],
         tabs: `
 Verse: D - F#m - E
-Chorus: A - D - E 
+Chorus: A - D - E
 Bridge: E - F#m - D - A
 `,
         lyrics: `
@@ -9220,9 +9228,9 @@ Even after you swallow my load
 
 <i>I wanna make it clear
 So you retain it
-My dick's a free spirit 
-And you can't restrain it (D…) 
-No, you just can't chain it down 
+My dick's a free spirit
+And you can't restrain it (D…)
+No, you just can't chain it down
 (F#m… E...)</i>
 
 I love you so much it hurts
@@ -9240,9 +9248,9 @@ That I go out and cheat
         title: "Girl From Oklahoma",
         tags: ["not validated", "glam metal", "comedy", "2000s"],
         tabs: `
-Verse: G - C/B - C - G - G/F# - Em - Am7 - C - D (G) 
+Verse: G - C/B - C - G - G/F# - Em - Am7 - C - D (G)
 Transition: Em7 - A7 x2
-Chorus: C - C/B - C - D (G -> 2ndpart of verse) 
+Chorus: C - C/B - C - D (G -> 2ndpart of verse)
 Bridge: G7 - C - Cm - Bm - E - A - D
 `,
         lyrics: `
@@ -9297,7 +9305,7 @@ There's a hundred billion stupid girls
 Just like you
 Just begging for nuts to chew
 
-<b>CHORUS 1 
+<b>CHORUS 1
 CHORUS 2</b>
 `,
     },
@@ -9306,9 +9314,9 @@ CHORUS 2</b>
         title: "It Won’t Suck Itself",
         tags: ["not validated", "glam metal", "comedy", "2010s"],
         tabs: `
-Verse: A - A - C 
+Verse: A - A - C
 Bridge: F - D - E
-Chorus: A - C - D // A - F - D - G // A - C - D - F - E  
+Chorus: A - C - D // A - F - D - G // A - C - D - F - E
 `,
         lyrics: `
 Last week me and Satchel were at the San Diego zoo
@@ -9319,9 +9327,9 @@ I felt the sting down on my thing and I heard a hissing sound
 <b>A six foot rattlesnake just bit me right below the belt
 Get on your knees and help me please 'cause it won't suck itself
 
-Time to use your mouth 
+Time to use your mouth
 (Just get that venom out)
-You can't spit it out 
+You can't spit it out
 (right now you'll choke it out)
 I need you to be the nurse
 I can feel the swelling getting worse
@@ -9337,7 +9345,7 @@ I'm down and out, I need some help 'cause it won't suck itself
 
 Time to use your mouth
  (Just get that venom out)
-You can't spit it out 
+You can't spit it out
 (right now you'll choke it out)
 Holy shit, it's getting worse
 I don't want to wind up in a hearse
@@ -9593,7 +9601,7 @@ It's all so complicated
 Fashion, no passion surrounds me
 
 <i>G -> Dm
-All I know is</i> 
+All I know is</i>
 <b>I've heard this all before
 Reality's a bore (is a bore)
 You ask me to believe it (never believe)
@@ -9658,7 +9666,7 @@ I don't feel so insecure
 Part of me, won't agree
 Cause I don't know if it's for sure
 Suddenly, suddenly
-I don't feel so insecure… Anymore!</b> 
+I don't feel so insecure… Anymore!</b>
 
 Everybody's got their problems
 Everybody says the same thing to you
@@ -9866,7 +9874,7 @@ Ce soir dansent les ombres du monde</b>
 A la rêver immobile
 Elle m'a trouvé bien futile
 Mais quand bouger l'a fait tourner
-Ma réalité 
+Ma réalité
 m'a pardonné
 
 M'a pardonné
@@ -10013,7 +10021,7 @@ All my loving I will send to you</b>
         tags: ["not validated", "rock", "ballad", "60s"],
         tabs: `
 Verse: Em - Bm x3 (G - A - D)
-Chorus: Bm - A - Bm - F#m - Bm - F#m - A - A7 
+Chorus: Bm - A - Bm - F#m - Bm - F#m - A - A7
 Up : Fm - Cm x3 (Ab - Bb - Eb)
 `,
         lyrics: `
@@ -10124,7 +10132,7 @@ The movement you need is on your shoulder</b>
 Hey Jude, don't make it bad
 Take a sad song and make it better
 Remember to let her under your skin
-Then you'll begin to make it better… 
+Then you'll begin to make it better…
 
 (D7)
 better better better better better, oh
@@ -10137,7 +10145,7 @@ Na na na nananana, nannana, hey Jude...
         title: "Imagine",
         tags: ["not validated", "rock", "piano", "70s"],
         tabs: `
-VERSE: C - F 
+VERSE: C - F
 CHORUS: F - Am - Dm7 - F – G - (C) - G
 BRIDGE: F - G - C - E - E7 x4
 `,
@@ -10180,7 +10188,7 @@ And the world will live as one
         title: "I Want to Hold Your Hand",
         tags: ["not validated", "rock", "pop", "60s"],
         tabs: `
-VERSE: G - D - Em - B7 
+VERSE: G - D - Em - B7
 CHORUS: C - D - G - Em
 BRIDGE: Dm7 - G - C - Am
 `,
@@ -10217,9 +10225,9 @@ I want to hold your hand
     {
         artist: "The Beatles",
         title: "I Saw Her Standing There",
-        tags: ["rock", "pop", "60s", "baby"],
+        tags: ["rock", "pop", "60s", "baby", "domandy"],
         tabs: `
-VERSE: E7 - A7 - E7 - B7 
+VERSE: E7 - A7 - E7 - B7
 CHORUS: E - A - C -- E - B - E
 BRIDGE: A -- B
 `,
@@ -10299,9 +10307,9 @@ Whisper words of wisdom, let it be</b>
         tags: ["not validated", "rock", "pop", "60s"],
         tabs: `
 INTRO: Em - A - C - G
-VERSE: G - Em - Bm - D 
+VERSE: G - Em - Bm - D
 PRECHORUS: G - Em - Cm - D
-CHORUS: Em - A - Cm - D - G - Em 
+CHORUS: Em - A - Cm - D - G - Em
 `,
         lyrics: `
 <b>She loves you, yeah, yeah, yeah
@@ -10352,7 +10360,7 @@ D|---------------7--------------------------|
 A|--------4--5---5---2--2---4---4--4--4--4--|
 E|--5--7-------------3--3---5---5--5--5--5--|
 
-D - G - A (A7) 
+D - G - A (A7)
 `,
         lyrics: `
 Well, shake it up, baby, now
@@ -10492,17 +10500,17 @@ If I go there will be trouble
 And if I stay it will be double
 So come on and let me know</b>
 
-This indecision's buggin' me 
+This indecision's buggin' me
 (esta indecisión me molesta)
-If you don't want me, set me free 
+If you don't want me, set me free
 (Si no me quieres, librame)
 Exactly whom I'm supposed to be
 (Dime! ¿Qué tengo ser?)
-Don't you know which clothes even fit me? 
+Don't you know which clothes even fit me?
 (No sabes que ropas me queda)
-Come on and let me know 
+Come on and let me know
 (Pero tienes que decir)
-Should I cool it or should I blow? 
+Should I cool it or should I blow?
 (¿Me debo ir o quedarme?)
 
 <b>Chorus
@@ -10720,40 +10728,40 @@ CHORUS : G - A - Dx2 G - D - E
 END: F - G - D x4
 `,
         lyrics: `
-You know that it would be untrue 
-You know that I would be a liar 
-If I was to say to you 
-Girl, we couldn't get much higher 
+You know that it would be untrue
+You know that I would be a liar
+If I was to say to you
+Girl, we couldn't get much higher
 
-<b>Come on baby, light my fire 
-Come on baby, light my fire 
+<b>Come on baby, light my fire
+Come on baby, light my fire
 Try to set the night on fire</b>
 
-The time to hesitate is through 
-No time to wallow in the mire 
-Try now we can only lose 
+The time to hesitate is through
+No time to wallow in the mire
+Try now we can only lose
 And our love become a funeral pyre
 
 <b>CHORUS</b>
 
 
-The time to hesitate is through 
-No time to wallow in the mire 
-Try now we can only lose 
-And our love become a funeral pyre 
+The time to hesitate is through
+No time to wallow in the mire
+Try now we can only lose
+And our love become a funeral pyre
 
 <b>CHORUS</b>
 
-You know that it would be untrue 
-You know that I would be a liar 
-If I was to say to you 
+You know that it would be untrue
+You know that I would be a liar
+If I was to say to you
 Girl, we couldn't get much higher
 
-<b>Come on baby, light my fire 
-Come on baby, light my fire 
-Try to set the night on fire 
-Try to set the night on fire 
-Try to set the night on fire 
+<b>Come on baby, light my fire
+Come on baby, light my fire
+Try to set the night on fire
+Try to set the night on fire
+Try to set the night on fire
 Try to set the night on fire</b>
 `,
     },
@@ -10764,7 +10772,7 @@ Try to set the night on fire</b>
         tabs: `
 VERSE : C - C/B - Am - F
 BRIDGE: Am - G - F (Fm)
-CHORUS: C - F - Am - G 
+CHORUS: C - F - Am - G
 `,
         lyrics: `
 Coming out of my cage and I've been doing just fine
@@ -10799,30 +10807,30 @@ Open up my eager eyes, 'cause I'm Mr. Brightside</b>
 `,
         lyrics: `
 All the leaves are brown
-And the sky is gray 
+And the sky is gray
 I've been for a walk
 On a winter's day
-I'd be safe and warm 
-If I was in LA 
-California dreamin' 
+I'd be safe and warm
+If I was in LA
+California dreamin'
 On such a winter's day
 
 Stopped into a church
 I passed along the way
-Well, I got down on my knees 
-And I pretend to pray 
+Well, I got down on my knees
+And I pretend to pray
 You know the preacher likes the cold
-He knows I'm gonna stay 
-California dreamin' 
+He knows I'm gonna stay
+California dreamin'
 On such a winter's day
 
 All the leaves are brown
-And the sky is gray 
+And the sky is gray
 I've been for a walk
 On a winter's day
 If I didn’t tell her
 I could leave today
-California dreamin' 
+California dreamin'
 On such a winter's day (x 3)
 `,
     },
@@ -11041,7 +11049,7 @@ Again, again, again…
         title: "Steady, As She Goes",
         tags: ["not validated", "rock", "indie", "2000s"],
         tabs: `
-Bm - F#m - A - E (G - A - E) 
+Bm - F#m - A - E (G - A - E)
 `,
         lyrics: `
 Find yourself a girl
@@ -11092,7 +11100,7 @@ That is gathered 'round
 
 
 So steady as she goes
-(Steady as she goes) x4 
+(Steady as she goes) x4
 So steady as she goes
 (Are you steady now?) x4</b>
 `,
@@ -11188,7 +11196,7 @@ CHORUS *</b>
         title: "What I Like About You",
         tags: ["not validated", "rock", "power pop", "80s"],
         tabs: `
-A - D - G - D 
+A - D - G - D
 `,
         lyrics: `
 What I like about you
@@ -11225,7 +11233,7 @@ That's what I like about you x2
         tags: ["not validated", "pop", "60s", "rock"],
         tabs: `
 Verse: F#m - E - D - C#
-Chorus: F# - E - F# - A 
+Chorus: F# - E - F# - A
 `,
         lyrics: `
 Imagine me and you, I do
@@ -11507,50 +11515,50 @@ Après celle la j'arrête de boire, laissez-moi juste la dernière x2</b>
 Bm - G  - D - A
 `,
         lyrics: `
-Embrasse-moi dessus bord 
-Viens mon ange, retracer le ciel 
-J'irai crucifier ton corps, 
-Pourrai-je depunaiser tes ailes ? 
-Embrasser, te mordre en même temps 
-Enfoncer mes ongles dans ton dos brulant 
-Te supplier de me revenir et tout faire 
-ô tout pour te voir partir 
+Embrasse-moi dessus bord
+Viens mon ange, retracer le ciel
+J'irai crucifier ton corps,
+Pourrai-je depunaiser tes ailes ?
+Embrasser, te mordre en même temps
+Enfoncer mes ongles dans ton dos brulant
+Te supplier de me revenir et tout faire
+ô tout pour te voir partir
 
-<i>et viens! Emmène-moi là-bas 
-Donne-moi la main 
-Que je ne la prenne pas 
-Écorche mes ailes 
-Envole-moi 
-Et laisse-toi tranquille a la fois 
-Mille fois entrelaçons nous 
+<i>et viens! Emmène-moi là-bas
+Donne-moi la main
+Que je ne la prenne pas
+Écorche mes ailes
+Envole-moi
+Et laisse-toi tranquille a la fois
+Mille fois entrelaçons nous
 Et lassons-nous même en dessous</i>
-<b>Serre-moi encore serre-moi 
-Jusqu'à étouffer de toi</b> 
+<b>Serre-moi encore serre-moi
+Jusqu'à étouffer de toi</b>
 
-Il y a des salauds 
-Qui pillent le coeur des femmes 
-Et des femmes qui n'savent plus trop 
-D'où l'amour tire son charme 
-Papillons de fleurs en fleurs 
-D'amour en amour de coeur 
-Ce qui n'ont qu'une étoile 
-Ou ceux qui brulent leur voiles 
-J'aime tes larmes quand tu aimes 
-Ta sueur, le sang, rendons-nous amants 
-Qui se passionnent, qui se saignent 
-J'aime quand mon écorché est vivant 
-Je ne donne pas long feu 
-A nos tragédies, à nos adieux 
-Reviens-moi, reviens moi 
+Il y a des salauds
+Qui pillent le coeur des femmes
+Et des femmes qui n'savent plus trop
+D'où l'amour tire son charme
+Papillons de fleurs en fleurs
+D'amour en amour de coeur
+Ce qui n'ont qu'une étoile
+Ou ceux qui brulent leur voiles
+J'aime tes larmes quand tu aimes
+Ta sueur, le sang, rendons-nous amants
+Qui se passionnent, qui se saignent
+J'aime quand mon écorché est vivant
+Je ne donne pas long feu
+A nos tragédies, à nos adieux
+Reviens-moi, reviens moi
 Tu partiras mieux comme ça
- 
-<i>À force de se tordre, 
-On en finirait par se mordre 
-À quoi bon se reconstruire, 
-Quand on est adepte du pire 
-Malgré nous, Malgré nous, 
-À quoi bon se sentir plus grand 
-Que nous, deux grains de folie dans le vent 
+
+<i>À force de se tordre,
+On en finirait par se mordre
+À quoi bon se reconstruire,
+Quand on est adepte du pire
+Malgré nous, Malgré nous,
+À quoi bon se sentir plus grand
+Que nous, deux grains de folie dans le vent
 deux âmes brulantes, deux enfants</i>
 
 <b>CHORUS</b>
