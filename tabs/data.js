@@ -1466,15 +1466,7 @@ Well, I guess this is growing up x4</b>
     {
         artist: "Blink 182",
         title: "Feeling This",
-        tags: [
-            "2000s",
-            "punk rock",
-            "harmonies",
-            "franky",
-            "max",
-            "4 chords",
-            "CGAmF",
-        ],
+        tags: ["2000s", "punk rock", "harmonies", "franky", "max", "4 chords", "CGAmF"],
         tabs: `
 C - G - Am - F
 `,
@@ -2984,7 +2976,7 @@ Secret comme les nuits de lune de l'Orient</b>
     {
         artist: "Dolly Parton",
         title: "Jolene",
-        tags: ["70s", "country"],
+        tags: ["70s", "country", "domandy"],
         tabs: `
 Am - C - G - Am - G - Am
 `,

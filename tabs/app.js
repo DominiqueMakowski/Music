@@ -257,7 +257,8 @@ function applyFilters() {
             (song) =>
                 song.artist.toLowerCase().includes(query) ||
                 song.title.toLowerCase().includes(query) ||
-                song.lyrics.toLowerCase().includes(query)
+                song.lyrics.toLowerCase().includes(query) ||
+                (song.tags && song.tags.some((tag) => tag.toLowerCase().includes(query))),
         )
     }
     sortedData = data
@@ -275,8 +276,8 @@ function populateTable() {
                   .map(
                       (tag) =>
                           `<span onclick="event.stopPropagation(); toggleTagFilter('${tag}')" style="background-color: ${getTagColor(
-                              tag
-                          )}; color: white; padding: 2px 4px; margin: 1px; border-radius: 3px; display: inline-block; font-size: 12px; cursor: pointer;">${tag}</span>`
+                              tag,
+                          )}; color: white; padding: 2px 4px; margin: 1px; border-radius: 3px; display: inline-block; font-size: 12px; cursor: pointer;">${tag}</span>`,
                   )
                   .join("")
             : ""
