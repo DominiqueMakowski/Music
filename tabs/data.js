@@ -3561,7 +3561,7 @@ Bring me to life</b>
     {
         artist: "Evanescence",
         title: "Going Under",
-        tags: ["not validated", "2000s", "rock", "metal"],
+        tags: ["2000s", "rock", "metal"],
         tabs: `
 Verse: Bm
 Prechorus: G - A - Em
@@ -3585,12 +3585,12 @@ I'm dying again
 Drowning in you (drowning in you)
 I'm falling forever (falling forever)
 I've got to break through
+I'm going under</b>
 
-I'm going under
 Blurring and stirring the truth and the lies
 So I don't know what's real and what's not
 Always confusing the thoughts in my head
-So I can't trust myself anymore</b>
+So I can't trust myself anymore
 
 <i>PRECHORUS</i>
 <b>CHORUS</b>
@@ -5392,9 +5392,9 @@ Now my sunshine’s gone away (x2)</b>
     {
         artist: "Johnny Cash",
         title: "Ring of Fire",
-        tags: ["not validated", "country", "60s"],
+        tags: ["country", "60s"],
         tabs: `
-VERSE: G - G - C - G - C x3 // G - G - D7 - G - D7
+VERSE: G - G - C - G - C x3 // G - G - D7 - G - C
 CHORUS: D - C - G x2 G - C - G - D7 - G
 `,
         lyrics: `
