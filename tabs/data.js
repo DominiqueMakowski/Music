@@ -3606,6 +3606,29 @@ going under</i>
     },
     {
         artist: "Traditional",
+        title: "Aaa, Kotki Dwa",
+        tags: ["polish", "folk", "children"],
+        tabs: `
+Verse 1: Em - C x2 Em - C - B7 
+Verse 2: G - C x2 G - C - D
+
+`,
+        lyrics: `
+Aaa, kotki dwa, szarobure obydwa,
+Nic nie będą robiły, tylko ciebie bawiły.
+
+Aaa, kotki dwa, szarobure obydwa,
+Jak się kotki rozegrały, to dziecinę kołysały.
+
+Aaa, kotki dwa, szarobure obydwa,
+Jeden szary, drugi bury, a ten trzeci myk! do dziury.
+
+Aaa, kotki dwa, szarobure obydwa,
+Żeby tylko jeden był, to by z tobą mleczko pił.
+`,
+    },
+    {
+        artist: "Traditional",
         title: "Auld Lang Syne",
         tags: ["not validated", "folk", "traditional", "holiday"],
         tabs: `
@@ -3986,10 +4009,16 @@ He said my life's a bore
 So quit my whining cause
 It's bringing her down
 
+<b>CHORUS</b>
+
 <i>Grasping to control
 So I better hold on</i>
 
+<b>Bridge</b>
+
 <b>CHORUS</b>
+
+<i>Grasping to control...</i>
 `,
     },
     {
@@ -5392,7 +5421,7 @@ Now my sunshine’s gone away (x2)</b>
     {
         artist: "Johnny Cash",
         title: "Ring of Fire",
-        tags: ["country", "60s"],
+        tags: ["country", "60s", "domandy"],
         tabs: `
 VERSE: G - G - C - G - C x3 // G - G - D7 - G - C
 CHORUS: D - C - G x2 G - C - G - D7 - G
@@ -7098,7 +7127,7 @@ Stored deep inside me</b>
     {
         artist: "Nirvana",
         title: "On a Plain",
-        tags: ["not validated", "grunge", "90s"],
+        tags: ["not validated", "grunge", "90s", "domandy"],
         tabs: `
 Verse: D - G - F - Em x2 // D - C - Bm - A
 Chorus: D - G - Bb
@@ -7133,7 +7162,7 @@ I know it's wrong so what should I do?
 
 <i>Somewhere I have heard this before
 In a dream my memory has stored
-As a defense I'm neutered and spayed
+As defense I'm neutered and spayed
 What the hell am I trying to say?</i>
 
 It is now time to make it unclear
