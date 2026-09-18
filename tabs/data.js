@@ -1,3 +1,12 @@
+// Tabs format convention (parsed by renderTabs() in app.js):
+//   * A line may start with a section label ending in ':' -- everything up to and
+//     including the first ':' is never colored or transposed. Put anything that
+//     looks like a chord but isn't (e.g. 'Verse 2:') on that side.
+//   * Lines containing '---' are treated as raw tablature and left untouched.
+//   * Everything after the first ':' is parsed as chords: root (A-G, optional
+//     #/b), optional suffix (m, 7, m7, maj7, sus2, sus4, 5, ...), optional /bass.
+//     Avoid writing bare chord-shaped tokens there unless they are real chords.
+
 const DATA = [
     {
         artist: "3 Doors Down",
@@ -2912,6 +2921,56 @@ c'est vrai je crois peux devenir comme moi (Baloo)</b>
 `,
     },
     {
+        artist: "Disney (Moana)",
+        title: "How Far I'll Go",
+        tags: ["soundtrack", "disney"],
+        tabs: `
+VERSE : E - F#m - C#m - A
+PRECHORUS: C#m - B - E - Am
+CHORUS: E - B - C#m - A (Am)
+KEY CHANGE: F - C - Dm - A# (A#m)
+`,
+        lyrics: `
+I've been staring at the edge of the water
+'Long as I can remember, never really knowing why
+I wish I could be the perfect daughter
+But I come back to the water, no matter how hard I try
+
+<i>Every turn I take, every trail I track
+Every path I make, every road leads back
+To the place I know, where I cannot go, where I long to be</i>
+
+<b>See the line where the sky meets the sea? It calls me
+And no one knows, how far it goes
+If the wind in my sail on the sea stays behind me
+One day I'll know
+If I go, there's just no telling how far I'll go</b>
+
+I know everybody on this island
+seems so happy, on this island, Everything is by design
+I know everybody on this island 
+has a role on this island, So maybe I can roll with mine
+
+<i>I can lead with pride, I can make us strong
+I'll be satisfied if I play along
+But the voice inside sings a different song
+What is wrong with me?</i>
+
+<b>See the light as it shines on the sea? It's blinding
+But no one knows, how deep it goes
+And it seems like it's calling out to me, so come find me
+And let me know
+What's beyond that line? Will I cross that line?
+
+<i>The line where the sky meets the sea? It calls me
+And no one knows, how far it goes
+If the wind in my sail on the sea stays behind me
+One day I'll know
+How far I'll go
+If I go, there's just no telling how far I'll go</i></b>
+`,
+    },
+    {
         artist: "Disney (Mulan)",
         title: "Comme un homme",
         tags: ["not validated", "soundtrack", "disney", "french"],
@@ -3609,7 +3668,7 @@ going under</i>
         title: "Aaa, Kotki Dwa",
         tags: ["polish", "folk", "children"],
         tabs: `
-Verse 1: Em - C x2 Em - C - B7 
+Verse 1: Em - C x2 Em - C - B7
 Verse 2: G - C x2 G - C - D
 
 `,
@@ -3746,11 +3805,11 @@ bo to jest twój największy dzisiaj wróg.</b>
         title: "John Barleycorn",
         tags: ["english", "folk"],
         tabs: `
-A1: A - Em  - G - D - Em
-A2: A - G - D - Em
-B1: G - D - Em
-B2: G -  A -  B
-B3: Am - Em - G - D - Em [+ A2]
+Verse 1: A - Em - G - D - Em
+Verse 2: A - G - D - Em
+Bridge 1: G - D - Em
+Bridge 2: G - A - B
+Bridge 3: Am - Em - G - D - Em [+ Verse 2]
 `,
         lyrics: `
 [A - Intro]
@@ -5276,6 +5335,48 @@ Before I change my mind
 `,
     },
     {
+        artist: "Joan Osborne",
+        title: "One Of Us",
+        tags: ["90s"],
+        tabs: `
+VERSE/CHORUS: Em - C - G - D
+PRECHORUS: C - C - G - D
+`,
+        lyrics: `
+If God had a name, what would it be?
+And would you call it to His face
+If you were faced with Him in all His glory?
+What would you ask if you had just one question?
+
+<i>And yeah, yeah, God is great
+Yeah, yeah, God is good
+Yeah, yeah, yeah, yeah, yeah</i>
+
+<b>What if God was one of us
+Just a slob like one of us
+Just a stranger on the bus
+Tryna make His way home?</b>
+
+If God had a face, what would it look like?
+And would you wanna see
+If seeing meant that you would have to believe
+In things like Heaven and in Jesus and the saints
+And all the prophets?
+
+<i>PRECHORUS</i>
+<b>CHORUS
+Tryna make His way home?
+Back up to Heaven all alone
+Nobody callin' on the phone
+'Cept for the Pope, maybe in Rome</b>
+
+<i>SOLO</i>
+
+<i>PRECHORUS</i>
+<b>CHORUS</b>
+`,
+    },
+    {
         artist: "Joe Dassin",
         title: "Les Champs-Élysées",
         tags: ["not validated", "french", "60s"],
@@ -6463,10 +6564,10 @@ So I dub thee unforgiven x2</b>
     {
         artist: "Meredith Brooks",
         title: "Bitch",
-        tags: ["not validated", "rock", "pop", "90s"],
+        tags: ["rock", "pop", "90s"],
         tabs: `
 VERSE: G - (D - C) x 2 - Em - Am - C
-CHORUS: G - D - Am - C - G - D - Em - C
+CHORUS: G - D - Am - C // G - D - Em - C
 BRIDGE : D - Em - G x2
 `,
         lyrics: `
@@ -6509,7 +6610,7 @@ The season's already changing
 I think it's cool, you do what you do
 And don't try to save me</i>
 
-<b>CHORUS</b>
+<b>CHORUS
 
 I'm a bitch, I'm a tease
 I'm a goddess on my knees
@@ -6517,7 +6618,7 @@ When you hurt, when you suffer
 I'm your angel undercover
 I've been numb, I'm revived
 Can't say I'm not alive
-You know I wouldn't want it any other way
+You know I wouldn't want it any other way</b>
 `,
     },
     {
@@ -7127,7 +7228,7 @@ Stored deep inside me</b>
     {
         artist: "Nirvana",
         title: "On a Plain",
-        tags: ["not validated", "grunge", "90s", "domandy"],
+        tags: ["grunge", "90s", "domandy"],
         tabs: `
 Verse: D - G - F - Em x2 // D - C - Bm - A
 Chorus: D - G - Bb
@@ -10580,7 +10681,7 @@ When I look on your eyes then I'll do better
         tags: ["not validated", "rock", "new wave", "70s"],
         tabs: `
 VERSE/CHORUS: A - Bm - C#m - D
-PRECHORUS: C#m - B#m
+PRECHORUS: C#m - Bm
 BRIDGE: E - F#m (D - E)
 `,
         lyrics: `
@@ -10745,7 +10846,7 @@ Oh oh oh oh oh oh oh, ay, oh, ya ya</b>
         tags: ["not validated", "rock", "psychedelic", "60s"],
         tabs: `
 VERSE : Am - F#m
-CHORUS : G - A - Dx2 G - D - E
+CHORUS : G - A - D x2 G - D - E
 END: F - G - D x4
 `,
         lyrics: `

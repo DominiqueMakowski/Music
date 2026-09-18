@@ -7,6 +7,10 @@ const arrowArtist = document.getElementById("arrow-artist")
 const arrowTitle = document.getElementById("arrow-title")
 const songDiv = document.getElementById("song")
 const tabsDiv = document.getElementById("tabs")
+const tabsTextDiv = document.getElementById("tabs-text")
+const transposeDownBtn = document.getElementById("transpose-down")
+const transposeUpBtn = document.getElementById("transpose-up")
+const transposeResetBtn = document.getElementById("transpose-reset")
 const lyricsDiv = document.getElementById("lyrics")
 const centerBarH1 = document.querySelector("#center-bar h1")
 const prevBtn = document.getElementById("prev-btn")
@@ -17,6 +21,7 @@ const randomBtn = document.getElementById("random-btn")
 const backBtn = document.getElementById("back-btn")
 const topBar = document.getElementById("top-bar")
 let currentSong = null
+let transposeSemitones = 0
 
 // Theme toggle
 themeToggle.addEventListener("click", () => {
@@ -317,6 +322,80 @@ searchInput.addEventListener("input", () => {
     updateUrlFilters()
 })
 
+/* ------------------------------------------------------------------ *
+ * Chord parsing, transposition and rendering
+ * ------------------------------------------------------------------ */
+
+const SHARP_NAMES = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"]
+const FLAT_NAMES = ["C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb", "B"]
+const NATURAL_PITCH = { C: 0, D: 2, E: 4, F: 5, G: 7, A: 9, B: 11 }
+// Major keys conventionally written with flats: Db, Eb, F, Ab, Bb. F#/Gb is left on
+// the sharp side, which is what guitar tabs (and this library) already use.
+const FLAT_KEYS = new Set([1, 3, 5, 8, 10])
+
+// A chord is a root (A-G plus optional #/b), a suffix (m, 7, m7, maj7, sus2, sus4,
+// 5, ...) and an optional /bass. The leading group and the trailing lookahead keep
+// us off the middle of a word, so "Chorus" is not read as C and "BRIDGE" not as B.
+const CHORD_SUFFIX = /(?:m|maj|min|dim|aug|M)?(?:sus|add)?\d*(?:(?:sus|add|maj)\d+)?/.source
+const CHORD_REGEX = new RegExp(
+    "(^|[^A-Za-z0-9_#])" + // 1: prefix
+        "([A-G][#b]?)" + // 2: root
+        "(" + CHORD_SUFFIX + ")" + // 3: suffix
+        "(?:[/]([A-G][#b]?)(" + CHORD_SUFFIX + "))?" + // 4, 5: slash bass
+        "(?=[^A-Za-z0-9_]|$)",
+    "g",
+)
+
+function pitchOf(root) {
+    let p = NATURAL_PITCH[root[0].toUpperCase()]
+    if (root[1] === "#") p += 1
+    else if (root[1] === "b") p -= 1
+    return ((p % 12) + 12) % 12
+}
+
+function isMinorSuffix(suffix) {
+    return /^m(?!aj)/.test(suffix)
+}
+
+// Raw tablature grids (and the "--- Key Change ---" divider) are left untouched:
+// their digits are fret numbers, not chords.
+function isRawTabLine(line) {
+    return line.includes("---")
+}
+
+// Everything up to and including the first ":" is a section label, never a chord.
+// That is what keeps labels like "Verse 2:" or the bass-tab "A:" out of the way.
+function splitLabel(line) {
+    const i = line.indexOf(":")
+    return i === -1 ? ["", line] : [line.slice(0, i + 1), line.slice(i + 1)]
+}
+
+// Choose sharps or flats from the key we are transposing *into*, so a song in F
+// moved up a tone reads G, and one in G moved down a tone reads F rather than E#.
+function spellingForTabs(text, semitones) {
+    let tonic = 0
+    let minor = false
+    for (const line of text.split(/\r?\n/)) {
+        if (isRawTabLine(line)) continue
+        CHORD_REGEX.lastIndex = 0
+        const m = CHORD_REGEX.exec(splitLabel(line)[1])
+        if (m) {
+            tonic = pitchOf(m[2])
+            minor = isMinorSuffix(m[3])
+            break
+        }
+    }
+    // Judge by the relative major, so Dm -> F -> flats and Am -> C -> naturals.
+    const major = minor ? (tonic + 3) % 12 : tonic
+    const target = (((major + semitones) % 12) + 12) % 12
+    return FLAT_KEYS.has(target) ? FLAT_NAMES : SHARP_NAMES
+}
+
+function transposeRoot(root, semitones, names) {
+    if (semitones === 0) return root // keep the original spelling untouched
+    return names[(pitchOf(root) + semitones + 120) % 12]
+}
+
 function getChordColor(root) {
     const colors = {
         A: "hsl(120, 70%, 60%)", // medium green
@@ -387,11 +466,77 @@ const CHORD_DATA = {
         guitar: { n_frets: 5, position: [3, 5, 5, 3, 3, 3], fingers: [1, 3, 4, 1, 1, 1] },
         ukulele: { n_frets: 4, position: [0, 2, 3, 1], fingers: [0, 2, 3, 1] },
     },
+    // Accidentals, keyed by their sharp name; lookupChordShapes() resolves the
+    // flat spellings (Bb, Eb, ...) onto these. Shapes high up the neck are drawn
+    // relative to their lowest fret by make_chords.
+    "A#": {
+        guitar: { n_frets: 4, position: [-1, 1, 3, 3, 3, 1], fingers: [0, 1, 2, 3, 4, 1] },
+        ukulele: { n_frets: 4, position: [3, 2, 1, 1], fingers: [3, 2, 1, 1] },
+    },
+    "A#m": {
+        guitar: { n_frets: 4, position: [-1, 1, 3, 3, 2, 1], fingers: [0, 1, 3, 4, 2, 1] },
+        ukulele: { n_frets: 4, position: [3, 1, 1, 1], fingers: [3, 1, 1, 1] },
+    },
+    "C#": {
+        guitar: { n_frets: 4, position: [-1, 4, 6, 6, 6, 4], fingers: [0, 1, 2, 3, 4, 1] },
+        ukulele: { n_frets: 4, position: [1, 1, 1, 4], fingers: [1, 1, 1, 4] },
+    },
+    "C#m": {
+        guitar: { n_frets: 4, position: [-1, 4, 6, 6, 5, 4], fingers: [0, 1, 3, 4, 2, 1] },
+        ukulele: { n_frets: 4, position: [1, 1, 0, 4], fingers: [1, 2, 0, 4] },
+    },
+    "D#": {
+        guitar: { n_frets: 4, position: [-1, 6, 8, 8, 8, 6], fingers: [0, 1, 2, 3, 4, 1] },
+        ukulele: { n_frets: 4, position: [0, 3, 3, 1], fingers: [0, 3, 4, 1] },
+    },
+    "D#m": {
+        guitar: { n_frets: 4, position: [-1, 6, 8, 8, 7, 6], fingers: [0, 1, 3, 4, 2, 1] },
+        ukulele: { n_frets: 4, position: [3, 3, 2, 1], fingers: [3, 4, 2, 1] },
+    },
+    "F#": {
+        guitar: { n_frets: 4, position: [2, 4, 4, 3, 2, 2], fingers: [1, 3, 4, 2, 1, 1] },
+        ukulele: { n_frets: 4, position: [3, 1, 2, 1], fingers: [4, 1, 3, 1] },
+    },
+    "F#m": {
+        guitar: { n_frets: 4, position: [2, 4, 4, 2, 2, 2], fingers: [1, 3, 4, 1, 1, 1] },
+        ukulele: { n_frets: 4, position: [2, 1, 2, 0], fingers: [2, 1, 3, 0] },
+    },
+    "G#": {
+        guitar: { n_frets: 4, position: [4, 6, 6, 5, 4, 4], fingers: [1, 3, 4, 2, 1, 1] },
+        ukulele: { n_frets: 4, position: [1, 3, 4, 3], fingers: [1, 2, 4, 3] },
+    },
+    "G#m": {
+        guitar: { n_frets: 4, position: [4, 6, 6, 4, 4, 4], fingers: [1, 3, 4, 1, 1, 1] },
+        ukulele: { n_frets: 4, position: [1, 3, 4, 2], fingers: [1, 3, 4, 2] },
+    },
+}
+
+// Resolve a chord name onto a diagram, treating Bb and A# as the same thing.
+// Only plain triads get a diagram: showing the bare triad for a 7th, sus or add
+// chord would be misleading, so those keep the previous behaviour of no tooltip.
+function lookupChordShapes(name) {
+    if (!name) return null
+    if (CHORD_DATA[name]) return CHORD_DATA[name]
+    const m = /^([A-G][#b]?)(.*)$/.exec(name)
+    if (!m) return null
+    const suffix = m[2]
+    if (suffix !== "" && suffix !== "m") return null
+    return CHORD_DATA[SHARP_NAMES[pitchOf(m[1])] + suffix] || null
 }
 
 function make_chords({ n_frets = 4, position, fingers, title }) {
     const numStrings = position.length
-    const width = numStrings * 20 + 20
+    // Shapes that sit high on the neck are drawn from their lowest fret with a
+    // "6fr" marker, rather than as a tall diagram counting up from the nut.
+    const fretted = position.filter((f) => f > 0)
+    const lowest = fretted.length ? Math.min(...fretted) : 0
+    const baseFret = lowest > 3 ? lowest : 1
+    if (baseFret > 1) {
+        position = position.map((f) => (f > 0 ? f - baseFret + 1 : f))
+        n_frets = Math.max(n_frets, ...position.filter((f) => f > 0))
+    }
+    const labelWidth = baseFret > 1 ? 22 : 0
+    const width = numStrings * 20 + 20 + labelWidth
     const height = n_frets * 25 + 30
     const paddingX = 15
     const paddingY = 20
@@ -401,10 +546,16 @@ function make_chords({ n_frets = 4, position, fingers, title }) {
     let svg = `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">`
 
     // Draw frets (horizontal lines)
-    // Top nut (thicker)
+    // Top nut (thicker, unless the diagram starts part-way up the neck)
     svg += `<line x1="${paddingX}" y1="${paddingY}" x2="${
         paddingX + (numStrings - 1) * stringSpacing
-    }" y2="${paddingY}" stroke="currentColor" stroke-width="3" />`
+    }" y2="${paddingY}" stroke="currentColor" stroke-width="${baseFret > 1 ? 1 : 3}" />`
+
+    if (baseFret > 1) {
+        svg += `<text x="${paddingX + (numStrings - 1) * stringSpacing + 6}" y="${
+            paddingY + fretSpacing * 0.5
+        }" dy="4" font-size="11" fill="currentColor">${baseFret}fr</text>`
+    }
 
     for (let i = 1; i <= n_frets; i++) {
         const y = paddingY + i * fretSpacing
@@ -445,18 +596,60 @@ function make_chords({ n_frets = 4, position, fingers, title }) {
     return svg
 }
 
-function colorizeChords(text) {
-    // Use a regex that doesn't rely on word-boundary (\b) because
-    // the sharp symbol (`#`) is a non-word character and breaks \b.
-    // Capture an optional prefix (start or non-word), then the chord,
-    // and ensure the chord is followed by a non-word or end-of-string.
-    const chordRegex = /(^|[^A-Za-z0-9_])([A-G][#b]?\d*[m]?)(?=[^A-Za-z0-9_]|$)/g
-    return text.replace(chordRegex, (match, prefix, chord) => {
-        const root = chord[0].toUpperCase()
-        const color = getChordColor(root)
-        return `${prefix}<span class="chord-span" style="color: ${color}" data-chord="${chord}">${chord}</span>`
-    })
+// Colorize, and optionally transpose, a tabs block. Both happen in a single pass
+// on purpose: a second pass would match the letters inside the data-chord
+// attributes the first one just wrote.
+function renderTabs(text, semitones) {
+    const names = spellingForTabs(text, semitones)
+    return text
+        .split(/\r?\n/)
+        .map((line) => {
+            if (isRawTabLine(line)) return line
+            const [label, body] = splitLabel(line)
+            return (
+                label +
+                body.replace(CHORD_REGEX, (match, prefix, root, suffix, bassRoot, bassSuffix) => {
+                    const chord = transposeRoot(root, semitones, names) + suffix
+                    const bass = bassRoot ? "/" + transposeRoot(bassRoot, semitones, names) + bassSuffix : ""
+                    const color = getChordColor(chord[0])
+                    return `${prefix}<span class="chord-span" style="color: ${color}" data-chord="${chord}">${chord}${bass}</span>`
+                })
+            )
+        })
+        .join("\n")
 }
+
+// Re-render the chords bar for the current song at the current transposition.
+function renderCurrentTabs() {
+    if (!currentSong) return
+    tabsTextDiv.innerHTML = renderTabs(currentSong.tabs.trim(), transposeSemitones)
+    transposeResetBtn.textContent =
+        transposeSemitones === 0 ? "0" : (transposeSemitones > 0 ? "+" : "−") + Math.abs(transposeSemitones)
+    transposeResetBtn.classList.toggle("at-zero", transposeSemitones === 0)
+    transposeDownBtn.disabled = transposeSemitones <= -11
+    transposeUpBtn.disabled = transposeSemitones >= 11
+}
+
+function setTranspose(semitones) {
+    transposeSemitones = Math.max(-11, Math.min(11, semitones))
+    renderCurrentTabs()
+    // Chord names can gain a character, so the chords bar may reflow.
+    syncTopBarSpacing()
+    adjustTallView()
+}
+
+transposeDownBtn.addEventListener("click", (e) => {
+    e.stopPropagation()
+    setTranspose(transposeSemitones - 1)
+})
+transposeUpBtn.addEventListener("click", (e) => {
+    e.stopPropagation()
+    setTranspose(transposeSemitones + 1)
+})
+transposeResetBtn.addEventListener("click", (e) => {
+    e.stopPropagation()
+    setTranspose(0)
+})
 
 function buildIdForSong(song) {
     return `${song.artist} + ${song.title}`
@@ -527,11 +720,13 @@ function showSong(song, pushHistory = true) {
     tocDiv.style.display = "none"
     songDiv.style.display = "block"
     backBtn.style.display = "inline"
-    tabsDiv.innerHTML = colorizeChords(song.tabs.trim())
+    currentSong = song
+    // Every song opens in its written key
+    transposeSemitones = 0
+    renderCurrentTabs()
     // Move the page title into the top menu bar instead of the lyrics area
     centerBarH1.textContent = `${song.artist} - ${song.title}`
     lyricsDiv.innerHTML = song.lyrics.trim()
-    currentSong = song
 
     // Update the URL so song pages are directly accessible via ?id=artist+song
     try {
@@ -643,7 +838,7 @@ tabsDiv.addEventListener("mouseover", (e) => {
     if (!target) return
 
     const chordName = target.dataset.chord
-    let chordData = CHORD_DATA[chordName]
+    const chordData = lookupChordShapes(chordName)
 
     if (!chordData) return
 

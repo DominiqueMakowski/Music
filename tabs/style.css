@@ -84,7 +84,6 @@ h1 {
     text-transform: uppercase;
     color: var(--text);
 }
-}
 #toc-table th,
 #toc-table td {
     padding: 15px;
@@ -124,8 +123,42 @@ h1 {
     font-size: 18px;
     margin: 0;
     color: var(--text);
-    white-space: pre-wrap;
     border-bottom: 2px solid var(--border);
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+#tabs-text {
+    flex: 1;
+    min-width: 0;
+    white-space: pre-wrap;
+}
+
+/* Transpose controls, sitting at the top-right of the chords bar */
+#transpose-controls {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-weight: normal;
+}
+#transpose-controls button {
+    padding: 2px 7px;
+    font-size: 14px;
+    line-height: 1.5;
+    min-width: 26px;
+}
+#transpose-controls button:disabled {
+    opacity: 0.35;
+    cursor: default;
+}
+#transpose-reset {
+    min-width: 34px;
+    font-variant-numeric: tabular-nums;
+}
+#transpose-reset.at-zero {
+    opacity: 0.5;
+    cursor: default;
 }
 #lyrics {
     flex: 1;
